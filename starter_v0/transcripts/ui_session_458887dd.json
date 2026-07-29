@@ -1,0 +1,299 @@
+{
+  "transcript_id": "ui_458887dd",
+  "version": "v0",
+  "artifact_version": "v0+peb1c8179815b+t6cdb53d5d7b8",
+  "prompt_hash": "eb1c8179815bd79d34de7d326420bb99b3072e6e8ae96464c02d4411f905fc68",
+  "tools_hash": "6cdb53d5d7b8de80d60b298b1357f462cedbedfae261d5ba60b08ccc401687c5",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "Craw cho tôi những bài liên quan đến từ khoá VinUni"
+    },
+    {
+      "role": "assistant",
+      "content": "Dưới đây là tổng hợp các bài viết và thông tin mới nhất liên quan đến **VinUni** được tìm thấy:\n\n# Các bài viết và thông tin mới nhất liên quan đến VinUni\n\n## Hoạt động Câu lạc bộ Sinh viên\n* **Google Developer Student Club VinUni (GDSC VinUni)**: Là cộng đồng công nghệ do sinh viên dẫn dắt tại Đại học VinUniversity, chính thức gia nhập mạng lưới GDSC Việt Nam từ tháng 9/2023. Câu lạc bộ thường xuyên tổ chức các chuỗi hội thảo (Workshop), cuộc thi Hackathon và xây dựng giải pháp công nghệ cho doanh nghiệp địa phương. — [Experience VinUni](https://experience.vinuni.edu.vn?p=1056)\n* **VinUni Harmony - Câu lạc bộ Âm nhạc đầu tiên tại VinUni**: Thành lập năm 2021, đây là câu lạc bộ âm nhạc đầu tiên tại VinUniversity. Câu lạc bộ không chỉ là nơi kết nối đam mê âm nhạc của sinh viên mà còn tích cực tham gia các sự kiện lớn nhỏ của trường, tổ chức các buổi biểu diễn gây quỹ từ thiện và mở ra cơ hội trải nghiệm thực tế trong ngành công nghiệp sáng tạo. — [VinUni Website](https://vinuni.edu.vn/club/vinuni-harmony)\n* **VinUni Pickleball Club - Câu lạc bộ Thể thao mới**: Được thành lập vào tháng 10/2025, đây là câu lạc bộ pickleball chính thức đầu tiên tại trường, hướng tới mục tiêu kết nối những người đam mê bộ môn này, thúc đẩy tinh thần đồng đội và lối sống năng động, khỏe mạnh cho cộng đồng sinh viên. — [Experience VinUni](https://experience.vinuni.edu.vn?p=1650)\n* **VinUni Football Team - Đội bóng đá trường VinUni**: Là nơi kết nối đam mê sân cỏ của sinh viên và cán bộ nhân viên trường. Đội duy trì các trận đấu giao hữu hàng tuần và hướng tới việc hợp tác với Quỹ Đầu tư và Phát triển Tài năng Bóng đá Việt Nam (PVF) để nâng cao kỹ chiến thuật. — [Experience VinUni](https://experience.vinuni.edu.vn?p=1020)\n\n## Chương trình Đào tạo & Hợp tác Quốc tế\n* **Khám phá Việt Nam cùng VinUni và các chương trình trao đổi quốc tế**: Chương trình *\"Discover Vietnam with VinUni\"* mang đến các khóa học ngắn hạn và chuyến đi thực tế giúp sinh viên quốc tế trải nghiệm văn hóa, ngôn ngữ và con người Việt Nam. Đồng thời, VinUni cũng đẩy mạnh hợp tác học thuật, trao đổi sinh viên và nghiên cứu với 5 trường đại học hàng đầu tại Bắc Kinh và Đài Loan, cũng như mở rộng tầm ảnh hưởng tại Canada. — [VinUni Website](https://vinuni.edu.vn?p=128098)",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "VinUni",
+            "timeframe": "month"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "VinUni",
+            "topic": "general",
+            "timeframe": "month",
+            "items": [
+              {
+                "title": "GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI) - Experience VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1056",
+                "source": "experience.vinuni.edu.vn",
+                "summary": "Title: GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI) - Experience VinUni\n# GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI). - S – Spirit of Pay It Forward. Copyright © 2025 VinUni. All Right Reserved. - S – Spirit of Pay It Forward. GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI). GDSC VinUni is a student-led tech community at VinUniversity in Vietnam. Google Developer Student Club, also known as GDSC, is a club that receives organization rights and support from Google. GDSC works with students who have a passion for information technology, especially Google technology. GDSC VinUni officially joined the GDSC Vietnam network in September 2023 and we empower innovators, host workshops, hackathons, build solutions for local businesses, and connect tech enthusiasts. 1. [Workshop series] 2024 Solution Challenge Prep. 2. [Demo Day] 2024 Solution Challenge Prep. 3. [Workshop series] Applied Math 101. 4. [Workshop series] Machine Learning 101. * For more information, please visit**our fanpage.**. Copyright © 2025 VinUni. All Right Reserved.",
+                "score": 0.8232293
+              },
+              {
+                "title": "VINUNI HARMONY - VinUni",
+                "url": "https://vinuni.edu.vn/club/vinuni-harmony",
+                "source": "vinuni.edu.vn",
+                "summary": "Title: VINUNI HARMONY - VinUni\n# VINUNI HARMONY. Established in 2021, VinUni Harmony proudly stands as the first music club at VinUniversity. Our mission is to create a diverse and vibrant music community for the students of VinUni. We believe in the power of music to bring people together, and our club serves as a platform for members to bond, share their passion, and nurture their talents. At VinUni Harmony, through our collective love for music, we create a supportive and inclusive environment where everyone can express themselves freely and explore their musical interests. Over the years, VinUni Harmony has grown alongside the rich history of VinUniversity. We have become a familiar name at both small and large-scale university events, leaving a lasting impact on our community. We also believe in giving back to the community. Every year, we organize fundraising music shows that not only entertain but also contribute value to various causes. Additionally, we collaborate with other artistic clubs at the university to enhance the colorful, and dynamic student experience. Looking ahead, VinUni Harmony is excited to redefine the meaning of participating in a music club. It is no longer solely about leisure and pursuing passion; we are now providing promising opportunities to gain hands-on experience in the Creative Industry. Our club invests in meticulously crafted and professional products, guided by experts, and we measure success through clear achievements.",
+                "score": 0.78512776
+              },
+              {
+                "title": "VinUni Pickleball Club - Experience VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1650",
+                "source": "experience.vinuni.edu.vn",
+                "summary": "Title: VinUni Pickleball Club - Experience VinUni\n# VinUni Pickleball Club. - S – Spirit of Pay It Forward. Copyright © 2025 VinUni. All Right Reserved. - S – Spirit of Pay It Forward. The VinUni Pickleball Club is the first official pickleball club at VinUniversity. Founded in October 2025, our club carries the mission of connecting and growing a community of pickleball enthusiasts who share a passion for the sport. We aim to promote teamwork, physical wellness, and an active lifestyle through fun and engaging activities. Whether you’re completely new to the game or already experienced, the VinUni Pickleball Club is the perfect place to connect, learn, play, and grow together. Beyond the sport itself, we hope to bring positive values to the wider VinUni athletic community. Come join us — let’s rally, compete, and have fun together! Copyright © 2025 VinUni. All Right Reserved.",
+                "score": 0.6989468
+              },
+              {
+                "title": "Discover Vietnam with VinUni - VinUni",
+                "url": "https://vinuni.edu.vn?p=128098",
+                "source": "vinuni.edu.vn",
+                "summary": "## \"DISCOVER VIETNAM WITH VINUNI\" VIA SHORT COURSES OR STUDY TOURS. Participating in short-term courses at VinUni offers students an opportunity to discover the world in a short period of time at an affordable cost. In joining one of these intensive programs at VinUni, students can obtain study abroad experience in as short a time as two weeks or so in order to attain a greater understanding of Vietnamese people, language, cultures, and environments. Students from partner universities can study at, and earn the credits from, VinUni by participating in a semester exchange program. ### RESEARCH EXCHANGE. The Program offers students a special opportunity to collaborate with esteemed VinUni professors and experts from Vingroup companies where VinUni belongs to on cutting-edge research projects. DISCOVER VIETNAM WITH VINUNI PROGRAM. ### DISCOVER VIETNAM WITH VINUNI PROGRAM. This unique initiative is an immersive cultural and educational study tour program designed to introduce international students to the vibrant culture, history, and innovations of Vietnam. Internship and research opportunities for international exchange students are designed to provide hands-on experience in dynamic environments, fostering practical skills and academic growth across various fields facilitated by VinUni professors, colleagues, and professionals from Vingroup companies and industry partners. Opening New Opportunities for Research, Graduate Education, and Student Exchange: VinUniversity Strengthens Academic Collaboration with 5 Leading Universities in Beijing and Taiwan. ### Opening New Opportunities for Research, Graduate Education, and Student Exchange: VinUniversity Strengthens Academic Collaboration with 5 Leading Universities in Beijing and Taiwan. Nyenrode Business University Global Immersion Program 2025 at VinUniversity: A Journey of Learning, Industry Insight, and Cultural Connection in Vietnam. ### Nyenrode Business University Global Immersion Program 2025 at VinUniversity: A Journey of Learning, Industry Insight, and Cultural Connection in Vietnam. VinUni expands global footprint in Canada: Strengthening partnerships and showcasing Vietnam’s educational excellence at CBIE 2025. ### VinUni expands global footprint in Canada: Strengthening partnerships and showcasing Vietnam’s educational excellence at CBIE 2025. ### Barry Ju Jun Jie. VinUni Inbound Exchange Student from SMU. ### Sheenin Bay. VinUni Inbound Exchange Student from SMU. VinUni Inbound Exchange Student from HKUST. VinUni Inbound Exchange Student from Nyenrode Business University.",
+                "score": 0.68723184
+              },
+              {
+                "title": "VINUNI FOOTBALL TEAM - Experience VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1020",
+                "source": "experience.vinuni.edu.vn",
+                "summary": "Title: VINUNI FOOTBALL TEAM - Experience VinUni\n# VINUNI FOOTBALL TEAM. - S – Spirit of Pay It Forward. Copyright © 2025 VinUni. All Right Reserved. - S – Spirit of Pay It Forward. VinUni Football Team wants every member to feel like they are part of a big family. A team means that we can connect to others, show empathy to each other, and improve our skills and abilities together. We also hope to spark the football passion inside each member, gradually developing football so that it will become even more popular for future generations of VinUni students and Staff. * **Highlights:** Currently, our football team has a weekly football match with the VinUni Staff Football Team on Thursday afternoon, and we will maintain and strive to improve these matches. Through VinUni staff connections, VFT expects to associate with PVF – Promotion fund of Vietnamese Football talents to have suitable physical exercises, effective tactics, and strategic formations for each match. * **For more information, please visit our fanpage.**. Copyright © 2025 VinUni. All Right Reserved.",
+                "score": 0.6180666
+              }
+            ]
+          }
+        },
+        {
+          "tool": "format",
+          "args": {
+            "items": [
+              {
+                "title": "Google Developer Student Club VinUni (GDSC VinUni)",
+                "summary": "Google Developer Student Club (GDSC) VinUni là cộng đồng công nghệ do sinh viên dẫn dắt tại Đại học VinUniversity, chính thức gia nhập mạng lưới GDSC Việt Nam từ tháng 9/2023. Câu lạc bộ thường xuyên tổ chức các chuỗi hội thảo (Workshop), cuộc thi Hackathon và xây dựng giải pháp công nghệ cho doanh nghiệp địa phương.",
+                "url": "https://experience.vinuni.edu.vn?p=1056",
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "source": "Experience VinUni"
+              },
+              {
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "title": "VinUni Harmony - Câu lạc bộ Âm nhạc đầu tiên tại VinUni",
+                "source": "VinUni Website",
+                "summary": "Thành lập năm 2021, VinUni Harmony là câu lạc bộ âm nhạc đầu tiên tại VinUniversity. Câu lạc bộ không chỉ là nơi kết nối đam mê âm nhạc của sinh viên mà còn tích cực tham gia các sự kiện lớn nhỏ của trường, tổ chức các buổi biểu diễn gây quỹ từ thiện và mở ra cơ hội trải nghiệm thực tế trong ngành công nghiệp sáng tạo.",
+                "url": "https://vinuni.edu.vn/club/vinuni-harmony"
+              },
+              {
+                "summary": "Được thành lập vào tháng 10/2025, VinUni Pickleball Club là câu lạc bộ pickleball chính thức đầu tiên tại trường, hướng tới mục tiêu kết nối những người đam mê bộ môn này, thúc đẩy tinh thần đồng đội và lối sống năng động, khỏe mạnh cho cộng đồng sinh viên.",
+                "source": "Experience VinUni",
+                "title": "VinUni Pickleball Club - Câu lạc bộ Thể thao mới",
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "url": "https://experience.vinuni.edu.vn?p=1650"
+              },
+              {
+                "url": "https://vinuni.edu.vn?p=128098",
+                "summary": "Chương trình \"Discover Vietnam with VinUni\" mang đến các khóa học ngắn hạn và chuyến đi thực tế giúp sinh viên quốc tế trải nghiệm văn hóa, ngôn ngữ và con người Việt Nam. Đồng thời, VinUni cũng đẩy mạnh hợp tác học thuật, trao đổi sinh viên và nghiên cứu với 5 trường đại học hàng đầu tại Bắc Kinh và Đài Loan, cũng như mở rộng tầm ảnh hưởng tại Canada.",
+                "source": "VinUni Website",
+                "title": "Khám phá Việt Nam cùng VinUni và các chương trình trao đổi quốc tế",
+                "section": "Chương trình Đào tạo & Hợp tác Quốc tế"
+              },
+              {
+                "title": "VinUni Football Team - Đội bóng đá trường VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1020",
+                "summary": "Đội bóng đá VinUni (VinUni Football Team) là nơi kết nối đam mê sân cỏ của sinh viên và cán bộ nhân viên trường. Đội duy trì các trận đấu giao hữu hàng tuần và hướng tới việc hợp tác với Quỹ Đầu tư và Phát triển Tài năng Bóng đá Việt Nam (PVF) để nâng cao kỹ chiến thuật.",
+                "source": "Experience VinUni",
+                "section": "Hoạt động Câu lạc bộ Sinh viên"
+              }
+            ],
+            "template": "sections",
+            "headline": "Các bài viết và thông tin mới nhất liên quan đến VinUni"
+          },
+          "result": {
+            "tool": "render_digest",
+            "template": "sections",
+            "markdown": "# Các bài viết và thông tin mới nhất liên quan đến VinUni\n\n## Hoạt động Câu lạc bộ Sinh viên\n- Google Developer Student Club (GDSC) VinUni là cộng đồng công nghệ do sinh viên dẫn dắt tại Đại học VinUniversity, chính thức gia nhập mạng lưới GDSC Việt Nam từ tháng 9/2023. Câu lạc bộ thường xuyên tổ chức các chuỗi hội thảo (Workshop), cuộc thi Hackathon và xây dựng giải ph... - [Experience VinUni](https://experience.vinuni.edu.vn?p=1056)\n- Thành lập năm 2021, VinUni Harmony là câu lạc bộ âm nhạc đầu tiên tại VinUniversity. Câu lạc bộ không chỉ là nơi kết nối đam mê âm nhạc của sinh viên mà còn tích cực tham gia các sự kiện lớn nhỏ của trường, tổ chức các buổi biểu diễn gây quỹ từ thiện và mở ra cơ hội trải nghiệ... - [VinUni Website](https://vinuni.edu.vn/club/vinuni-harmony)\n- Được thành lập vào tháng 10/2025, VinUni Pickleball Club là câu lạc bộ pickleball chính thức đầu tiên tại trường, hướng tới mục tiêu kết nối những người đam mê bộ môn này, thúc đẩy tinh thần đồng đội và lối sống năng động, khỏe mạnh cho cộng đồng sinh viên. - [Experience VinUni](https://experience.vinuni.edu.vn?p=1650)\n- Đội bóng đá VinUni (VinUni Football Team) là nơi kết nối đam mê sân cỏ của sinh viên và cán bộ nhân viên trường. Đội duy trì các trận đấu giao hữu hàng tuần và hướng tới việc hợp tác với Quỹ Đầu tư và Phát triển Tài năng Bóng đá Việt Nam (PVF) để nâng cao kỹ chiến thuật. - [Experience VinUni](https://experience.vinuni.edu.vn?p=1020)\n\n## Chương trình Đào tạo & Hợp tác Quốc tế\n- Chương trình \"Discover Vietnam with VinUni\" mang đến các khóa học ngắn hạn và chuyến đi thực tế giúp sinh viên quốc tế trải nghiệm văn hóa, ngôn ngữ và con người Việt Nam. Đồng thời, VinUni cũng đẩy mạnh hợp tác học thuật, trao đổi sinh viên và nghiên cứu với 5 trường đại học ... - [VinUni Website](https://vinuni.edu.vn?p=128098)\n",
+            "item_count": 5
+          }
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "lookup",
+          "args": {
+            "query": "VinUni",
+            "timeframe": "month"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "VinUni",
+            "timeframe": "month"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "VinUni",
+            "topic": "general",
+            "timeframe": "month",
+            "items": [
+              {
+                "title": "GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI) - Experience VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1056",
+                "source": "experience.vinuni.edu.vn",
+                "summary": "Title: GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI) - Experience VinUni\n# GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI). - S – Spirit of Pay It Forward. Copyright © 2025 VinUni. All Right Reserved. - S – Spirit of Pay It Forward. GOOGLE DEVELOPER STUDENT CLUB VINUNI (GDSC VINUNI). GDSC VinUni is a student-led tech community at VinUniversity in Vietnam. Google Developer Student Club, also known as GDSC, is a club that receives organization rights and support from Google. GDSC works with students who have a passion for information technology, especially Google technology. GDSC VinUni officially joined the GDSC Vietnam network in September 2023 and we empower innovators, host workshops, hackathons, build solutions for local businesses, and connect tech enthusiasts. 1. [Workshop series] 2024 Solution Challenge Prep. 2. [Demo Day] 2024 Solution Challenge Prep. 3. [Workshop series] Applied Math 101. 4. [Workshop series] Machine Learning 101. * For more information, please visit**our fanpage.**. Copyright © 2025 VinUni. All Right Reserved.",
+                "score": 0.8232293
+              },
+              {
+                "title": "VINUNI HARMONY - VinUni",
+                "url": "https://vinuni.edu.vn/club/vinuni-harmony",
+                "source": "vinuni.edu.vn",
+                "summary": "Title: VINUNI HARMONY - VinUni\n# VINUNI HARMONY. Established in 2021, VinUni Harmony proudly stands as the first music club at VinUniversity. Our mission is to create a diverse and vibrant music community for the students of VinUni. We believe in the power of music to bring people together, and our club serves as a platform for members to bond, share their passion, and nurture their talents. At VinUni Harmony, through our collective love for music, we create a supportive and inclusive environment where everyone can express themselves freely and explore their musical interests. Over the years, VinUni Harmony has grown alongside the rich history of VinUniversity. We have become a familiar name at both small and large-scale university events, leaving a lasting impact on our community. We also believe in giving back to the community. Every year, we organize fundraising music shows that not only entertain but also contribute value to various causes. Additionally, we collaborate with other artistic clubs at the university to enhance the colorful, and dynamic student experience. Looking ahead, VinUni Harmony is excited to redefine the meaning of participating in a music club. It is no longer solely about leisure and pursuing passion; we are now providing promising opportunities to gain hands-on experience in the Creative Industry. Our club invests in meticulously crafted and professional products, guided by experts, and we measure success through clear achievements.",
+                "score": 0.78512776
+              },
+              {
+                "title": "VinUni Pickleball Club - Experience VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1650",
+                "source": "experience.vinuni.edu.vn",
+                "summary": "Title: VinUni Pickleball Club - Experience VinUni\n# VinUni Pickleball Club. - S – Spirit of Pay It Forward. Copyright © 2025 VinUni. All Right Reserved. - S – Spirit of Pay It Forward. The VinUni Pickleball Club is the first official pickleball club at VinUniversity. Founded in October 2025, our club carries the mission of connecting and growing a community of pickleball enthusiasts who share a passion for the sport. We aim to promote teamwork, physical wellness, and an active lifestyle through fun and engaging activities. Whether you’re completely new to the game or already experienced, the VinUni Pickleball Club is the perfect place to connect, learn, play, and grow together. Beyond the sport itself, we hope to bring positive values to the wider VinUni athletic community. Come join us — let’s rally, compete, and have fun together! Copyright © 2025 VinUni. All Right Reserved.",
+                "score": 0.6989468
+              },
+              {
+                "title": "Discover Vietnam with VinUni - VinUni",
+                "url": "https://vinuni.edu.vn?p=128098",
+                "source": "vinuni.edu.vn",
+                "summary": "## \"DISCOVER VIETNAM WITH VINUNI\" VIA SHORT COURSES OR STUDY TOURS. Participating in short-term courses at VinUni offers students an opportunity to discover the world in a short period of time at an affordable cost. In joining one of these intensive programs at VinUni, students can obtain study abroad experience in as short a time as two weeks or so in order to attain a greater understanding of Vietnamese people, language, cultures, and environments. Students from partner universities can study at, and earn the credits from, VinUni by participating in a semester exchange program. ### RESEARCH EXCHANGE. The Program offers students a special opportunity to collaborate with esteemed VinUni professors and experts from Vingroup companies where VinUni belongs to on cutting-edge research projects. DISCOVER VIETNAM WITH VINUNI PROGRAM. ### DISCOVER VIETNAM WITH VINUNI PROGRAM. This unique initiative is an immersive cultural and educational study tour program designed to introduce international students to the vibrant culture, history, and innovations of Vietnam. Internship and research opportunities for international exchange students are designed to provide hands-on experience in dynamic environments, fostering practical skills and academic growth across various fields facilitated by VinUni professors, colleagues, and professionals from Vingroup companies and industry partners. Opening New Opportunities for Research, Graduate Education, and Student Exchange: VinUniversity Strengthens Academic Collaboration with 5 Leading Universities in Beijing and Taiwan. ### Opening New Opportunities for Research, Graduate Education, and Student Exchange: VinUniversity Strengthens Academic Collaboration with 5 Leading Universities in Beijing and Taiwan. Nyenrode Business University Global Immersion Program 2025 at VinUniversity: A Journey of Learning, Industry Insight, and Cultural Connection in Vietnam. ### Nyenrode Business University Global Immersion Program 2025 at VinUniversity: A Journey of Learning, Industry Insight, and Cultural Connection in Vietnam. VinUni expands global footprint in Canada: Strengthening partnerships and showcasing Vietnam’s educational excellence at CBIE 2025. ### VinUni expands global footprint in Canada: Strengthening partnerships and showcasing Vietnam’s educational excellence at CBIE 2025. ### Barry Ju Jun Jie. VinUni Inbound Exchange Student from SMU. ### Sheenin Bay. VinUni Inbound Exchange Student from SMU. VinUni Inbound Exchange Student from HKUST. VinUni Inbound Exchange Student from Nyenrode Business University.",
+                "score": 0.68723184
+              },
+              {
+                "title": "VINUNI FOOTBALL TEAM - Experience VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1020",
+                "source": "experience.vinuni.edu.vn",
+                "summary": "Title: VINUNI FOOTBALL TEAM - Experience VinUni\n# VINUNI FOOTBALL TEAM. - S – Spirit of Pay It Forward. Copyright © 2025 VinUni. All Right Reserved. - S – Spirit of Pay It Forward. VinUni Football Team wants every member to feel like they are part of a big family. A team means that we can connect to others, show empathy to each other, and improve our skills and abilities together. We also hope to spark the football passion inside each member, gradually developing football so that it will become even more popular for future generations of VinUni students and Staff. * **Highlights:** Currently, our football team has a weekly football match with the VinUni Staff Football Team on Thursday afternoon, and we will maintain and strive to improve these matches. Through VinUni staff connections, VFT expects to associate with PVF – Promotion fund of Vietnamese Football talents to have suitable physical exercises, effective tactics, and strategic formations for each match. * **For more information, please visit our fanpage.**. Copyright © 2025 VinUni. All Right Reserved.",
+                "score": 0.6180666
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "format",
+          "args": {
+            "items": [
+              {
+                "title": "Google Developer Student Club VinUni (GDSC VinUni)",
+                "summary": "Google Developer Student Club (GDSC) VinUni là cộng đồng công nghệ do sinh viên dẫn dắt tại Đại học VinUniversity, chính thức gia nhập mạng lưới GDSC Việt Nam từ tháng 9/2023. Câu lạc bộ thường xuyên tổ chức các chuỗi hội thảo (Workshop), cuộc thi Hackathon và xây dựng giải pháp công nghệ cho doanh nghiệp địa phương.",
+                "url": "https://experience.vinuni.edu.vn?p=1056",
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "source": "Experience VinUni"
+              },
+              {
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "title": "VinUni Harmony - Câu lạc bộ Âm nhạc đầu tiên tại VinUni",
+                "source": "VinUni Website",
+                "summary": "Thành lập năm 2021, VinUni Harmony là câu lạc bộ âm nhạc đầu tiên tại VinUniversity. Câu lạc bộ không chỉ là nơi kết nối đam mê âm nhạc của sinh viên mà còn tích cực tham gia các sự kiện lớn nhỏ của trường, tổ chức các buổi biểu diễn gây quỹ từ thiện và mở ra cơ hội trải nghiệm thực tế trong ngành công nghiệp sáng tạo.",
+                "url": "https://vinuni.edu.vn/club/vinuni-harmony"
+              },
+              {
+                "summary": "Được thành lập vào tháng 10/2025, VinUni Pickleball Club là câu lạc bộ pickleball chính thức đầu tiên tại trường, hướng tới mục tiêu kết nối những người đam mê bộ môn này, thúc đẩy tinh thần đồng đội và lối sống năng động, khỏe mạnh cho cộng đồng sinh viên.",
+                "source": "Experience VinUni",
+                "title": "VinUni Pickleball Club - Câu lạc bộ Thể thao mới",
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "url": "https://experience.vinuni.edu.vn?p=1650"
+              },
+              {
+                "url": "https://vinuni.edu.vn?p=128098",
+                "summary": "Chương trình \"Discover Vietnam with VinUni\" mang đến các khóa học ngắn hạn và chuyến đi thực tế giúp sinh viên quốc tế trải nghiệm văn hóa, ngôn ngữ và con người Việt Nam. Đồng thời, VinUni cũng đẩy mạnh hợp tác học thuật, trao đổi sinh viên và nghiên cứu với 5 trường đại học hàng đầu tại Bắc Kinh và Đài Loan, cũng như mở rộng tầm ảnh hưởng tại Canada.",
+                "source": "VinUni Website",
+                "title": "Khám phá Việt Nam cùng VinUni và các chương trình trao đổi quốc tế",
+                "section": "Chương trình Đào tạo & Hợp tác Quốc tế"
+              },
+              {
+                "title": "VinUni Football Team - Đội bóng đá trường VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1020",
+                "summary": "Đội bóng đá VinUni (VinUni Football Team) là nơi kết nối đam mê sân cỏ của sinh viên và cán bộ nhân viên trường. Đội duy trì các trận đấu giao hữu hàng tuần và hướng tới việc hợp tác với Quỹ Đầu tư và Phát triển Tài năng Bóng đá Việt Nam (PVF) để nâng cao kỹ chiến thuật.",
+                "source": "Experience VinUni",
+                "section": "Hoạt động Câu lạc bộ Sinh viên"
+              }
+            ],
+            "template": "sections",
+            "headline": "Các bài viết và thông tin mới nhất liên quan đến VinUni"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "format",
+          "args": {
+            "items": [
+              {
+                "title": "Google Developer Student Club VinUni (GDSC VinUni)",
+                "summary": "Google Developer Student Club (GDSC) VinUni là cộng đồng công nghệ do sinh viên dẫn dắt tại Đại học VinUniversity, chính thức gia nhập mạng lưới GDSC Việt Nam từ tháng 9/2023. Câu lạc bộ thường xuyên tổ chức các chuỗi hội thảo (Workshop), cuộc thi Hackathon và xây dựng giải pháp công nghệ cho doanh nghiệp địa phương.",
+                "url": "https://experience.vinuni.edu.vn?p=1056",
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "source": "Experience VinUni"
+              },
+              {
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "title": "VinUni Harmony - Câu lạc bộ Âm nhạc đầu tiên tại VinUni",
+                "source": "VinUni Website",
+                "summary": "Thành lập năm 2021, VinUni Harmony là câu lạc bộ âm nhạc đầu tiên tại VinUniversity. Câu lạc bộ không chỉ là nơi kết nối đam mê âm nhạc của sinh viên mà còn tích cực tham gia các sự kiện lớn nhỏ của trường, tổ chức các buổi biểu diễn gây quỹ từ thiện và mở ra cơ hội trải nghiệm thực tế trong ngành công nghiệp sáng tạo.",
+                "url": "https://vinuni.edu.vn/club/vinuni-harmony"
+              },
+              {
+                "summary": "Được thành lập vào tháng 10/2025, VinUni Pickleball Club là câu lạc bộ pickleball chính thức đầu tiên tại trường, hướng tới mục tiêu kết nối những người đam mê bộ môn này, thúc đẩy tinh thần đồng đội và lối sống năng động, khỏe mạnh cho cộng đồng sinh viên.",
+                "source": "Experience VinUni",
+                "title": "VinUni Pickleball Club - Câu lạc bộ Thể thao mới",
+                "section": "Hoạt động Câu lạc bộ Sinh viên",
+                "url": "https://experience.vinuni.edu.vn?p=1650"
+              },
+              {
+                "url": "https://vinuni.edu.vn?p=128098",
+                "summary": "Chương trình \"Discover Vietnam with VinUni\" mang đến các khóa học ngắn hạn và chuyến đi thực tế giúp sinh viên quốc tế trải nghiệm văn hóa, ngôn ngữ và con người Việt Nam. Đồng thời, VinUni cũng đẩy mạnh hợp tác học thuật, trao đổi sinh viên và nghiên cứu với 5 trường đại học hàng đầu tại Bắc Kinh và Đài Loan, cũng như mở rộng tầm ảnh hưởng tại Canada.",
+                "source": "VinUni Website",
+                "title": "Khám phá Việt Nam cùng VinUni và các chương trình trao đổi quốc tế",
+                "section": "Chương trình Đào tạo & Hợp tác Quốc tế"
+              },
+              {
+                "title": "VinUni Football Team - Đội bóng đá trường VinUni",
+                "url": "https://experience.vinuni.edu.vn?p=1020",
+                "summary": "Đội bóng đá VinUni (VinUni Football Team) là nơi kết nối đam mê sân cỏ của sinh viên và cán bộ nhân viên trường. Đội duy trì các trận đấu giao hữu hàng tuần và hướng tới việc hợp tác với Quỹ Đầu tư và Phát triển Tài năng Bóng đá Việt Nam (PVF) để nâng cao kỹ chiến thuật.",
+                "source": "Experience VinUni",
+                "section": "Hoạt động Câu lạc bộ Sinh viên"
+              }
+            ],
+            "template": "sections",
+            "headline": "Các bài viết và thông tin mới nhất liên quan đến VinUni"
+          },
+          "result": {
+            "tool": "render_digest",
+            "template": "sections",
+            "markdown": "# Các bài viết và thông tin mới nhất liên quan đến VinUni\n\n## Hoạt động Câu lạc bộ Sinh viên\n- Google Developer Student Club (GDSC) VinUni là cộng đồng công nghệ do sinh viên dẫn dắt tại Đại học VinUniversity, chính thức gia nhập mạng lưới GDSC Việt Nam từ tháng 9/2023. Câu lạc bộ thường xuyên tổ chức các chuỗi hội thảo (Workshop), cuộc thi Hackathon và xây dựng giải ph... - [Experience VinUni](https://experience.vinuni.edu.vn?p=1056)\n- Thành lập năm 2021, VinUni Harmony là câu lạc bộ âm nhạc đầu tiên tại VinUniversity. Câu lạc bộ không chỉ là nơi kết nối đam mê âm nhạc của sinh viên mà còn tích cực tham gia các sự kiện lớn nhỏ của trường, tổ chức các buổi biểu diễn gây quỹ từ thiện và mở ra cơ hội trải nghiệ... - [VinUni Website](https://vinuni.edu.vn/club/vinuni-harmony)\n- Được thành lập vào tháng 10/2025, VinUni Pickleball Club là câu lạc bộ pickleball chính thức đầu tiên tại trường, hướng tới mục tiêu kết nối những người đam mê bộ môn này, thúc đẩy tinh thần đồng đội và lối sống năng động, khỏe mạnh cho cộng đồng sinh viên. - [Experience VinUni](https://experience.vinuni.edu.vn?p=1650)\n- Đội bóng đá VinUni (VinUni Football Team) là nơi kết nối đam mê sân cỏ của sinh viên và cán bộ nhân viên trường. Đội duy trì các trận đấu giao hữu hàng tuần và hướng tới việc hợp tác với Quỹ Đầu tư và Phát triển Tài năng Bóng đá Việt Nam (PVF) để nâng cao kỹ chiến thuật. - [Experience VinUni](https://experience.vinuni.edu.vn?p=1020)\n\n## Chương trình Đào tạo & Hợp tác Quốc tế\n- Chương trình \"Discover Vietnam with VinUni\" mang đến các khóa học ngắn hạn và chuyến đi thực tế giúp sinh viên quốc tế trải nghiệm văn hóa, ngôn ngữ và con người Việt Nam. Đồng thời, VinUni cũng đẩy mạnh hợp tác học thuật, trao đổi sinh viên và nghiên cứu với 5 trường đại học ... - [VinUni Website](https://vinuni.edu.vn?p=128098)\n",
+            "item_count": 5
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "assistant_text": "Dưới đây là tổng hợp các bài viết và thông tin mới nhất liên quan đến **VinUni** được tìm thấy:\n\n# Các bài viết và thông tin mới nhất liên quan đến VinUni\n\n## Hoạt động Câu lạc bộ Sinh viên\n* **Google Developer Student Club VinUni (GDSC VinUni)**: Là cộng đồng công nghệ do sinh viên dẫn dắt tại Đại học VinUniversity, chính thức gia nhập mạng lưới GDSC Việt Nam từ tháng 9/2023. Câu lạc bộ thường xuyên tổ chức các chuỗi hội thảo (Workshop), cuộc thi Hackathon và xây dựng giải pháp công nghệ cho doanh nghiệp địa phương. — [Experience VinUni](https://experience.vinuni.edu.vn?p=1056)\n* **VinUni Harmony - Câu lạc bộ Âm nhạc đầu tiên tại VinUni**: Thành lập năm 2021, đây là câu lạc bộ âm nhạc đầu tiên tại VinUniversity. Câu lạc bộ không chỉ là nơi kết nối đam mê âm nhạc của sinh viên mà còn tích cực tham gia các sự kiện lớn nhỏ của trường, tổ chức các buổi biểu diễn gây quỹ từ thiện và mở ra cơ hội trải nghiệm thực tế trong ngành công nghiệp sáng tạo. — [VinUni Website](https://vinuni.edu.vn/club/vinuni-harmony)\n* **VinUni Pickleball Club - Câu lạc bộ Thể thao mới**: Được thành lập vào tháng 10/2025, đây là câu lạc bộ pickleball chính thức đầu tiên tại trường, hướng tới mục tiêu kết nối những người đam mê bộ môn này, thúc đẩy tinh thần đồng đội và lối sống năng động, khỏe mạnh cho cộng đồng sinh viên. — [Experience VinUni](https://experience.vinuni.edu.vn?p=1650)\n* **VinUni Football Team - Đội bóng đá trường VinUni**: Là nơi kết nối đam mê sân cỏ của sinh viên và cán bộ nhân viên trường. Đội duy trì các trận đấu giao hữu hàng tuần và hướng tới việc hợp tác với Quỹ Đầu tư và Phát triển Tài năng Bóng đá Việt Nam (PVF) để nâng cao kỹ chiến thuật. — [Experience VinUni](https://experience.vinuni.edu.vn?p=1020)\n\n## Chương trình Đào tạo & Hợp tác Quốc tế\n* **Khám phá Việt Nam cùng VinUni và các chương trình trao đổi quốc tế**: Chương trình *\"Discover Vietnam with VinUni\"* mang đến các khóa học ngắn hạn và chuyến đi thực tế giúp sinh viên quốc tế trải nghiệm văn hóa, ngôn ngữ và con người Việt Nam. Đồng thời, VinUni cũng đẩy mạnh hợp tác học thuật, trao đổi sinh viên và nghiên cứu với 5 trường đại học hàng đầu tại Bắc Kinh và Đài Loan, cũng như mở rộng tầm ảnh hưởng tại Canada. — [VinUni Website](https://vinuni.edu.vn?p=128098)",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T15:48:00",
+  "updated_at": "2026-07-29T15:48:00"
+}

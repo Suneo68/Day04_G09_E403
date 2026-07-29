@@ -1,0 +1,224 @@
+{
+  "transcript_id": "ui_6e1da1e3",
+  "version": "v0",
+  "artifact_version": "v0+peb1c8179815b+t6857452deba1",
+  "prompt_hash": "eb1c8179815bd79d34de7d326420bb99b3072e6e8ae96464c02d4411f905fc68",
+  "tools_hash": "6857452deba112150da46c95e1c9538c5e4a8e591da9957bf9514b4b38e8b108",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "cho toi thong tin ve HUST"
+    },
+    {
+      "role": "assistant",
+      "content": "**Thông tin về HUST (Đại học Khoa học và Công nghệ Hoa Trung)**\n\n- Gần 200 chuyên gia đã tập trung tại #HUST cho Trường Tiến sĩ Châu Á 2025 về Điện tử Công suất Tiên tiến, với các bài giảng tiên tiến, diễn đàn công nghiệp, v.v. - [facebook.com](https://www.facebook.com/2024HUST/posts/a-cellpress-academic-exchange-event-on-july-14-at-hust-brought-together-over-30-/122206941554462320)",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "HUST"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "HUST",
+            "topic": "general",
+            "timeframe": "week",
+            "items": [
+              {
+                "title": "A #CellPress academic exchange event on July 14 at # ...",
+                "url": "https://www.facebook.com/2024HUST/posts/a-cellpress-academic-exchange-event-on-july-14-at-hust-brought-together-over-30-/122206941554462320",
+                "source": "facebook.com",
+                "summary": "Nearly 200 experts gathered at #HUST for the 2025 Asian PhD School on Advanced Power Electronics, which featured cutting-edge lectures, industry forums, and ...Read more",
+                "score": 0.5230555
+              },
+              {
+                "title": "5 Letter Words With H U S T in Any Position",
+                "url": "https://capitalizemytitle.com/wordfinder/contains/hust/length/5",
+                "source": "capitalizemytitle.com",
+                "summary": "6 days ago — All 5 Letter Words With H U S T In Any Position · bhuts · chuts · houts · hunts · hurst · hurts · musth · phuts; ruths; shout; shtum; shtup; shunt; shute; shuts.Read more",
+                "score": 0.46366343
+              },
+              {
+                "title": "HUST BROTHERS - Updated July 2026",
+                "url": "https://www.yelp.com/biz/hust-brothers-marysville-2",
+                "source": "yelp.com",
+                "summary": "4 days ago — HUST BROTHERS, 710 3rd St, Marysville, CA 95901, 32 Photos, (530) 743-1561, Mon - 7:00 am - 6:00 pm, Tue - 7:00 am - 6:00 pm, This is a garbage auto parts",
+                "score": 0.42821008
+              },
+              {
+                "title": "HUST vacuum robot boosts high-end manufacturing",
+                "url": "https://www.chinaopticsvalley.com/2026-07/22/c_1199193.htm",
+                "source": "chinaopticsvalley.com",
+                "summary": "7 days ago — Resembling a robotic cleaner, the device operates independently, performing tasks such as wall adhesion, curved surface navigation, and inverted walking. Dubbed ...Read more",
+                "score": 0.37230033
+              },
+              {
+                "title": "Ronald Hust - Art & Prints for Sale",
+                "url": "https://www.artsy.net/artist/ronald-hust",
+                "source": "artsy.net",
+                "summary": "5 days ago — Explore Ronald Hust's biography, achievements, artworks, auction results, and shows on Artsy. Ron Hust was born and raised in Southern California, a place where",
+                "score": 0.3119197
+              }
+            ]
+          }
+        },
+        {
+          "tool": "format",
+          "args": {
+            "headline": "Thông tin về HUST (Đại học Khoa học và Công nghệ Hoa Trung)",
+            "items": [
+              {
+                "source": "facebook.com",
+                "summary": "Gần 200 chuyên gia đã tập trung tại #HUST cho Trường Tiến sĩ Châu Á 2025 về Điện tử Công suất Tiên tiến, với các bài giảng tiên tiến, diễn đàn công nghiệp, v.v.",
+                "title": "A #CellPress academic exchange event on July 14 at #HUST",
+                "url": "https://www.facebook.com/2024HUST/posts/a-cellpress-academic-exchange-event-on-july-14-at-hust-brought-together-over-30-/122206941554462320"
+              }
+            ],
+            "template": "brief"
+          },
+          "result": {
+            "tool": "render_digest",
+            "template": "brief",
+            "markdown": "**Thông tin về HUST (Đại học Khoa học và Công nghệ Hoa Trung)**\n\n- Gần 200 chuyên gia đã tập trung tại #HUST cho Trường Tiến sĩ Châu Á 2025 về Điện tử Công suất Tiên tiến, với các bài giảng tiên tiến, diễn đàn công nghiệp, v.v. - [facebook.com](https://www.facebook.com/2024HUST/posts/a-cellpress-academic-exchange-event-on-july-14-at-hust-brought-together-over-30-/122206941554462320)",
+            "item_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "các chuyên ngành đào tạo của HUST"
+    },
+    {
+      "role": "assistant",
+      "content": "Đại học Bách khoa Hà Nội (HUST) có nhiều chuyên ngành đào tạo đa dạng. Nổi bật là các ngành thuộc nhóm Công nghệ thông tin, Trí tuệ nhân tạo và Khoa học máy tính. Cụ thể, có các chương trình như:\n\n*   Khoa học dữ liệu và Trí tuệ nhân tạo (chương trình tiên tiến)\n*   CNTT: Khoa học Máy tính\n*   Kỹ thuật Điện - Điện tử\n*   Cơ khí\n*   Tự động hóa\n*   Hóa học\n*   Kỹ thuật Điện tử - Viễn thông (chương trình hợp tác với Đại học Leibniz)\n\nNgoài ra, trường còn có 55 chương trình được cấp học bổng theo Nghị định 179 của Chính phủ và các chương trình giảng dạy bằng tiếng Anh, tăng cường ngoại ngữ, đào tạo kỹ sư chất lượng cao Việt - Pháp (PFIEV), chương trình hợp tác quốc tế và liên kết đào tạo quốc tế, chương trình tài năng.\n\n(Nguồn: careerviet.vn, meobeostudio.com, vnexpress.net, tiktok.com)",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "HUST các chuyên ngành đào tạo"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "HUST các chuyên ngành đào tạo",
+            "topic": "general",
+            "timeframe": "week",
+            "items": [
+              {
+                "title": "Điểm chuẩn Đại học Bách khoa Hà Nội (HUST) 2026",
+                "url": "https://careerviet.vn/vi/talentcommunity/wiki-career/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2026-moi-cap-nhat.35A534CE.html",
+                "source": "careerviet.vn",
+                "summary": "Theo Đại học Bách khoa Hà Nội, điểm chuẩn HUST 2026 được dự kiến ổn định và chỉ biến động nhẹ so với năm 2025. Các ngành thuộc nhóm Công nghệ thông tin, Trí tuệ nhn tạo và Khoa học máy tính nhiều khả năng vẫn duy trì mức điểm cao, trong khi phần lớn các chương trình đào tạo còn lại được dự báo không có sự thay đổi đáng kể. Mức điểm thực tế sẽ phụ thuộc vào phổ điểm thi tốt nghiệp THPT và số lượng nguyện vọng đăng ký của thí sinh. [...] Dựa trên điểm chuẩn năm 2025, phổ điểm thi THPT năm 2026 và đề án tuyển sinh của Đại học Bách khoa Hà Nội (HUST), điểm chuẩn theo phương thức xét kết quả thi tốt nghiệp THPT được dự đoán dao động khoảng 20–28,5 điểm, tùy từng ngành đào tạo. Nhóm ngành Khoa học máy tính, Kỹ thuật máy tính và Công nghệ thông tin nhiều khả năng tiếp tục nằm trong nhóm có điểm chuẩn cao nhất, khoảng 27,5–28,5 điểm. Các ngành kỹ thuật khác được dự báo dao động khoảng 20–26 điểm, tùy mức độ cạnh tranh và chỉ tiêu [...] |  |  |  |  |  |  |  |  |\n ---  ---  ---  --- |\n|  | Mã xét tuyển | Tên chương trình đào tạo | Tổ hợp gốc | Dự báo điểm chuẩn THPT (thang 30) | Dự báo điểm chuẩn XTTN 1.2 (thang 100) | Dự báo điểm chuẩn XTTN 1.3 (thang 100) | Dự báo điểm chuẩn TSA (thang 100) |\n|  |  | Khoa học dữ liệu và Trí tuệ nhn tạo (CT tiên tiến) | A00 | 28.5+ | 85+ | 85+ | 75+ |\n| 2 | IT1 | CNTT: Khoa học Máy tính | A00 | 27.5–28.5 | 74–84 | 74–84 | 67–74 |",
+                "score": 0.73459625
+              },
+              {
+                "title": "Đại học Bách khoa Hà Nội",
+                "url": "https://meobeostudio.com/dai-hoc/dai-hoc-bach-khoa-ha-noi",
+                "source": "meobeostudio.com",
+                "summary": "Nổi bật là các ngành Công nghệ thông tin, Khoa học máy tính, Trí tuệ nhân tạo cùng các nhóm ngành Kỹ thuật Điện - Điện tử, Cơ khí, Tự động hóa và Hóa học. HUST",
+                "score": 0.7140107
+              },
+              {
+                "title": "Học phí Đại học Bách khoa Hà Nội (HUST) năm học 2026-2027 chi tiết nhất",
+                "url": "https://vnexpress.net/hoc-phi-dai-hoc-bach-khoa-ha-noi-hust-nam-hoc-2026-2027-chi-tiet-nhat-5102344.html",
+                "source": "vnexpress.net",
+                "summary": "Năm nay, Đại học Bách khoa Hà Nội tuyển khoảng 9.700 sinh viên, bằng ba phương thức: xét tuyển tài năng, xét điểm thi đánh giá tư duy và dựa vào điểm thi tốt nghiệp THPT. Trường dự đoán điểm chuẩn từ 20 đến trên 28,5, ngành Khoa học dữ liệu và Trí tuệ nhn tạo (chương trình tiên tiến) cao nhất.\n\nTrường có 55 chương trình diện được cấp học bổng 37-55 triệu đồng/năm theo Nghị định 179 của Chính phủ. Mức này bằng, thậm chí cao hơn học phí nhiều ngành và chương trình đào tạo tại HUST. [...] Hơn một nửa chương trình ở Đại học Bách khoa Hà Nội thu học phí 28-40 triệu đồng trong năm học tới, giữ nguyên hoặc tăng không quá 5 triệu đồng so với hiện tại.\n\nĐại học Bách khoa Hà Nội (HUST) cho biết mức này áp dụng với tn sinh viên các chương trình chuẩn. Với các chương trình giảng dạy bằng tiếng Anh, tăng cường ngoại ngữ, đào tạo kỹ sư chất lượng cao Việt - Pháp (PFIEV), học phí từ 35 đến 68 triệu đồng một năm. [...] Riêng chương trình hợp tác quốc tế và liên kết đào tạo quốc tế, chương trình tài năng, HUST tính học phí trung bình theo kỳ. Trong đó, học phí chương trình tài năng khoảng 17-21 triệu đồng một kỳ, tăng 0,5-3,5 triệu đồng. Các chương trình có yếu tố quốc tế thu 24 đến 33 triệu đồng một kỳ, trong khi năm ngoái là 26-30 triệu.\n\nHọc phí Đại học Bách khoa Hà Nội năm học 2026-2027 theo từng chương trình đào tạo, với tn sinh viên như sau:\n\nHọc phí chương trình chuẩn:",
+                "score": 0.63777614
+              },
+              {
+                "title": "Ngành Kỹ thuật Điện tử - Viễn thông ET-LUH: Học tại Việt ...",
+                "url": "https://www.tiktok.com/@bachkhoahanoi_hust/video/7665566629274586388",
+                "source": "tiktok.com",
+                "summary": "Ngành Kỹ thuật Điện tử - Viễn thông (mã ET-LUH) là lựa chọn phù hợp. Đây là chương trình hợp tác giữa Đại học Bách Khoa Hà Nội (HUST) và Đại học Leibniz",
+                "score": 0.44059017
+              },
+              {
+                "title": "Trang chủ - Đại học Bách khoa Hà Nội",
+                "url": "https://ts.hust.edu.vn",
+                "source": "ts.hust.edu.vn",
+                "summary": "Chương trình đào tạo kéo dài 2 năm với hai định hướng chuyên biệt: Nghiên cứu và Ứng dụng, đáp ứng nhu cầu nhân lực chất lượng cao trong kỷ nguyên số.",
+                "score": 0.21566483
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "lookup",
+          "args": {
+            "query": "HUST các chuyên ngành đào tạo"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "HUST các chuyên ngành đào tạo"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "HUST các chuyên ngành đào tạo",
+            "topic": "general",
+            "timeframe": "week",
+            "items": [
+              {
+                "title": "Điểm chuẩn Đại học Bách khoa Hà Nội (HUST) 2026",
+                "url": "https://careerviet.vn/vi/talentcommunity/wiki-career/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2026-moi-cap-nhat.35A534CE.html",
+                "source": "careerviet.vn",
+                "summary": "Theo Đại học Bách khoa Hà Nội, điểm chuẩn HUST 2026 được dự kiến ổn định và chỉ biến động nhẹ so với năm 2025. Các ngành thuộc nhóm Công nghệ thông tin, Trí tuệ nhn tạo và Khoa học máy tính nhiều khả năng vẫn duy trì mức điểm cao, trong khi phần lớn các chương trình đào tạo còn lại được dự báo không có sự thay đổi đáng kể. Mức điểm thực tế sẽ phụ thuộc vào phổ điểm thi tốt nghiệp THPT và số lượng nguyện vọng đăng ký của thí sinh. [...] Dựa trên điểm chuẩn năm 2025, phổ điểm thi THPT năm 2026 và đề án tuyển sinh của Đại học Bách khoa Hà Nội (HUST), điểm chuẩn theo phương thức xét kết quả thi tốt nghiệp THPT được dự đoán dao động khoảng 20–28,5 điểm, tùy từng ngành đào tạo. Nhóm ngành Khoa học máy tính, Kỹ thuật máy tính và Công nghệ thông tin nhiều khả năng tiếp tục nằm trong nhóm có điểm chuẩn cao nhất, khoảng 27,5–28,5 điểm. Các ngành kỹ thuật khác được dự báo dao động khoảng 20–26 điểm, tùy mức độ cạnh tranh và chỉ tiêu [...] |  |  |  |  |  |  |  |  |\n ---  ---  ---  --- |\n|  | Mã xét tuyển | Tên chương trình đào tạo | Tổ hợp gốc | Dự báo điểm chuẩn THPT (thang 30) | Dự báo điểm chuẩn XTTN 1.2 (thang 100) | Dự báo điểm chuẩn XTTN 1.3 (thang 100) | Dự báo điểm chuẩn TSA (thang 100) |\n|  |  | Khoa học dữ liệu và Trí tuệ nhn tạo (CT tiên tiến) | A00 | 28.5+ | 85+ | 85+ | 75+ |\n| 2 | IT1 | CNTT: Khoa học Máy tính | A00 | 27.5–28.5 | 74–84 | 74–84 | 67–74 |",
+                "score": 0.73459625
+              },
+              {
+                "title": "Đại học Bách khoa Hà Nội",
+                "url": "https://meobeostudio.com/dai-hoc/dai-hoc-bach-khoa-ha-noi",
+                "source": "meobeostudio.com",
+                "summary": "Nổi bật là các ngành Công nghệ thông tin, Khoa học máy tính, Trí tuệ nhân tạo cùng các nhóm ngành Kỹ thuật Điện - Điện tử, Cơ khí, Tự động hóa và Hóa học. HUST",
+                "score": 0.7140107
+              },
+              {
+                "title": "Học phí Đại học Bách khoa Hà Nội (HUST) năm học 2026-2027 chi tiết nhất",
+                "url": "https://vnexpress.net/hoc-phi-dai-hoc-bach-khoa-ha-noi-hust-nam-hoc-2026-2027-chi-tiet-nhat-5102344.html",
+                "source": "vnexpress.net",
+                "summary": "Năm nay, Đại học Bách khoa Hà Nội tuyển khoảng 9.700 sinh viên, bằng ba phương thức: xét tuyển tài năng, xét điểm thi đánh giá tư duy và dựa vào điểm thi tốt nghiệp THPT. Trường dự đoán điểm chuẩn từ 20 đến trên 28,5, ngành Khoa học dữ liệu và Trí tuệ nhn tạo (chương trình tiên tiến) cao nhất.\n\nTrường có 55 chương trình diện được cấp học bổng 37-55 triệu đồng/năm theo Nghị định 179 của Chính phủ. Mức này bằng, thậm chí cao hơn học phí nhiều ngành và chương trình đào tạo tại HUST. [...] Hơn một nửa chương trình ở Đại học Bách khoa Hà Nội thu học phí 28-40 triệu đồng trong năm học tới, giữ nguyên hoặc tăng không quá 5 triệu đồng so với hiện tại.\n\nĐại học Bách khoa Hà Nội (HUST) cho biết mức này áp dụng với tn sinh viên các chương trình chuẩn. Với các chương trình giảng dạy bằng tiếng Anh, tăng cường ngoại ngữ, đào tạo kỹ sư chất lượng cao Việt - Pháp (PFIEV), học phí từ 35 đến 68 triệu đồng một năm. [...] Riêng chương trình hợp tác quốc tế và liên kết đào tạo quốc tế, chương trình tài năng, HUST tính học phí trung bình theo kỳ. Trong đó, học phí chương trình tài năng khoảng 17-21 triệu đồng một kỳ, tăng 0,5-3,5 triệu đồng. Các chương trình có yếu tố quốc tế thu 24 đến 33 triệu đồng một kỳ, trong khi năm ngoái là 26-30 triệu.\n\nHọc phí Đại học Bách khoa Hà Nội năm học 2026-2027 theo từng chương trình đào tạo, với tn sinh viên như sau:\n\nHọc phí chương trình chuẩn:",
+                "score": 0.63777614
+              },
+              {
+                "title": "Ngành Kỹ thuật Điện tử - Viễn thông ET-LUH: Học tại Việt ...",
+                "url": "https://www.tiktok.com/@bachkhoahanoi_hust/video/7665566629274586388",
+                "source": "tiktok.com",
+                "summary": "Ngành Kỹ thuật Điện tử - Viễn thông (mã ET-LUH) là lựa chọn phù hợp. Đây là chương trình hợp tác giữa Đại học Bách Khoa Hà Nội (HUST) và Đại học Leibniz",
+                "score": 0.44059017
+              },
+              {
+                "title": "Trang chủ - Đại học Bách khoa Hà Nội",
+                "url": "https://ts.hust.edu.vn",
+                "source": "ts.hust.edu.vn",
+                "summary": "Chương trình đào tạo kéo dài 2 năm với hai định hướng chuyên biệt: Nghiên cứu và Ứng dụng, đáp ứng nhu cầu nhân lực chất lượng cao trong kỷ nguyên số.",
+                "score": 0.21566483
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "assistant_text": "Đại học Bách khoa Hà Nội (HUST) có nhiều chuyên ngành đào tạo đa dạng. Nổi bật là các ngành thuộc nhóm Công nghệ thông tin, Trí tuệ nhân tạo và Khoa học máy tính. Cụ thể, có các chương trình như:\n\n*   Khoa học dữ liệu và Trí tuệ nhân tạo (chương trình tiên tiến)\n*   CNTT: Khoa học Máy tính\n*   Kỹ thuật Điện - Điện tử\n*   Cơ khí\n*   Tự động hóa\n*   Hóa học\n*   Kỹ thuật Điện tử - Viễn thông (chương trình hợp tác với Đại học Leibniz)\n\nNgoài ra, trường còn có 55 chương trình được cấp học bổng theo Nghị định 179 của Chính phủ và các chương trình giảng dạy bằng tiếng Anh, tăng cường ngoại ngữ, đào tạo kỹ sư chất lượng cao Việt - Pháp (PFIEV), chương trình hợp tác quốc tế và liên kết đào tạo quốc tế, chương trình tài năng.\n\n(Nguồn: careerviet.vn, meobeostudio.com, vnexpress.net, tiktok.com)",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T16:18:52",
+  "updated_at": "2026-07-29T16:18:52"
+}
