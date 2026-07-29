@@ -1,0 +1,122 @@
+{
+  "transcript_id": "ui_25c86918",
+  "version": "v3",
+  "artifact_version": "v3+pe6df0f054158+td4f6563e98cd",
+  "prompt_hash": "e6df0f0541581ea4019b3623439f4bf0863fc3874ce20c3366ec69d91d405d29",
+  "tools_hash": "d4f6563e98cdcc3e12da0c182ca43b6e1c62b74881ae82b2dad44a3fabbab9bf",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "cho toi cong thuc ban pho"
+    },
+    {
+      "role": "assistant",
+      "content": "Vì từ khóa **\"ban pho\"** của bạn có thể hiểu theo hai nghĩa: **bánh phở** (sợi phở) hoặc công thức nấu để **bán phở** (kinh doanh), dưới đây là hướng dẫn chi tiết cho cả hai trường hợp để bạn dễ dàng thực hiện:\n\n---\n\n### PHẦN 1: CÔNG THỨC LÀM BÁNH PHỞ TƯƠI TẠI NHÀ (Sợi Phở)\nNếu bạn muốn tự tay làm sợi bánh phở dai ngon, mềm mướt bằng chảo chống dính hoặc xửng hấp:\n\n#### 1. Nguyên liệu chuẩn bị:\n*   **Bột gạo tẻ:** 150g (chọn loại gạo tẻ ngon, mới để bánh không bị hôi).\n*   **Bột năng:** 50g (giúp tạo độ dai, không bị nát).\n*   **Nước lọc:** 400ml.\n*   **Muối:** 1/2 muỗng cà phê.\n*   **Dầu ăn:** 1 muỗng canh.\n\n#### 2. Các bước thực hiện:\n*   **Bước 1: Pha bột:** Cho bột gạo, bột năng, muối vào tô lớn. Đổ nước lọc vào khuấy đều cho bột tan hết. Để bột nghỉ khoảng 30 phút đến 1 tiếng cho bột nở đều (nếu có thời gian, bạn có thể gạn bớt nước trong phía trên và bù lại lượng nước ấm tương đương để bánh phở dai và trong hơn). Sau đó, cho 1 muỗng dầu ăn vào khuấy đều.\n*   **Bước 2: Tráng bánh (bằng chảo chống dính):**\n    *   Đặt chảo chống dính lên bếp ở lửa nhỏ, quét một lớp dầu ăn thật mỏng lên mặt chảo.\n    *   Khi chảo ấm (không quá nóng), múc một vá bột đổ vào chảo, nhanh tay nghiêng chảo để bột dàn đều thành một lớp mỏng.\n    *   Đậy nắp lại khoảng 40 - 45 giây cho bánh chín trong.\n    *   Úp ngược chảo ra một cái mâm hoặc thớt sạch đã quét sẵn một lớp dầu ăn mỏng để bánh không bị dính.\n*   **Bước 3: Cắt bánh phở:** Quét một lớp dầu ăn mỏng lên bề mặt lá bánh phở vừa tráng để xếp chồng các lá lên nhau không bị dính. Dùng dao sắc cắt thành các sợi phở có độ rộng tùy ý (khoảng 0.5cm - 1cm).\n\n---\n\n### PHẦN 2: CÔNG THỨC NẤU PHỞ BÒ NGON ĐỂ KINH DOANH (Bán Phở)\nĐể nấu phở bò kinh doanh hút khách, nước dùng phải đạt yêu cầu: **trong, ngọt thanh tự nhiên từ xương, thơm mùi thảo mộc và không bị hôi**.\n\n#### 1. Nguyên liệu (Cho nồi nước dùng khoảng 20 - 25 lít):\n*   **Xương hầm:** 5kg xương ống bò (hoặc kết hợp thêm xương bay, đuôi bò để nước ngọt đậm).\n*   **Thịt ăn kèm:** 2kg - 3kg thịt bò (nạm, gầu, vè sườn để làm chín; thịt phi lê/thăn để làm bò tái).\n*   **Gia vị tạo hương (Thảo mộc):**\n    *   Hoa hồi: 10 - 12 hoa.\n    *   Thảo quả: 3 - 4 quả (đập dập).\n    *   Quế chi: 2 - 3 thanh nhỏ.\n    *   Hạt mùi (ngò), tiểu hồi: mỗi thứ 1 muỗng canh.\n    *   Đinh hương: 5 - 6 nụ (không nên cho quá nhiều sẽ bị nồng).\n*   **Rau củ nướng:** 3 củ hành tây lớn, 300g hành tím, 200g gừng tươi, 2 - 3 khúc mía ngọt.\n*   **Gia vị nêm:** Muối hạt, hạt nêm, đường phèn (tạo vị ngọt thanh), bột ngọt (mì chính). *Lưu ý: Hạn chế dùng nước mắm trực tiếp vào nồi nước dùng lớn vì dễ làm nước bị chua khi để lâu.*\n\n#### 2. Quy trình nấu nước dùng chuẩn vị:\n\n*   **Bước 1: Sơ chế và khử mùi xương bò (Cực kỳ quan trọng):**\n    *   Ngâm xương bò vào nước muối loãng pha chút gừng giã nát từ 2 - 4 tiếng để ra bớt máu bầm.\n    *   Cho xương vào nồi nước lạnh, đun sôi bùng lên khoảng 10 phút để đẩy hết cặn bẩn và bọt đen ra ngoài.\n    *   Vớt xương ra, rửa lại thật sạch dưới vòi nước lạnh. Chặt đôi xương ống để tủy dễ tiết ra vị ngọt khi hầm.\n*   **Bước 2: Ninh xương:**\n    *   Cho xương vào nồi với khoảng 25 lít nước lạnh. Đun sôi bùng lên rồi hạ lửa nhỏ liu riu.\n    *   **Mẹo nhỏ:** Trong suốt quá trình ninh, tuyệt đối không đậy nắp vung và liên tục hớt bọt để nước dùng được trong vắt. Ninh xương tối thiểu từ 8 - 10 tiếng.\n*   **Bước 3: Chuẩn bị hương liệu:**\n    *   Hành tây, hành tím, gừng và mía đem nướng cháy xém vỏ ngoài cho dậy mùi thơm. Sau đó cạo sạch vỏ đen, rửa sạch. Gừng đập dập, hành tây bổ đôi.\n    *   Các loại thảo mộc (hồi, quế, thảo quả, hạt mùi...) đem rang trên chảo nhỏ lửa cho đến khi ngửi thấy mùi thơm ngào ngạt. Cho tất cả vào một túi vải sạch buộc chặt.\n*   **Bước 4: Hoàn thiện nước dùng:**\n    *   Trước khi hoàn thành nước dùng khoảng 2 tiếng, cho túi thảo mộc đã rang và phần hành, gừng, mía nướng vào nồi nước dùng.\n    *   Nêm nếm gia vị: Cho muối hạt, đường phèn và hạt nêm vào điều chỉnh cho vừa vị ngọt thanh.\n*   **Bước 5: Chuẩn bị thịt bò:**\n    *   **Thịt chín (Nạm, gầu):** Luộc chín trong nồi nước dùng (hoặc luộc riêng), vớt ra ngâm ngay vào bát nước đá lạnh để thịt không bị thâm và giữ được độ giòn, sau đó thái lát mỏng.\n    *   **Thịt tái:** Thái thật mỏng, khi ăn thì trần sơ qua nước dùng nóng rồi xếp lên bát.\n\n#### 3. Trình bày bát phở bán khách:\n1.  Trần bánh phở qua nước sôi, xóc ráo nước rồi cho vào bát.\n2.  Xếp thịt bò (chín/tái) lên trên bánh phở.\n3.  Rắc hành lá thái nhỏ, đầu hành chẻ, rau mùi (ngò rí) lên trên.\n4.  Chan nước dùng thật nóng (đang sôi sùng sục trên bếp) ngập bánh phở và thịt.\n5.  Phục vụ kèm chanh, ớt tươi, tương ớt, tương đen và các loại rau thơm (húng quế, ngò gai).",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "timeframe": "year",
+            "topic": "general",
+            "query": "cong thuc lam banh pho tai nha"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "cong thuc lam banh pho tai nha",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "Cách làm bánh phở bằng chảo chống dính sợi dai mềm tại ...",
+                "url": "https://mycook.com.vn/blogs/kinh-nghiem-bep/cach-lam-banh-pho-bang-chao-chong-dinh-soi-dai-mem-tai-nha",
+                "source": "mycook.com.vn",
+                "summary": "Cách làm bánh phở bằng chảo chống dính sợi dai mềm tại nhà · Công thức 1: Dùng 100% bột gạo · Công thức 2: Kết hợp bột gạo và bột năng · Bước 1: Pha và cho bột",
+                "score": 0.65966886
+              },
+              {
+                "title": "Hướng dẫn 2 cách làm bánh phở tươi đơn giản, không bị nát",
+                "url": "https://www.bluestone.com.vn/blogs/vao-bep/cach-lam-banh-pho",
+                "source": "bluestone.com.vn",
+                "summary": "Hướng dẫn 2 cách làm bánh phở tươi đơn giản, không bị nát ; Làm bánh phở từ bột gạo và bột năng. Ngăn mát tủ lạnh (tối đa 2 - 3 ngày). - Rây bột cho mịn. - Hấp",
+                "score": 0.4836734
+              },
+              {
+                "title": "Bỏ túi cách nấu phở bò ngon theo công thức gia truyền",
+                "url": "https://pasgo.vn/blog/bo-tui-cach-nau-pho-bo-ngon-theo-cong-thuc-gia-truyen-3035",
+                "source": "pasgo.vn",
+                "summary": "- Riêng thịt bò Bạn chỉ ninh chín vừa tới rồi vớt ra trước và ngâm vào nước đun sôi để nguội, sau đó thái lát thật mỏng để riêng ra đĩa.\n\n- Nước dùng sau khi ninh xong sẽ có màu vàng nhẹ và trong, sánh mỡ; nước có vị ngọt tự nhiên của mía và dậy mùi thơm của các gia vị.\n\n- Lưu ý, bạn không nên dùng nước mắm, vì nước mắm sẽ làm chua nước phở.\n\nBước 4:\n\n- Chuẩn bị bánh phở và các loại rau ăn kèm theo sở thích\n\nBánh phở - cách nấu phở bò ngon \n\nBánh phở - cách nấu phở bò ngon [...] - Trần bánh phở qua nước đun sôi, sau đó cho bánh phở vào bát, xếp thịt bò đã thái lát lên chốc bánh, rắc hành lá, rau mùi đã thái nhỏ lên trên và chan nước dùng vào. Vắt thêm ít nước chanh và cho thêm vài lát ớt vào và thưởng thức thôi nào!\n\ncách nấu phở bò ngon \n\ncách nấu phở bò ngon [...] - 5 rễ cây mùi\n\n- Thảo quả: 1 quả\n\n- Hoa hồi: 2 hoa\n\n- 1 thanh quế nhỏ\n\n- 2 đốt mía ngắn\n\n- Bánh phở: 800gr\n\n- Gia vị\n\n- Hành lá\n\n- Rau mùi\n\n- Chanh tươi: 3 quả\n\n- Ớt sừng đỏ: 3 quả\n\n## Cách nấu phở bò ngon:\n\nBước 1: Sơ chế thịt bò, sườn bò, đuôi bò\n\n- Sườn bò và đuôi bò chặt thành miếng nhỏ bỏ vào nước muối loãng khoảng 2h để khử sạch mùi hôi.\n\n- Thịt bò rửa sạch để nguyên miếng rồi cũng bỏ vào nước muối loãng khoảng 2h để khử sạch mùi hôi mềm hơn khi nấu.\n\nBước 2: Sơ chế các nguyên liệu khác",
+                "score": 0.4237686
+              },
+              {
+                "title": "Cách Làm BÁNH PHỞ ÁP CHẢO, Phở Xào Chay, Cho Ít Dầu ...",
+                "url": "https://www.youtube.com/watch?v=Mp6uWHv6A28",
+                "source": "youtube.com",
+                "summary": "1 Gói Bánh Phở khô 400gr · 150gr Nấm · 120gr Cà rốt · 80gr Hành tây · 2 cọng Hành Lá · 1 Trái Ớt ngọt hoặc 80gr Ớt Chuông · 20gr Hành tím · 4 Tép Tỏi",
+                "score": 0.37346497
+              },
+              {
+                "title": "Bánh Phở Tươi .Delicious Homemade ...",
+                "url": "https://www.youtube.com/watch?v=Lq2kcbr2MDU",
+                "source": "youtube.com",
+                "summary": "Share your videos with friends, family, and the world.",
+                "score": 0.10963924
+              }
+            ]
+          }
+        },
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "cong thuc nau pho bo kinh doanh",
+            "topic": "general",
+            "timeframe": "year"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "cong thuc nau pho bo kinh doanh",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "Công Thức Nấu Phở Bò Kinh Doanh Thu Hút Khách Hàng",
+                "url": "https://vanbest.vn/bai-viet/cong-thuc-nau-pho-bo-kinh-doanh-thu-hut-khach-hang",
+                "source": "vanbest.vn",
+                "summary": "Apr 13, 2026 — Sơ chế nguyên liệu: Rửa sạch thịt bò, trần sơ qua nước sôi để giữ độ tươi ngon. Xương bò rửa sạch rồi luộc sơ để loại bỏ tạp chất, sau đó cho vào nồi hầm cùng ...Read more",
+                "score": 0.6399392
+              },
+              {
+                "title": "Ngành Phở: Hướng Dẫn Mở Quán Kinh Doanh Thành Công",
+                "url": "https://www.tiktok.com/@dayphoquangbeo/video/7614382319704591636",
+                "source": "tiktok.com",
+                "summary": "Hướng dẫn chi tiết cách nhấc giọt quả khi nấu phở theo công thức Quang Béo. Học ngay bí quyết để phở không bị đen, giữ hương vị tuyệt hảo. Keywords: cách nhấc ...Read more",
+                "score": 0.47928494
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "huong dan toi cach nau pho"
+    },
+    {
+      "role": "assistant",
+      "content": "Nấu phở bò tại nhà không khó nhưng đòi hỏi sự kiên nhẫn để có được nồi nước dùng trong vắt, ngọt thanh và thơm nức mũi. \n\nDưới đây là hướng dẫn chi tiết **cách nấu Phở Bò chuẩn vị Hà Nội** dành cho gia đình (khoảng 4 - 6 người ăn):\n\n---\n\n### I. NGUYÊN LIỆU CHUẨN BỊ\n\n#### 1. Phần xương và thịt:\n*   **Xương ống bò:** 1.5 kg (giúp nước dùng ngọt sâu).\n*   **Thịt bò nạm hoặc gầu:** 500g (phần thịt chín, có chút mỡ nhạc ăn sẽ giòn và thơm).\n*   **Thịt thăn hoặc phi lê bò:** 300g (để làm thịt tái).\n\n#### 2. Gia vị tạo hương (Thảo mộc):\n*   **Hoa hồi (tai vị):** 4 - 5 bông.\n*   **Quế chi:** 1 thanh dài bằng ngón tay.\n*   **Thảo quả:** 1 quả (đập dập).\n*   **Hạt mùi (hạt ngò):** 1 muỗng cà phê.\n*   **Đinh hương:** 3 - 4 nụ (không cho nhiều quá sẽ bị hắc).\n\n#### 3. Rau củ nướng:\n*   **Hành tây:** 1 củ lớn.\n*   **Hành tím:** 4 - 5 củ.\n*   **Gừng tươi:** 1 củ lớn (khoảng 50g).\n*   **Mía:** 1 - 2 khúc nhỏ (khoảng 10cm, giúp nước dùng ngọt thanh tự nhiên).\n\n#### 4. Đồ ăn kèm và gia vị nêm:\n*   **Bánh phở tươi:** 1 kg.\n*   **Rau thơm:** Hành lá, rau mùi (ngò rí), húng quế, ngò gai (mùi tàu).\n*   **Gia vị:** Muối hạt, đường phèn (khoảng 1 cục nhỏ bằng ngón tay cái), hạt nêm, nước mắm ngon.\n*   **Ăn kèm:** Chanh, ớt tươi, tương ớt phở, dấm tỏi.\n\n---\n\n### II. CÁC BƯỚC THỰC HIỆN\n\n#### Bước 1: Sơ chế xương và thịt (Bí quyết nước trong)\n1.  **Ngâm xương:** Xương bò mua về ngâm vào nước muối loãng khoảng 1 tiếng để sạch máu bầm.\n2.  **Chần xương:** Cho xương bò và miếng thịt nạm vào nồi, đổ ngập nước, thêm 1 muỗng canh muối và vài lát gừng đập dập. Đun sôi bùng lên trong 5 - 7 phút để đẩy hết cặn bẩn ra ngoài.\n3.  **Rửa sạch:** Vớt xương và thịt ra, rửa lại thật sạch dưới vòi nước lạnh. Rửa sạch các vụn xương bám xung quanh.\n\n#### Bước 2: Nướng rau củ và rang thảo mộc\n1.  **Nướng:** Đặt hành tây, hành tím, gừng (để nguyên vỏ) và mía lên bếp ga hoặc lò nướng nướng cho đến khi cháy xém và dậy mùi thơm. Sau đó, cạo sạch lớp vỏ cháy, rửa sạch. Gừng đem đập dập, hành tây cắt đôi.\n2.  **Rang thảo mộc:** Cho hoa hồi, quế, thảo quả, hạt mùi, đinh hương vào chảo rang ở lửa nhỏ đến khi ngửi thấy mùi thơm ngào ngạt. Cho tất cả vào một túi vải lọc nhỏ buộc chặt lại.\n\n#### Bước 3: Ninh nước dùng\n1.  Cho xương bò đã rửa sạch vào nồi cùng với khoảng **4 - 5 lít nước lạnh**.\n2.  Bật lửa lớn đun sôi. Khi nước sôi, **hạ lửa nhỏ liu riu** và bắt đầu hớt bọt liên tục. *Lưu ý: Không đậy nắp vung để nước dùng không bị đục.*\n3.  Cho miếng thịt nạm vào luộc chung trong nồi nước dùng. Sau khoảng 45 - 60 phút, khi thịt nạm chín mềm vừa tới, vớt ra ngâm vào bát nước đá lạnh (để thịt không bị đen và giữ độ giòn), sau đó thái lát mỏng.\n4.  Tiếp tục ninh xương. Sau khi ninh được khoảng 2 tiếng, cho túi thảo mộc, hành tây, hành tím, gừng và mía nướng vào nồi.\n5.  Ninh thêm 1.5 - 2 tiếng nữa (tổng thời gian ninh khoảng 3.5 - 4 tiếng là đủ cho gia đình).\n\n#### Bước 4: Nêm nếm nước dùng\n*   Vớt túi thảo mộc và hành gừng ra ngoài (để lâu nước dùng sẽ bị nồng và tối màu).\n*   Nêm vào nồi: 1 muỗng canh muối hạt, 1 cục đường phèn nhỏ, 1 muỗng canh hạt nêm. \n*   Nếm thử và điều chỉnh cho vừa khẩu vị gia đình. Trước khi tắt bếp, nêm thêm 1 - 2 muỗng canh nước mắm ngon để nước dùng dậy mùi thơm (không nêm nước mắm quá sớm vì sẽ làm nước dùng bị chua).\n\n#### Bước 5: Chuẩn bị các nguyên liệu khác\n*   **Thịt tái:** Thịt thăn bò thái thật mỏng. Trước khi ăn, bạn có thể dùng dao chần nhẹ (dần nhẹ) cho thịt mềm.\n*   **Rau thơm:** Hành lá, rau mùi rửa sạch, thái nhỏ. Phần đầu hành trắng cắt khúc chẻ nhỏ.\n*   **Bánh phở:** Chần qua nước sôi rồi xóc thật ráo nước.\n\n---\n\n### III. TRÌNH BÀY VÀ THƯỞNG THỨC\n\n1.  Cho một lượng bánh phở vừa đủ vào bát tô.\n2.  Xếp các lát thịt nạm chín lên trên.\n3.  Xếp thịt bò tái lên (nếu thích ăn tái lăn, bạn có thể xào sơ thịt bò với tỏi trước; nếu thích tái trần, hãy múc nước dùng đang sôi dội trực tiếp lên thịt bò trong bát).\n4.  Rắc hành lá, rau mùi thái nhỏ và đầu hành chẻ lên trên.\n5.  **Chan nước dùng:** Nước dùng phải thật sôi (đang sùng sục trên bếp), chan đều lên bát phở cho ngập bánh và làm tái thịt bò.\n6.  Thưởng thức nóng kèm với húng quế, ngò gai, vắt thêm chút chanh, vài lát ớt tươi hoặc tương ớt.\n\n**Chúc bạn thực hiện thành công bát phở bò thơm ngon, chuẩn vị để chiêu đãi cả nhà!**",
+      "tool_events": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": "Nấu phở bò tại nhà không khó nhưng đòi hỏi sự kiên nhẫn để có được nồi nước dùng trong vắt, ngọt thanh và thơm nức mũi. \n\nDưới đây là hướng dẫn chi tiết **cách nấu Phở Bò chuẩn vị Hà Nội** dành cho gia đình (khoảng 4 - 6 người ăn):\n\n---\n\n### I. NGUYÊN LIỆU CHUẨN BỊ\n\n#### 1. Phần xương và thịt:\n*   **Xương ống bò:** 1.5 kg (giúp nước dùng ngọt sâu).\n*   **Thịt bò nạm hoặc gầu:** 500g (phần thịt chín, có chút mỡ nhạc ăn sẽ giòn và thơm).\n*   **Thịt thăn hoặc phi lê bò:** 300g (để làm thịt tái).\n\n#### 2. Gia vị tạo hương (Thảo mộc):\n*   **Hoa hồi (tai vị):** 4 - 5 bông.\n*   **Quế chi:** 1 thanh dài bằng ngón tay.\n*   **Thảo quả:** 1 quả (đập dập).\n*   **Hạt mùi (hạt ngò):** 1 muỗng cà phê.\n*   **Đinh hương:** 3 - 4 nụ (không cho nhiều quá sẽ bị hắc).\n\n#### 3. Rau củ nướng:\n*   **Hành tây:** 1 củ lớn.\n*   **Hành tím:** 4 - 5 củ.\n*   **Gừng tươi:** 1 củ lớn (khoảng 50g).\n*   **Mía:** 1 - 2 khúc nhỏ (khoảng 10cm, giúp nước dùng ngọt thanh tự nhiên).\n\n#### 4. Đồ ăn kèm và gia vị nêm:\n*   **Bánh phở tươi:** 1 kg.\n*   **Rau thơm:** Hành lá, rau mùi (ngò rí), húng quế, ngò gai (mùi tàu).\n*   **Gia vị:** Muối hạt, đường phèn (khoảng 1 cục nhỏ bằng ngón tay cái), hạt nêm, nước mắm ngon.\n*   **Ăn kèm:** Chanh, ớt tươi, tương ớt phở, dấm tỏi.\n\n---\n\n### II. CÁC BƯỚC THỰC HIỆN\n\n#### Bước 1: Sơ chế xương và thịt (Bí quyết nước trong)\n1.  **Ngâm xương:** Xương bò mua về ngâm vào nước muối loãng khoảng 1 tiếng để sạch máu bầm.\n2.  **Chần xương:** Cho xương bò và miếng thịt nạm vào nồi, đổ ngập nước, thêm 1 muỗng canh muối và vài lát gừng đập dập. Đun sôi bùng lên trong 5 - 7 phút để đẩy hết cặn bẩn ra ngoài.\n3.  **Rửa sạch:** Vớt xương và thịt ra, rửa lại thật sạch dưới vòi nước lạnh. Rửa sạch các vụn xương bám xung quanh.\n\n#### Bước 2: Nướng rau củ và rang thảo mộc\n1.  **Nướng:** Đặt hành tây, hành tím, gừng (để nguyên vỏ) và mía lên bếp ga hoặc lò nướng nướng cho đến khi cháy xém và dậy mùi thơm. Sau đó, cạo sạch lớp vỏ cháy, rửa sạch. Gừng đem đập dập, hành tây cắt đôi.\n2.  **Rang thảo mộc:** Cho hoa hồi, quế, thảo quả, hạt mùi, đinh hương vào chảo rang ở lửa nhỏ đến khi ngửi thấy mùi thơm ngào ngạt. Cho tất cả vào một túi vải lọc nhỏ buộc chặt lại.\n\n#### Bước 3: Ninh nước dùng\n1.  Cho xương bò đã rửa sạch vào nồi cùng với khoảng **4 - 5 lít nước lạnh**.\n2.  Bật lửa lớn đun sôi. Khi nước sôi, **hạ lửa nhỏ liu riu** và bắt đầu hớt bọt liên tục. *Lưu ý: Không đậy nắp vung để nước dùng không bị đục.*\n3.  Cho miếng thịt nạm vào luộc chung trong nồi nước dùng. Sau khoảng 45 - 60 phút, khi thịt nạm chín mềm vừa tới, vớt ra ngâm vào bát nước đá lạnh (để thịt không bị đen và giữ độ giòn), sau đó thái lát mỏng.\n4.  Tiếp tục ninh xương. Sau khi ninh được khoảng 2 tiếng, cho túi thảo mộc, hành tây, hành tím, gừng và mía nướng vào nồi.\n5.  Ninh thêm 1.5 - 2 tiếng nữa (tổng thời gian ninh khoảng 3.5 - 4 tiếng là đủ cho gia đình).\n\n#### Bước 4: Nêm nếm nước dùng\n*   Vớt túi thảo mộc và hành gừng ra ngoài (để lâu nước dùng sẽ bị nồng và tối màu).\n*   Nêm vào nồi: 1 muỗng canh muối hạt, 1 cục đường phèn nhỏ, 1 muỗng canh hạt nêm. \n*   Nếm thử và điều chỉnh cho vừa khẩu vị gia đình. Trước khi tắt bếp, nêm thêm 1 - 2 muỗng canh nước mắm ngon để nước dùng dậy mùi thơm (không nêm nước mắm quá sớm vì sẽ làm nước dùng bị chua).\n\n#### Bước 5: Chuẩn bị các nguyên liệu khác\n*   **Thịt tái:** Thịt thăn bò thái thật mỏng. Trước khi ăn, bạn có thể dùng dao chần nhẹ (dần nhẹ) cho thịt mềm.\n*   **Rau thơm:** Hành lá, rau mùi rửa sạch, thái nhỏ. Phần đầu hành trắng cắt khúc chẻ nhỏ.\n*   **Bánh phở:** Chần qua nước sôi rồi xóc thật ráo nước.\n\n---\n\n### III. TRÌNH BÀY VÀ THƯỞNG THỨC\n\n1.  Cho một lượng bánh phở vừa đủ vào bát tô.\n2.  Xếp các lát thịt nạm chín lên trên.\n3.  Xếp thịt bò tái lên (nếu thích ăn tái lăn, bạn có thể xào sơ thịt bò với tỏi trước; nếu thích tái trần, hãy múc nước dùng đang sôi dội trực tiếp lên thịt bò trong bát).\n4.  Rắc hành lá, rau mùi thái nhỏ và đầu hành chẻ lên trên.\n5.  **Chan nước dùng:** Nước dùng phải thật sôi (đang sùng sục trên bếp), chan đều lên bát phở cho ngập bánh và làm tái thịt bò.\n6.  Thưởng thức nóng kèm với húng quế, ngò gai, vắt thêm chút chanh, vài lát ớt tươi hoặc tương ớt.\n\n**Chúc bạn thực hiện thành công bát phở bò thơm ngon, chuẩn vị để chiêu đãi cả nhà!**",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T17:07:06",
+  "updated_at": "2026-07-29T17:07:06"
+}

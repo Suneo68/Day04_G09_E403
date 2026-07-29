@@ -1,0 +1,281 @@
+{
+  "transcript_id": "ui_38936722",
+  "version": "v0",
+  "artifact_version": "v0+p1504151362a6+t812ba948323d",
+  "prompt_hash": "1504151362a697843d07267b3451f1f63fe2945b5df85d983baf3b4256eb4a66",
+  "tools_hash": "812ba948323d1b21738fb2c0a70ef1cfd4bd95bb265597a69e0cc7f602d025e8",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "cho toi thong tin ve HUST"
+    },
+    {
+      "role": "assistant",
+      "content": "Dưới đây là thông tin tổng quan và mới nhất về **Đại học Bách khoa Hà Nội (HUST)**:\n\n### 1. Tổng quan & Lịch sử\n* **Lịch sử thành lập:** Đại học Bách khoa Hà Nội được thành lập vào ngày **15 tháng 10 năm 1956**. Đây là trường đại học kỹ thuật đa ngành công lập đầu tiên và hàng đầu của Việt Nam [[career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)].\n* **Địa chỉ:** Số 1 Đại Cồ Việt, quận Hai Bà Trưng, Hà Nội [[career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)].\n* **Quy mô đào tạo:** Trường hiện có quy mô đào tạo rất lớn với hơn 30.000 sinh viên, cung cấp 75 chuyên ngành cử nhân/kỹ sư, 33 mã ngành thạc sĩ và 39 chuyên ngành tiến sĩ [[career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)].\n\n### 2. Phương thức tuyển sinh & Điểm chuẩn (Cập nhật năm 2025)\n* **Phương thức tuyển sinh:** HUST áp dụng nhiều phương thức xét tuyển đa dạng bao gồm:\n  * Xét tuyển tài năng (xét tuyển thẳng, chứng chỉ quốc tế, hồ sơ năng lực).\n  * Xét tuyển dựa trên kết quả Kỳ thi Đánh giá tư duy (TSA) do trường tổ chức.\n  * Xét tuyển dựa trên điểm thi tốt nghiệp THPT.\n  * Diện cử tuyển và lưu học sinh nước ngoài [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n* **Điểm chuẩn:** Điểm chuẩn của HUST luôn thuộc nhóm cao nhất cả nước. Trong kỳ tuyển sinh năm 2025, điểm chuẩn dao động từ **19 đến 29,39 điểm** (thang điểm 30). Trong đó, chương trình tiên tiến *Khoa học dữ liệu và Trí tuệ nhân tạo (AI)* tiếp tục là ngành lấy điểm chuẩn cao nhất [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n\n### 3. Học phí (Năm học 2025 - 2026)\nMức học phí của trường được điều chỉnh theo từng khóa và chương trình đào tạo cụ thể:\n* **Chương trình chuẩn:** Dao động từ **28 - 35 triệu đồng/năm học** [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n* **Chương trình quốc tế và liên kết đào tạo:** Học phí trung bình khoảng **25 - 30 triệu đồng/học kỳ**. Riêng các chương trình hợp tác với Đại học Troy (Mỹ) như Quản trị Kinh doanh (TROY-BA) và Khoa học Máy tính (TROY-IT) có mức học phí khoảng **78 - 90 triệu đồng/năm** (một năm học gồm 3 học kỳ) [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n* *Lưu ý:* Mức tăng học phí cho các năm học tiếp theo được nhà trường cam kết không quá 10% mỗi năm [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n\n### 4. Hoạt động ngoại khóa & Câu lạc bộ (CLB)\nHUST sở hữu một môi trường học tập cực kỳ năng động với hệ thống câu lạc bộ phong phú giúp sinh viên phát triển toàn diện cả về chuyên môn lẫn kỹ năng mềm [[onthisinhvien.com](https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-)]:\n* **CLB Học thuật & Nghiên cứu:** CLB Robot thông minh và Nhà máy số (ADC), CLB An toàn thông tin, CLB Sáng tạo và Khởi nghiệp (HIEC), CLB Google Developer Student Club...\n* **CLB Nghệ thuật & Sở thích:** CLB Guitar Bách Khoa (GVC), CLB Kịch D.A.S, CLB Nhảy (Bách Khoa Dance Club), CLB Dẫn chương trình (EMCEE)...\n* **CLB Thể thao & Kỹ năng:** CLB Karate-do, CLB Taekwondo, CLB Hỗ trợ học tập (Academic Support Club)...",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "Đại học Bách khoa Hà Nội HUST",
+            "timeframe": "year",
+            "topic": "general"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "Đại học Bách khoa Hà Nội HUST",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "ĐẠI HỌC BÁCH KHOA HÀ NỘI - HUST",
+                "url": "https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html",
+                "source": "career.gpo.vn",
+                "summary": "A. THÔNG TIN CHUNG\n\nTrường Đại học Bách khoa Hà Nội là trường đại học đa ngành về kỹ thuật được thành lập ngày 15 tháng 10 năm 1956. Trường luôn là một trong những trường đại học kỹ thuật hàng đầu của nền giáo dục Việt Nam. Với nhiều đóng góp cho công cuộc xây dựng và bảo vệ Tổ quốc, Trường đã được Đảng và Nhà nước tặng nhiều danh hiệu và phần thưởng quý giá cho các cá nhân và tập thể Trường. [...] Hệ đào tạo: Đại học - Sau đại học - Văn bằng 2 - Tại chức - Liên kết nước ngoài  \nĐịa chỉ: Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội\n\nB. THÔNG TIN TUYỂN SINH\n\n1. Thời gian tuyển sinh\n\n2. Đối tượng tuyển sinh\n\n3. Phương thức xét tuyển\n\nThông tin tuyển sinh: TẠI ĐÂY\n\nC. HỌC PHÍ\n\nD. THÔNG TIN NGÀNH HỌC/CHƯƠNG TRÌNH TUYỂN SINH [...] | (do ĐHBK Hà Nội và ĐH Plymouth Marjon - Vương quốc Anh cấp bằng) |",
+                "score": 0.9037116
+              },
+              {
+                "title": "Học phí Đại học Bách khoa Hà Nội (HUST) 2024 mới nhất",
+                "url": "https://onthisinhvien.com/hoc-phi-dai-hoc-bach-khoa-ha-noi-hust-2024-moi-nhat",
+                "source": "onthisinhvien.com",
+                "summary": "Đại học Bách khoa Hà Nội (HUST), thành lập năm 1956, là trường đại học kỹ thuật công lập hàng đầu Việt Nam. Mang sứ mệnh đào tạo nguồn nhn lực chất lượng cao, HUST sở hữu hơn 30.000 sinh viên, đào tạo 75 chuyên ngành cử nhn kỹ sư, 33 mã ngành thạc sĩ và 39 chuyên ngành tiến sĩ. Nhà trường tự hào với thành tích xuất sắc: dẫn đầu bảng xếp hạng đại học Việt Nam về đào tạo, nghiên cứu và quốc tế hóa; sở hữu đội ngũ giảng viên uy tín, nhiều sinh viên đạt giải cao và có nhiều công trình nghiên cứu [...] ## 2. Học phí Đại học Bách khoa Hà Nội (HUST) 2024\n\nMức học phí đối với sinh viên đại học chính quy của ĐHBK Hà Nội được xác định theo từng khóa, ngành/chương trình đào tạo căn cứ chi phí đào tạo, tun thủ quy định của Nhà nước. Đối với khóa nhập học năm 2024 (K69), học phí của năm học 2024-2025 như sau:\n\n### 2.1. Các chương trình chuẩn\n\nMức học phí các chương trình chuẩn dao động 24 đến 30 triệu đồng/năm học (tùy theo từng ngành);\n\nĐơn vị: triệu đồng/năm học [...] trình nghiên cứu ứng dụng thực tiễn. HUST còn tạo môi trường học tập năng động, sáng tạo với các hoạt động sinh viên đa dạng, hỗ trợ sinh viên phát triển toàn diện. HUST là điểm đến lý tưởng cho học sinh giỏi, là niềm tự hào của giáo dục Việt Nam, góp phần đào tạo kỹ sư tài năng cho sự phát triển kinh tế - xã hội đất nước.",
+                "score": 0.8810534
+              },
+              {
+                "title": "Logo HUST - Đại học Bách khoa Hà Nội file vector AI, CDR, PDF, PNG",
+                "url": "https://thuvienvector.vn/logo-hust-dai-hoc-bach-khoa-ha-noi",
+                "source": "thuvienvector.vn",
+                "summary": "Logo của Trường Đại học Bách khoa Hà Nội (HUST) là công cụ nhận diện thương hiệu thiết yếu, được ứng dụng rộng rãi trong nhiều lĩnh vực thiết kế để khẳng định vị thế và tinh thần của nhà trường.\n\nMột số ứng dụng phổ biến dùng để: [...] Download logo Hust ✓ Logo Hust vector, PNG ✓ Logo Đại học Bách khoa Hà Nội ✓ Hust logo ✓ Logo ĐHBK Hà Nội ✓ Ý nghĩa, biểu tượng logo đại học bách khoa Hà Nội ✓ Tải miễn phí logo ĐH Bách khoa Hà Nội – Hust file vector AI, EPS, JPEG, SVG, PDF, PNG tách nền.\n\nMục lục\n\nToggle\n\n## Ý nghĩa logo Đại học Bách khoa Hà Nội (HUST)\n\nLogo HUST – Đại học Bách khoa Hà Nội là sự kết hợp hài hòa giữa tri thức – công nghệ – sáng tạo, thể hiện khát vọng vươn tới đỉnh cao khoa học và cống hiến cho đất nước. [...] Nhấn nút download bên dưới để tải logo HUST vector đã được thiết kế sẵn với nhiều mẫu mã đẹp, chất lượng và rõ nét. Mẫu thiết kế logo đại học bách khoa Hà Nội – HUST với nhiều định dạng file AI, CDR, JPG, PDF, PNG tách nền. Tải miễn phí trên Google Drive.\n\nThông tin file logo HUST (Đại học Bách khoa Hà Nội):\n\n Dung lượng: 4.63 MB (.Rar)\n Định dạng tệp: AI, EPS, SVG, PNG, PDF, JPG/JPEG\n Loại file chỉnh: Vector & Image\n Ứng dụng trong thiết kế, in ấn logo, trang trí, biểu tượng…",
+                "score": 0.85825616
+              },
+              {
+                "title": "Điểm chuẩn Đại học Bách khoa Hà Nội (HUST) 2025 chính xác nhất",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "source": "vnexpress.net",
+                "summary": "Năm nay, trường tuyển 9.680 sinh viên. Các phương thức tuyển sinh gồm: xét tuyển tài năng, đánh giá tư duy, dựa vào điểm thi tốt nghiệp THPT và diện cử tuyển, lưu học sinh.\n\nHọc phí Đại học Bách khoa Hà Nội năm 2025-2026 là khoảng 28-90 triệu đồng, tăng 3-5 triệu đồng so với hiện nay. Trong đó, chương trình chuẩn thu mức 28-35 triệu đồng một năm.\n\nChi tiết học phí Đại học Bách khoa Hà Nội năm 2025 [...] VnExpress - Bao tieng Viet nhieu nguoi xem nhat    Thứ tư, 22/7/2026  \n\nMới nhất \n\nTin theo khu vực \n\n Hà Nội\n TP HCM\n\nInternational\n \n\n Trở lại Giáo dục\n\n Giáo dục\n Tuyển sinh\n Đại học\n\nThứ sáu, 22/8/2025, 16:14 (GMT+7)\n\n## Điểm chuẩn Đại học Bách khoa Hà Nội cao nhất 29,39\n\n# Điểm chuẩn Đại học Bách khoa Hà Nội cao nhất 29,39\n\nĐiểm chuẩn Đại học Bách khoa Hà Nội (HUST) năm 2025 từ 19 đến 29,39, chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhn tạo cao nhất. [...] Với các chương trình quốc tế và liên kết đào tạo, Đại học Bách khoa Hà Nội thu học phí trung bình 25-30 triệu đồng một học kỳ. Riêng chương trình Quản trị Kinh doanh (TROY-BA) và Khoa học Máy tính (TROY-IT) hợp tác với Đại học Troy của Mỹ, học phí mỗi năm khoảng 78-90 triệu đồng, một năm có ba học kỳ.\n\nĐại học Bách khoa Hà Nội cho biết học phí các năm sau có thể tăng, nhưng không quá 10%.",
+                "score": 0.7959917
+              },
+              {
+                "title": "Tổng hợp các Câu lạc bộ Đại học Bách Khoa Hà Nội (HUST)",
+                "url": "https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-",
+                "source": "onthisinhvien.com",
+                "summary": "CLB Robot thông minh và Nhà máy số: ADC - AI Robot and Digital factory HUST\n CLB Sáng tạo sinh viên Sinno -SOICT Innovation CLUB (Trường CNTT&TT)\n CLB SÁNG TẠO VÀ KHỞI NGHIỆP HUST - HIEC\n CLB Sinh học - Thực phẩm FOBIC (Trường Hoá và KHSS)\n CLB sinh viên NCKH TRƯỜNG ĐIỆN - ĐIỆN TỬ\n CLB Tài chính và Công nghệ Đại học Bách Khoa Hà Nội - BK Fintech Club\n CLB Tiếng Anh Cơ Khí MEC (MEC) [...] Có thể là hình ảnh về 7 người, tóc mái và văn bản  \n   EMCEE - CLB Dẫn chương trình Đoàn Đại học Bách khoa Hà Nội\n CLB cờ tướng Bách Khoa - Hà Nội\n CLB DẪN CHƯƠNG TRÌNH: BÁCH KHOA, EMCEE\n CLB Guitar Bách Khoa - GVC\n CLB Karate-do Bách Khoa\n CLB KỊCH D.A.S\n CLB MÚA BÁCH KHOA, BEU\n CLB NHẢY: BÁCH KHOA DANCE CLUB, D.O.P\n CLB NHẢY CỔ ĐỘNG S8PM- HUST CHEERLEADING TEAM\n CLB Taekwondo Bách Khoa\n CLB TỔ CHỨC CHƯƠNG TRÌNH & SỰ KIỆN BÁCH KHOA, RPCC\n CLB Thủ lĩnh SLC - Student Leadership Club - SOFL [...] CLB - LAB NGHIÊN CỨU & SÁNG TẠO\n CLB An Toàn Thông Tin - BKHN\n CLB BK Auto (Trường Cơ khí)\n CLB Chiến binh xanh\n CLB Chuyển đổi số trong Giáo dục SoDiTEC\n CLB EdTech Bách Khoa (Viện Sư phạm Kỹ thuật)\n CLB GOOGLE DEVELOPER STUDENT CLUB\n CLB Hedspi Nichibu (trường CNTT&TT)\n CLB HỖ TRỢ HỌC TẬP, ACADEMIC SUPPORT CLUB\n CLB Hỗ trợ học tập tiếng Nhật- NJC Nagaoka Japan Club (trường Cơ khí)\n CLB Kế toán Tài chính - SAFC (Viện KT&QL)",
+                "score": 0.73207545
+              }
+            ]
+          }
+        },
+        {
+          "tool": "format",
+          "args": {
+            "items": [
+              {
+                "url": "https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html",
+                "source": "career.gpo.vn, onthisinhvien.com",
+                "summary": "Đại học Bách khoa Hà Nội (HUST) được thành lập ngày 15 tháng 10 năm 1956, là trường đại học đa ngành về kỹ thuật công lập hàng đầu và là một trong những trụ cột của nền giáo dục Việt Nam. Trường có địa chỉ tại Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội. Hiện nay, HUST sở hữu quy mô đào tạo lớn với hơn 30.000 sinh viên, cung cấp 75 chuyên ngành cử nhân/kỹ sư, 33 mã ngành thạc sĩ và 39 chuyên ngành tiến sĩ.",
+                "title": "Giới thiệu chung về HUST",
+                "section": "Tổng quan & Lịch sử"
+              },
+              {
+                "source": "vnexpress.net",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "summary": "HUST áp dụng nhiều phương thức tuyển sinh đa dạng bao gồm: xét tuyển tài năng, kỳ thi đánh giá tư duy (TSA), dựa vào điểm thi tốt nghiệp THPT, diện cử tuyển và lưu học sinh. Điểm chuẩn của trường luôn nằm trong nhóm cao nhất cả nước; cụ thể năm 2025, điểm chuẩn dao động từ 19 đến 29,39 điểm, trong đó chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo (AI) đạt mức điểm chuẩn cao nhất.",
+                "section": "Tuyển sinh & Điểm chuẩn",
+                "title": "Phương thức tuyển sinh và Điểm chuẩn năm 2025"
+              },
+              {
+                "title": "Thông tin học phí mới nhất",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "summary": "Học phí của HUST được điều chỉnh theo từng khóa và chương trình đào tạo. Đối với năm học 2025-2026, mức học phí dao động khoảng 28-90 triệu đồng/năm (tăng nhẹ 3-5 triệu đồng so với các năm trước). Trong đó, các chương trình chuẩn có mức thu từ 28-35 triệu đồng/năm. Các chương trình quốc tế và liên kết đào tạo (như chương trình hợp tác với Đại học Troy của Mỹ) có mức học phí cao hơn, khoảng 78-90 triệu đồng/năm. Mức tăng học phí các năm tiếp theo được cam kết không quá 10% mỗi năm.",
+                "section": "Học phí",
+                "source": "vnexpress.net, onthisinhvien.com"
+              },
+              {
+                "url": "https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-",
+                "source": "onthisinhvien.com",
+                "section": "Hoạt động Ngoại khóa & Câu lạc bộ",
+                "summary": "HUST sở hữu môi trường học tập cực kỳ năng động với hệ thống câu lạc bộ (CLB) phong phú, chia làm nhiều nhóm như: CLB học thuật & nghiên cứu (CLB Robot thông minh và Nhà máy số, CLB An toàn thông tin, CLB Sáng tạo và Khởi nghiệp HIEC...), CLB sở thích & nghệ thuật (CLB Guitar GVC, CLB Kịch D.A.S, CLB Nhảy...), và các CLB thể thao, kỹ năng mềm khác giúp sinh viên phát triển toàn diện.",
+                "title": "Hệ thống Câu lạc bộ sinh viên phong phú"
+              }
+            ],
+            "headline": "Thông tin tổng quan về Đại học Bách khoa Hà Nội (HUST)",
+            "template": "sections"
+          },
+          "result": {
+            "tool": "render_digest",
+            "template": "sections",
+            "markdown": "# Thông tin tổng quan về Đại học Bách khoa Hà Nội (HUST)\n\n## Tổng quan & Lịch sử\n- Đại học Bách khoa Hà Nội (HUST) được thành lập ngày 15 tháng 10 năm 1956, là trường đại học đa ngành về kỹ thuật công lập hàng đầu và là một trong những trụ cột của nền giáo dục Việt Nam. Trường có địa chỉ tại Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội. Hiện nay, HUST sở hữu quy m... - [career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)\n\n## Tuyển sinh & Điểm chuẩn\n- HUST áp dụng nhiều phương thức tuyển sinh đa dạng bao gồm: xét tuyển tài năng, kỳ thi đánh giá tư duy (TSA), dựa vào điểm thi tốt nghiệp THPT, diện cử tuyển và lưu học sinh. Điểm chuẩn của trường luôn nằm trong nhóm cao nhất cả nước; cụ thể năm 2025, điểm chuẩn dao động từ 19 ... - [vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)\n\n## Học phí\n- Học phí của HUST được điều chỉnh theo từng khóa và chương trình đào tạo. Đối với năm học 2025-2026, mức học phí dao động khoảng 28-90 triệu đồng/năm (tăng nhẹ 3-5 triệu đồng so với các năm trước). Trong đó, các chương trình chuẩn có mức thu từ 28-35 triệu đồng/năm. Các chương ... - [vnexpress.net, onthisinhvien.com](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)\n\n## Hoạt động Ngoại khóa & Câu lạc bộ\n- HUST sở hữu môi trường học tập cực kỳ năng động với hệ thống câu lạc bộ (CLB) phong phú, chia làm nhiều nhóm như: CLB học thuật & nghiên cứu (CLB Robot thông minh và Nhà máy số, CLB An toàn thông tin, CLB Sáng tạo và Khởi nghiệp HIEC...), CLB sở thích & nghệ thuật (CLB Guitar ... - [onthisinhvien.com](https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-)\n",
+            "item_count": 4
+          }
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "lookup",
+          "args": {
+            "query": "Đại học Bách khoa Hà Nội HUST",
+            "timeframe": "year",
+            "topic": "general"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "Đại học Bách khoa Hà Nội HUST",
+            "timeframe": "year",
+            "topic": "general"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "Đại học Bách khoa Hà Nội HUST",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "ĐẠI HỌC BÁCH KHOA HÀ NỘI - HUST",
+                "url": "https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html",
+                "source": "career.gpo.vn",
+                "summary": "A. THÔNG TIN CHUNG\n\nTrường Đại học Bách khoa Hà Nội là trường đại học đa ngành về kỹ thuật được thành lập ngày 15 tháng 10 năm 1956. Trường luôn là một trong những trường đại học kỹ thuật hàng đầu của nền giáo dục Việt Nam. Với nhiều đóng góp cho công cuộc xây dựng và bảo vệ Tổ quốc, Trường đã được Đảng và Nhà nước tặng nhiều danh hiệu và phần thưởng quý giá cho các cá nhân và tập thể Trường. [...] Hệ đào tạo: Đại học - Sau đại học - Văn bằng 2 - Tại chức - Liên kết nước ngoài  \nĐịa chỉ: Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội\n\nB. THÔNG TIN TUYỂN SINH\n\n1. Thời gian tuyển sinh\n\n2. Đối tượng tuyển sinh\n\n3. Phương thức xét tuyển\n\nThông tin tuyển sinh: TẠI ĐÂY\n\nC. HỌC PHÍ\n\nD. THÔNG TIN NGÀNH HỌC/CHƯƠNG TRÌNH TUYỂN SINH [...] | (do ĐHBK Hà Nội và ĐH Plymouth Marjon - Vương quốc Anh cấp bằng) |",
+                "score": 0.9037116
+              },
+              {
+                "title": "Học phí Đại học Bách khoa Hà Nội (HUST) 2024 mới nhất",
+                "url": "https://onthisinhvien.com/hoc-phi-dai-hoc-bach-khoa-ha-noi-hust-2024-moi-nhat",
+                "source": "onthisinhvien.com",
+                "summary": "Đại học Bách khoa Hà Nội (HUST), thành lập năm 1956, là trường đại học kỹ thuật công lập hàng đầu Việt Nam. Mang sứ mệnh đào tạo nguồn nhn lực chất lượng cao, HUST sở hữu hơn 30.000 sinh viên, đào tạo 75 chuyên ngành cử nhn kỹ sư, 33 mã ngành thạc sĩ và 39 chuyên ngành tiến sĩ. Nhà trường tự hào với thành tích xuất sắc: dẫn đầu bảng xếp hạng đại học Việt Nam về đào tạo, nghiên cứu và quốc tế hóa; sở hữu đội ngũ giảng viên uy tín, nhiều sinh viên đạt giải cao và có nhiều công trình nghiên cứu [...] ## 2. Học phí Đại học Bách khoa Hà Nội (HUST) 2024\n\nMức học phí đối với sinh viên đại học chính quy của ĐHBK Hà Nội được xác định theo từng khóa, ngành/chương trình đào tạo căn cứ chi phí đào tạo, tun thủ quy định của Nhà nước. Đối với khóa nhập học năm 2024 (K69), học phí của năm học 2024-2025 như sau:\n\n### 2.1. Các chương trình chuẩn\n\nMức học phí các chương trình chuẩn dao động 24 đến 30 triệu đồng/năm học (tùy theo từng ngành);\n\nĐơn vị: triệu đồng/năm học [...] trình nghiên cứu ứng dụng thực tiễn. HUST còn tạo môi trường học tập năng động, sáng tạo với các hoạt động sinh viên đa dạng, hỗ trợ sinh viên phát triển toàn diện. HUST là điểm đến lý tưởng cho học sinh giỏi, là niềm tự hào của giáo dục Việt Nam, góp phần đào tạo kỹ sư tài năng cho sự phát triển kinh tế - xã hội đất nước.",
+                "score": 0.8810534
+              },
+              {
+                "title": "Logo HUST - Đại học Bách khoa Hà Nội file vector AI, CDR, PDF, PNG",
+                "url": "https://thuvienvector.vn/logo-hust-dai-hoc-bach-khoa-ha-noi",
+                "source": "thuvienvector.vn",
+                "summary": "Logo của Trường Đại học Bách khoa Hà Nội (HUST) là công cụ nhận diện thương hiệu thiết yếu, được ứng dụng rộng rãi trong nhiều lĩnh vực thiết kế để khẳng định vị thế và tinh thần của nhà trường.\n\nMột số ứng dụng phổ biến dùng để: [...] Download logo Hust ✓ Logo Hust vector, PNG ✓ Logo Đại học Bách khoa Hà Nội ✓ Hust logo ✓ Logo ĐHBK Hà Nội ✓ Ý nghĩa, biểu tượng logo đại học bách khoa Hà Nội ✓ Tải miễn phí logo ĐH Bách khoa Hà Nội – Hust file vector AI, EPS, JPEG, SVG, PDF, PNG tách nền.\n\nMục lục\n\nToggle\n\n## Ý nghĩa logo Đại học Bách khoa Hà Nội (HUST)\n\nLogo HUST – Đại học Bách khoa Hà Nội là sự kết hợp hài hòa giữa tri thức – công nghệ – sáng tạo, thể hiện khát vọng vươn tới đỉnh cao khoa học và cống hiến cho đất nước. [...] Nhấn nút download bên dưới để tải logo HUST vector đã được thiết kế sẵn với nhiều mẫu mã đẹp, chất lượng và rõ nét. Mẫu thiết kế logo đại học bách khoa Hà Nội – HUST với nhiều định dạng file AI, CDR, JPG, PDF, PNG tách nền. Tải miễn phí trên Google Drive.\n\nThông tin file logo HUST (Đại học Bách khoa Hà Nội):\n\n Dung lượng: 4.63 MB (.Rar)\n Định dạng tệp: AI, EPS, SVG, PNG, PDF, JPG/JPEG\n Loại file chỉnh: Vector & Image\n Ứng dụng trong thiết kế, in ấn logo, trang trí, biểu tượng…",
+                "score": 0.85825616
+              },
+              {
+                "title": "Điểm chuẩn Đại học Bách khoa Hà Nội (HUST) 2025 chính xác nhất",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "source": "vnexpress.net",
+                "summary": "Năm nay, trường tuyển 9.680 sinh viên. Các phương thức tuyển sinh gồm: xét tuyển tài năng, đánh giá tư duy, dựa vào điểm thi tốt nghiệp THPT và diện cử tuyển, lưu học sinh.\n\nHọc phí Đại học Bách khoa Hà Nội năm 2025-2026 là khoảng 28-90 triệu đồng, tăng 3-5 triệu đồng so với hiện nay. Trong đó, chương trình chuẩn thu mức 28-35 triệu đồng một năm.\n\nChi tiết học phí Đại học Bách khoa Hà Nội năm 2025 [...] VnExpress - Bao tieng Viet nhieu nguoi xem nhat    Thứ tư, 22/7/2026  \n\nMới nhất \n\nTin theo khu vực \n\n Hà Nội\n TP HCM\n\nInternational\n \n\n Trở lại Giáo dục\n\n Giáo dục\n Tuyển sinh\n Đại học\n\nThứ sáu, 22/8/2025, 16:14 (GMT+7)\n\n## Điểm chuẩn Đại học Bách khoa Hà Nội cao nhất 29,39\n\n# Điểm chuẩn Đại học Bách khoa Hà Nội cao nhất 29,39\n\nĐiểm chuẩn Đại học Bách khoa Hà Nội (HUST) năm 2025 từ 19 đến 29,39, chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhn tạo cao nhất. [...] Với các chương trình quốc tế và liên kết đào tạo, Đại học Bách khoa Hà Nội thu học phí trung bình 25-30 triệu đồng một học kỳ. Riêng chương trình Quản trị Kinh doanh (TROY-BA) và Khoa học Máy tính (TROY-IT) hợp tác với Đại học Troy của Mỹ, học phí mỗi năm khoảng 78-90 triệu đồng, một năm có ba học kỳ.\n\nĐại học Bách khoa Hà Nội cho biết học phí các năm sau có thể tăng, nhưng không quá 10%.",
+                "score": 0.7959917
+              },
+              {
+                "title": "Tổng hợp các Câu lạc bộ Đại học Bách Khoa Hà Nội (HUST)",
+                "url": "https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-",
+                "source": "onthisinhvien.com",
+                "summary": "CLB Robot thông minh và Nhà máy số: ADC - AI Robot and Digital factory HUST\n CLB Sáng tạo sinh viên Sinno -SOICT Innovation CLUB (Trường CNTT&TT)\n CLB SÁNG TẠO VÀ KHỞI NGHIỆP HUST - HIEC\n CLB Sinh học - Thực phẩm FOBIC (Trường Hoá và KHSS)\n CLB sinh viên NCKH TRƯỜNG ĐIỆN - ĐIỆN TỬ\n CLB Tài chính và Công nghệ Đại học Bách Khoa Hà Nội - BK Fintech Club\n CLB Tiếng Anh Cơ Khí MEC (MEC) [...] Có thể là hình ảnh về 7 người, tóc mái và văn bản  \n   EMCEE - CLB Dẫn chương trình Đoàn Đại học Bách khoa Hà Nội\n CLB cờ tướng Bách Khoa - Hà Nội\n CLB DẪN CHƯƠNG TRÌNH: BÁCH KHOA, EMCEE\n CLB Guitar Bách Khoa - GVC\n CLB Karate-do Bách Khoa\n CLB KỊCH D.A.S\n CLB MÚA BÁCH KHOA, BEU\n CLB NHẢY: BÁCH KHOA DANCE CLUB, D.O.P\n CLB NHẢY CỔ ĐỘNG S8PM- HUST CHEERLEADING TEAM\n CLB Taekwondo Bách Khoa\n CLB TỔ CHỨC CHƯƠNG TRÌNH & SỰ KIỆN BÁCH KHOA, RPCC\n CLB Thủ lĩnh SLC - Student Leadership Club - SOFL [...] CLB - LAB NGHIÊN CỨU & SÁNG TẠO\n CLB An Toàn Thông Tin - BKHN\n CLB BK Auto (Trường Cơ khí)\n CLB Chiến binh xanh\n CLB Chuyển đổi số trong Giáo dục SoDiTEC\n CLB EdTech Bách Khoa (Viện Sư phạm Kỹ thuật)\n CLB GOOGLE DEVELOPER STUDENT CLUB\n CLB Hedspi Nichibu (trường CNTT&TT)\n CLB HỖ TRỢ HỌC TẬP, ACADEMIC SUPPORT CLUB\n CLB Hỗ trợ học tập tiếng Nhật- NJC Nagaoka Japan Club (trường Cơ khí)\n CLB Kế toán Tài chính - SAFC (Viện KT&QL)",
+                "score": 0.73207545
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "format",
+          "args": {
+            "items": [
+              {
+                "url": "https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html",
+                "source": "career.gpo.vn, onthisinhvien.com",
+                "summary": "Đại học Bách khoa Hà Nội (HUST) được thành lập ngày 15 tháng 10 năm 1956, là trường đại học đa ngành về kỹ thuật công lập hàng đầu và là một trong những trụ cột của nền giáo dục Việt Nam. Trường có địa chỉ tại Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội. Hiện nay, HUST sở hữu quy mô đào tạo lớn với hơn 30.000 sinh viên, cung cấp 75 chuyên ngành cử nhân/kỹ sư, 33 mã ngành thạc sĩ và 39 chuyên ngành tiến sĩ.",
+                "title": "Giới thiệu chung về HUST",
+                "section": "Tổng quan & Lịch sử"
+              },
+              {
+                "source": "vnexpress.net",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "summary": "HUST áp dụng nhiều phương thức tuyển sinh đa dạng bao gồm: xét tuyển tài năng, kỳ thi đánh giá tư duy (TSA), dựa vào điểm thi tốt nghiệp THPT, diện cử tuyển và lưu học sinh. Điểm chuẩn của trường luôn nằm trong nhóm cao nhất cả nước; cụ thể năm 2025, điểm chuẩn dao động từ 19 đến 29,39 điểm, trong đó chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo (AI) đạt mức điểm chuẩn cao nhất.",
+                "section": "Tuyển sinh & Điểm chuẩn",
+                "title": "Phương thức tuyển sinh và Điểm chuẩn năm 2025"
+              },
+              {
+                "title": "Thông tin học phí mới nhất",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "summary": "Học phí của HUST được điều chỉnh theo từng khóa và chương trình đào tạo. Đối với năm học 2025-2026, mức học phí dao động khoảng 28-90 triệu đồng/năm (tăng nhẹ 3-5 triệu đồng so với các năm trước). Trong đó, các chương trình chuẩn có mức thu từ 28-35 triệu đồng/năm. Các chương trình quốc tế và liên kết đào tạo (như chương trình hợp tác với Đại học Troy của Mỹ) có mức học phí cao hơn, khoảng 78-90 triệu đồng/năm. Mức tăng học phí các năm tiếp theo được cam kết không quá 10% mỗi năm.",
+                "section": "Học phí",
+                "source": "vnexpress.net, onthisinhvien.com"
+              },
+              {
+                "url": "https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-",
+                "source": "onthisinhvien.com",
+                "section": "Hoạt động Ngoại khóa & Câu lạc bộ",
+                "summary": "HUST sở hữu môi trường học tập cực kỳ năng động với hệ thống câu lạc bộ (CLB) phong phú, chia làm nhiều nhóm như: CLB học thuật & nghiên cứu (CLB Robot thông minh và Nhà máy số, CLB An toàn thông tin, CLB Sáng tạo và Khởi nghiệp HIEC...), CLB sở thích & nghệ thuật (CLB Guitar GVC, CLB Kịch D.A.S, CLB Nhảy...), và các CLB thể thao, kỹ năng mềm khác giúp sinh viên phát triển toàn diện.",
+                "title": "Hệ thống Câu lạc bộ sinh viên phong phú"
+              }
+            ],
+            "headline": "Thông tin tổng quan về Đại học Bách khoa Hà Nội (HUST)",
+            "template": "sections"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "format",
+          "args": {
+            "items": [
+              {
+                "url": "https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html",
+                "source": "career.gpo.vn, onthisinhvien.com",
+                "summary": "Đại học Bách khoa Hà Nội (HUST) được thành lập ngày 15 tháng 10 năm 1956, là trường đại học đa ngành về kỹ thuật công lập hàng đầu và là một trong những trụ cột của nền giáo dục Việt Nam. Trường có địa chỉ tại Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội. Hiện nay, HUST sở hữu quy mô đào tạo lớn với hơn 30.000 sinh viên, cung cấp 75 chuyên ngành cử nhân/kỹ sư, 33 mã ngành thạc sĩ và 39 chuyên ngành tiến sĩ.",
+                "title": "Giới thiệu chung về HUST",
+                "section": "Tổng quan & Lịch sử"
+              },
+              {
+                "source": "vnexpress.net",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "summary": "HUST áp dụng nhiều phương thức tuyển sinh đa dạng bao gồm: xét tuyển tài năng, kỳ thi đánh giá tư duy (TSA), dựa vào điểm thi tốt nghiệp THPT, diện cử tuyển và lưu học sinh. Điểm chuẩn của trường luôn nằm trong nhóm cao nhất cả nước; cụ thể năm 2025, điểm chuẩn dao động từ 19 đến 29,39 điểm, trong đó chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo (AI) đạt mức điểm chuẩn cao nhất.",
+                "section": "Tuyển sinh & Điểm chuẩn",
+                "title": "Phương thức tuyển sinh và Điểm chuẩn năm 2025"
+              },
+              {
+                "title": "Thông tin học phí mới nhất",
+                "url": "https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html",
+                "summary": "Học phí của HUST được điều chỉnh theo từng khóa và chương trình đào tạo. Đối với năm học 2025-2026, mức học phí dao động khoảng 28-90 triệu đồng/năm (tăng nhẹ 3-5 triệu đồng so với các năm trước). Trong đó, các chương trình chuẩn có mức thu từ 28-35 triệu đồng/năm. Các chương trình quốc tế và liên kết đào tạo (như chương trình hợp tác với Đại học Troy của Mỹ) có mức học phí cao hơn, khoảng 78-90 triệu đồng/năm. Mức tăng học phí các năm tiếp theo được cam kết không quá 10% mỗi năm.",
+                "section": "Học phí",
+                "source": "vnexpress.net, onthisinhvien.com"
+              },
+              {
+                "url": "https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-",
+                "source": "onthisinhvien.com",
+                "section": "Hoạt động Ngoại khóa & Câu lạc bộ",
+                "summary": "HUST sở hữu môi trường học tập cực kỳ năng động với hệ thống câu lạc bộ (CLB) phong phú, chia làm nhiều nhóm như: CLB học thuật & nghiên cứu (CLB Robot thông minh và Nhà máy số, CLB An toàn thông tin, CLB Sáng tạo và Khởi nghiệp HIEC...), CLB sở thích & nghệ thuật (CLB Guitar GVC, CLB Kịch D.A.S, CLB Nhảy...), và các CLB thể thao, kỹ năng mềm khác giúp sinh viên phát triển toàn diện.",
+                "title": "Hệ thống Câu lạc bộ sinh viên phong phú"
+              }
+            ],
+            "headline": "Thông tin tổng quan về Đại học Bách khoa Hà Nội (HUST)",
+            "template": "sections"
+          },
+          "result": {
+            "tool": "render_digest",
+            "template": "sections",
+            "markdown": "# Thông tin tổng quan về Đại học Bách khoa Hà Nội (HUST)\n\n## Tổng quan & Lịch sử\n- Đại học Bách khoa Hà Nội (HUST) được thành lập ngày 15 tháng 10 năm 1956, là trường đại học đa ngành về kỹ thuật công lập hàng đầu và là một trong những trụ cột của nền giáo dục Việt Nam. Trường có địa chỉ tại Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội. Hiện nay, HUST sở hữu quy m... - [career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)\n\n## Tuyển sinh & Điểm chuẩn\n- HUST áp dụng nhiều phương thức tuyển sinh đa dạng bao gồm: xét tuyển tài năng, kỳ thi đánh giá tư duy (TSA), dựa vào điểm thi tốt nghiệp THPT, diện cử tuyển và lưu học sinh. Điểm chuẩn của trường luôn nằm trong nhóm cao nhất cả nước; cụ thể năm 2025, điểm chuẩn dao động từ 19 ... - [vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)\n\n## Học phí\n- Học phí của HUST được điều chỉnh theo từng khóa và chương trình đào tạo. Đối với năm học 2025-2026, mức học phí dao động khoảng 28-90 triệu đồng/năm (tăng nhẹ 3-5 triệu đồng so với các năm trước). Trong đó, các chương trình chuẩn có mức thu từ 28-35 triệu đồng/năm. Các chương ... - [vnexpress.net, onthisinhvien.com](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)\n\n## Hoạt động Ngoại khóa & Câu lạc bộ\n- HUST sở hữu môi trường học tập cực kỳ năng động với hệ thống câu lạc bộ (CLB) phong phú, chia làm nhiều nhóm như: CLB học thuật & nghiên cứu (CLB Robot thông minh và Nhà máy số, CLB An toàn thông tin, CLB Sáng tạo và Khởi nghiệp HIEC...), CLB sở thích & nghệ thuật (CLB Guitar ... - [onthisinhvien.com](https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-)\n",
+            "item_count": 4
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "assistant_text": "Dưới đây là thông tin tổng quan và mới nhất về **Đại học Bách khoa Hà Nội (HUST)**:\n\n### 1. Tổng quan & Lịch sử\n* **Lịch sử thành lập:** Đại học Bách khoa Hà Nội được thành lập vào ngày **15 tháng 10 năm 1956**. Đây là trường đại học kỹ thuật đa ngành công lập đầu tiên và hàng đầu của Việt Nam [[career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)].\n* **Địa chỉ:** Số 1 Đại Cồ Việt, quận Hai Bà Trưng, Hà Nội [[career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)].\n* **Quy mô đào tạo:** Trường hiện có quy mô đào tạo rất lớn với hơn 30.000 sinh viên, cung cấp 75 chuyên ngành cử nhân/kỹ sư, 33 mã ngành thạc sĩ và 39 chuyên ngành tiến sĩ [[career.gpo.vn, onthisinhvien.com](https://career.gpo.vn/dai-hoc-bach-khoa-ha-noi-hust-g28.html)].\n\n### 2. Phương thức tuyển sinh & Điểm chuẩn (Cập nhật năm 2025)\n* **Phương thức tuyển sinh:** HUST áp dụng nhiều phương thức xét tuyển đa dạng bao gồm:\n  * Xét tuyển tài năng (xét tuyển thẳng, chứng chỉ quốc tế, hồ sơ năng lực).\n  * Xét tuyển dựa trên kết quả Kỳ thi Đánh giá tư duy (TSA) do trường tổ chức.\n  * Xét tuyển dựa trên điểm thi tốt nghiệp THPT.\n  * Diện cử tuyển và lưu học sinh nước ngoài [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n* **Điểm chuẩn:** Điểm chuẩn của HUST luôn thuộc nhóm cao nhất cả nước. Trong kỳ tuyển sinh năm 2025, điểm chuẩn dao động từ **19 đến 29,39 điểm** (thang điểm 30). Trong đó, chương trình tiên tiến *Khoa học dữ liệu và Trí tuệ nhân tạo (AI)* tiếp tục là ngành lấy điểm chuẩn cao nhất [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n\n### 3. Học phí (Năm học 2025 - 2026)\nMức học phí của trường được điều chỉnh theo từng khóa và chương trình đào tạo cụ thể:\n* **Chương trình chuẩn:** Dao động từ **28 - 35 triệu đồng/năm học** [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n* **Chương trình quốc tế và liên kết đào tạo:** Học phí trung bình khoảng **25 - 30 triệu đồng/học kỳ**. Riêng các chương trình hợp tác với Đại học Troy (Mỹ) như Quản trị Kinh doanh (TROY-BA) và Khoa học Máy tính (TROY-IT) có mức học phí khoảng **78 - 90 triệu đồng/năm** (một năm học gồm 3 học kỳ) [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n* *Lưu ý:* Mức tăng học phí cho các năm học tiếp theo được nhà trường cam kết không quá 10% mỗi năm [[vnexpress.net](https://vnexpress.net/diem-chuan-dai-hoc-bach-khoa-ha-noi-hust-2025-chinh-xac-nhat-4928933.html)].\n\n### 4. Hoạt động ngoại khóa & Câu lạc bộ (CLB)\nHUST sở hữu một môi trường học tập cực kỳ năng động với hệ thống câu lạc bộ phong phú giúp sinh viên phát triển toàn diện cả về chuyên môn lẫn kỹ năng mềm [[onthisinhvien.com](https://onthisinhvien.com/tong-hop-cac-cau-lac-bo-dai-hoc-bach-khoa-ha-noi-hust-)]:\n* **CLB Học thuật & Nghiên cứu:** CLB Robot thông minh và Nhà máy số (ADC), CLB An toàn thông tin, CLB Sáng tạo và Khởi nghiệp (HIEC), CLB Google Developer Student Club...\n* **CLB Nghệ thuật & Sở thích:** CLB Guitar Bách Khoa (GVC), CLB Kịch D.A.S, CLB Nhảy (Bách Khoa Dance Club), CLB Dẫn chương trình (EMCEE)...\n* **CLB Thể thao & Kỹ năng:** CLB Karate-do, CLB Taekwondo, CLB Hỗ trợ học tập (Academic Support Club)...",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T16:37:18",
+  "updated_at": "2026-07-29T16:37:18"
+}

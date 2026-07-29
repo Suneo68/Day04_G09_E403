@@ -1,0 +1,446 @@
+{
+  "transcript_id": "ui_185d139e",
+  "version": "v0",
+  "artifact_version": "v0+pf15c940d969a+td4f6563e98cd",
+  "prompt_hash": "f15c940d969aa56d6536f589a044fe0f1f05b96ea45c312026796b73cf09c6ad",
+  "tools_hash": "d4f6563e98cdcc3e12da0c182ca43b6e1c62b74881ae82b2dad44a3fabbab9bf",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "Hãy tìm bài báo nghiên cứu với chủ đề Computer vision "
+    },
+    {
+      "role": "assistant",
+      "content": "Dưới đây là danh sách các bài báo nghiên cứu nổi bật về chủ đề **Thị giác máy tính (Computer Vision)** được tìm thấy trên cơ sở dữ liệu arXiv, bao gồm nhiều khía cạnh từ kiến trúc mô hình, ứng dụng thực tế cho đến dữ liệu và cộng đồng:\n\n### 1. Kiến trúc Mạng thần kinh\n*   **Tên bài báo:** [Global Adaptive Filtering Layer for Computer Vision](http://arxiv.org/abs/2010.01177v4)\n*   **Tác giả:** Viktor Shipitsin, Iaroslav Bespalov, Dmitry V. Dylov\n*   **Tóm tắt:** Đề xuất một lớp lọc thích ứng toàn cục (Global Adaptive Filtering Layer) có khả năng tự động học bộ lọc tần số tối ưu cho từng hình ảnh song song với quá trình huấn luyện mạng thần kinh gốc. Lớp bổ sung này giúp cải thiện đáng kể hiệu suất và tốc độ hội tụ của mạng trong các tác vụ thị giác máy tính kinh điển như phân loại, phân đoạn, khử nhiễu và xóa vật thể.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/2010.01177v4)\n\n### 2. Ứng dụng Nông nghiệp thông minh\n*   **Tên bài báo:** [Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination](http://arxiv.org/abs/2205.04675v2)\n*   **Tác giả:** Malika Nisal Ratnayake, Don Chathurika Amarathunga, Asaduz Zaman, Adrian G. Dyer, Alan Dorin\n*   **Tóm tắt:** Đề xuất một hệ thống giám sát không dấu vết (markerless) sử dụng thị giác máy tính để đếm, theo dõi chuyển động và phân tích hành vi của côn trùng thụ phấn trên các trang trại lớn. Hệ thống đạt điểm F-score trên 0.8 cho bốn loại côn trùng khác nhau, giúp người nông dân đưa ra quyết định dựa trên dữ liệu để tối ưu hóa việc thụ phấn và an ninh lương thực.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/2205.04675v2)\n\n### 3. Mô hình Tạo sinh & Suy luận Bayes\n*   **Tên bài báo:** [The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models](http://arxiv.org/abs/1402.0859v3)\n*   **Tác giả:** Varun Jampani, Sebastian Nowozin, Matthew Loper, Peter V. Gehler\n*   **Tóm tắt:** Đề xuất phương pháp \"Informed Sampler\" - một cách tiếp cận kết hợp các kỹ thuật phân biệt (discriminative) hoặc heuristic vào mô hình tạo sinh (generative models) để giải quyết bài toán suy luận Bayes phức tạp trong thị giác máy tính (đặc biệt là bài toán đảo ngược công cụ dựng hình đồ họa - Inverse Graphics).\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/1402.0859v3)\n\n### 4. Dữ liệu & Học máy\n*   **Tên bài báo:** [What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?](http://arxiv.org/abs/2107.14072v2)\n*   **Tác giả:** David LeBauer, Max Burnette, Noah Fahlgren, Rob Kooper, Kenton McHenry, Abby Stylianou\n*   **Tóm tắt:** Giới thiệu bộ dữ liệu mở TERRA-REF cực kỳ đồ sộ (hơn 1 PB dữ liệu cảm biến) thu thập từ các cảm biến độ phân giải cao (RGB stereo, nhiệt, quét laser 3D, quang phổ) để nghiên cứu thực vật. Bài báo cung cấp cái nhìn tổng quan và các ứng dụng tiềm năng của bộ dữ liệu này cho cộng đồng Thị giác máy tính và Học máy.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/2107.14072v2)\n\n### 5. Hội thảo & Cộng đồng\n*   **Tên bài báo:** [WiCV 2019: The Sixth Women In Computer Vision Workshop](http://arxiv.org/abs/1909.10225v1)\n*   **Tác giả:** Irene Amerini, Elena Balashova, Sayna Ebrahimi, Kathryn Leonard, Arsha Nagrani, Amaia Salvador\n*   **Tóm tắt:** Giới thiệu về hội thảo Women in Computer Vision (WiCV 2019) đồng hành cùng hội nghị CVPR 2019. Mục tiêu của hội thảo là nâng cao vai trò, sự hiện diện và thúc đẩy sự hợp tác, cố vấn cho các nhà nghiên cứu nữ trong lĩnh vực thị giác máy tính và học máy - nơi tỷ lệ nữ giới tham gia vẫn còn khá khiêm tốn.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/1909.10225v1)",
+      "tool_events": [
+        {
+          "tool": "papers",
+          "args": {
+            "query": "Computer vision"
+          },
+          "result": {
+            "tool": "arxiv_search",
+            "query": "Computer vision",
+            "api_query": "all:Computer AND all:vision",
+            "total_results": 217660,
+            "items": [
+              {
+                "arxiv_id": "1909.10225v1",
+                "title": "WiCV 2019: The Sixth Women In Computer Vision Workshop",
+                "summary": "In this paper we present the Women in Computer Vision Workshop - WiCV 2019, organized in conjunction with CVPR 2019. This event is meant for increasing the visibility and inclusion of women researchers in the computer vision field. Computer vision and machine learning have made incredible progress over the past years, but the number of female researchers is still low both in academia and in industry. WiCV is organized especially for the following reason: to raise visibility of female researchers, to increase collaborations between them, and to provide mentorship to female junior researchers in the field. In this paper, we present a report of trends over the past years, along with a summary of statistics regarding presenters, attendees, and sponsorship for the current workshop.",
+                "authors": [
+                  "Irene Amerini",
+                  "Elena Balashova",
+                  "Sayna Ebrahimi",
+                  "Kathryn Leonard",
+                  "Arsha Nagrani",
+                  "Amaia Salvador"
+                ],
+                "published": "2019-09-23T08:52:33Z",
+                "updated": "2019-09-23T08:52:33Z",
+                "url": "http://arxiv.org/abs/1909.10225v1",
+                "pdf_url": "https://arxiv.org/pdf/1909.10225v1",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV"
+                ]
+              },
+              {
+                "arxiv_id": "2205.04675v2",
+                "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+                "summary": "Insects are the most important global pollinator of crops and play a key role in maintaining the sustainability of natural ecosystems. Insect pollination monitoring and management are therefore essential for improving crop production and food security. Computer vision facilitated pollinator monitoring can intensify data collection over what is feasible using manual approaches. The new data it generates may provide a detailed understanding of insect distributions and facilitate fine-grained analysis sufficient to predict their pollination efficacy and underpin precision pollination. Current computer vision facilitated insect tracking in complex outdoor environments is restricted in spatial coverage and often constrained to a single insect species. This limits its relevance to agriculture. Therefore, in this article we introduce a novel system to facilitate markerless data capture for insect counting, insect motion tracking, behaviour analysis and pollination prediction across large agricultural areas. Our system is comprised of edge computing multi-point video recording, offline automated multispecies insect counting, tracking and behavioural analysis. We implement and test our system on a commercial berry farm to demonstrate its capabilities. Our system successfully tracked four insect varieties, at nine monitoring stations within polytunnels, obtaining an F-score above 0.8 for each variety. The system enabled calculation of key metrics to assess the relative pollination impact of each insect variety. With this technological advancement, detailed, ongoing data collection for precision pollination becomes achievable. This is important to inform growers and apiarists managing crop pollination, as it allows data-driven decisions to be made to improve food production and food security.",
+                "authors": [
+                  "Malika Nisal Ratnayake",
+                  "Don Chathurika Amarathunga",
+                  "Asaduz Zaman",
+                  "Adrian G. Dyer",
+                  "Alan Dorin"
+                ],
+                "published": "2022-05-10T05:11:28Z",
+                "updated": "2022-11-11T13:17:11Z",
+                "url": "http://arxiv.org/abs/2205.04675v2",
+                "pdf_url": "https://arxiv.org/pdf/2205.04675v2",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV",
+                  "q-bio.QM"
+                ]
+              },
+              {
+                "arxiv_id": "2010.01177v4",
+                "title": "Global Adaptive Filtering Layer for Computer Vision",
+                "summary": "We devise a universal adaptive neural layer to \"learn\" optimal frequency filter for each image together with the weights of the base neural network that performs some computer vision task. The proposed approach takes the source image in the spatial domain, automatically selects the best frequencies from the frequency domain, and transmits the inverse-transform image to the main neural network. Remarkably, such a simple add-on layer dramatically improves the performance of the main network regardless of its design. We observe that the light networks gain a noticeable boost in the performance metrics; whereas, the training of the heavy ones converges faster when our adaptive layer is allowed to \"learn\" alongside the main architecture. We validate the idea in four classical computer vision tasks: classification, segmentation, denoising, and erasing, considering popular natural and medical data benchmarks.",
+                "authors": [
+                  "Viktor Shipitsin",
+                  "Iaroslav Bespalov",
+                  "Dmitry V. Dylov"
+                ],
+                "published": "2020-10-02T19:43:49Z",
+                "updated": "2021-08-04T15:52:46Z",
+                "url": "http://arxiv.org/abs/2010.01177v4",
+                "pdf_url": "https://arxiv.org/pdf/2010.01177v4",
+                "source": "arxiv.org",
+                "primary_category": "eess.IV",
+                "categories": [
+                  "eess.IV",
+                  "cs.CV"
+                ]
+              },
+              {
+                "arxiv_id": "2107.14072v2",
+                "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?",
+                "summary": "A core objective of the TERRA-REF project was to generate an open-access reference dataset for the evaluation of sensing technologies to study plants under field conditions. The TERRA-REF program deployed a suite of high-resolution, cutting edge technology sensors on a gantry system with the aim of scanning 1 hectare (10$^4$) at around 1 mm$^2$ spatial resolution multiple times per week. The system contains co-located sensors including a stereo-pair RGB camera, a thermal imager, a laser scanner to capture 3D structure, and two hyperspectral cameras covering wavelengths of 300-2500nm. This sensor data is provided alongside over sixty types of traditional plant phenotype measurements that can be used to train new machine learning models. Associated weather and environmental measurements, information about agronomic management and experimental design, and the genomic sequences of hundreds of plant varieties have been collected and are available alongside the sensor and plant phenotype data. Over the course of four years and ten growing seasons, the TERRA-REF system generated over 1 PB of sensor data and almost 45 million files. The subset that has been released to the public domain accounts for two seasons and about half of the total data volume. This provides an unprecedented opportunity for investigations far beyond the core biological scope of the project. The focus of this paper is to provide the Computer Vision and Machine Learning communities an overview of the available data and some potential applications of this one of a kind data.",
+                "authors": [
+                  "David LeBauer",
+                  "Max Burnette",
+                  "Noah Fahlgren",
+                  "Rob Kooper",
+                  "Kenton McHenry",
+                  "Abby Stylianou"
+                ],
+                "published": "2021-07-29T15:01:29Z",
+                "updated": "2021-08-18T00:28:54Z",
+                "url": "http://arxiv.org/abs/2107.14072v2",
+                "pdf_url": "https://arxiv.org/pdf/2107.14072v2",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV",
+                  "cs.LG"
+                ]
+              },
+              {
+                "arxiv_id": "1402.0859v3",
+                "title": "The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models",
+                "summary": "Computer vision is hard because of a large variability in lighting, shape, and texture; in addition the image signal is non-additive due to occlusion. Generative models promised to account for this variability by accurately modelling the image formation process as a function of latent variables with prior beliefs. Bayesian posterior inference could then, in principle, explain the observation. While intuitively appealing, generative models for computer vision have largely failed to deliver on that promise due to the difficulty of posterior inference. As a result the community has favoured efficient discriminative approaches. We still believe in the usefulness of generative models in computer vision, but argue that we need to leverage existing discriminative or even heuristic computer vision methods. We implement this idea in a principled way with an \"informed sampler\" and in careful experiments demonstrate it on challenging generative models which contain renderer programs as their components. We concentrate on the problem of inverting an existing graphics rendering engine, an approach that can be understood as \"Inverse Graphics\". The informed sampler, using simple discriminative proposals based on existing computer vision technology, achieves significant improvements of inference.",
+                "authors": [
+                  "Varun Jampani",
+                  "Sebastian Nowozin",
+                  "Matthew Loper",
+                  "Peter V. Gehler"
+                ],
+                "published": "2014-02-04T20:52:26Z",
+                "updated": "2015-03-07T19:50:59Z",
+                "url": "http://arxiv.org/abs/1402.0859v3",
+                "pdf_url": "https://arxiv.org/pdf/1402.0859v3",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV",
+                  "cs.LG",
+                  "stat.ML"
+                ]
+              }
+            ],
+            "rate_limit_note": "arXiv may return 429 if called too frequently; this tool waits at least 3 seconds between requests in-process."
+          }
+        },
+        {
+          "tool": "format",
+          "args": {
+            "template": "sections",
+            "items": [
+              {
+                "source": "arXiv (1909.10225v1)",
+                "section": "Hội thảo & Cộng đồng",
+                "url": "http://arxiv.org/abs/1909.10225v1",
+                "summary": "Giới thiệu về hội thảo Women in Computer Vision (WiCV 2019) đồng hành cùng hội nghị CVPR 2019. Mục tiêu của hội thảo là nâng cao vai trò, sự hiện diện và thúc đẩy sự hợp tác, cố vấn cho các nhà nghiên cứu nữ trong lĩnh vực thị giác máy tính và học máy - nơi tỷ lệ nữ giới tham gia vẫn còn khá khiêm tốn.",
+                "title": "WiCV 2019: The Sixth Women In Computer Vision Workshop"
+              },
+              {
+                "section": "Ứng dụng Nông nghiệp thông minh",
+                "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+                "url": "http://arxiv.org/abs/2205.04675v2",
+                "source": "arXiv (2205.04675v2)",
+                "summary": "Đề xuất một hệ thống giám sát không dấu vết (markerless) sử dụng thị giác máy tính để đếm, theo dõi chuyển động và phân tích hành vi của côn trùng thụ phấn trên các trang trại lớn. Hệ thống đạt điểm F-score trên 0.8 cho bốn loại côn trùng khác nhau, giúp người nông dân đưa ra quyết định dựa trên dữ liệu để tối ưu hóa việc thụ phấn và an ninh lương thực."
+              },
+              {
+                "section": "Kiến trúc Mạng thần kinh",
+                "url": "http://arxiv.org/abs/2010.01177v4",
+                "title": "Global Adaptive Filtering Layer for Computer Vision",
+                "summary": "Đề xuất một lớp lọc thích ứng toàn cục (Global Adaptive Filtering Layer) có khả năng tự động học bộ lọc tần số tối ưu cho từng hình ảnh song song với quá trình huấn luyện mạng thần kinh gốc. Lớp bổ sung này giúp cải thiện đáng kể hiệu suất và tốc độ hội tụ của mạng trong các tác vụ thị giác máy tính kinh điển như phân loại, phân đoạn, khử nhiễu và xóa vật thể.",
+                "source": "arXiv (2010.01177v4)"
+              },
+              {
+                "summary": "Giới thiệu bộ dữ liệu mở TERRA-REF cực kỳ đồ sộ (hơn 1 PB dữ liệu cảm biến) thu thập từ các cảm biến độ phân giải cao (RGB stereo, nhiệt, quét laser 3D, quang phổ) để nghiên cứu thực vật. Bài báo cung cấp cái nhìn tổng quan và các ứng dụng tiềm năng của bộ dữ liệu này cho cộng đồng Thị giác máy tính và Học máy.",
+                "section": "Dữ liệu & Học máy",
+                "source": "arXiv (2107.14072v2)",
+                "url": "http://arxiv.org/abs/2107.14072v2",
+                "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?"
+              },
+              {
+                "section": "Mô hình Tạo sinh & Suy luận Bayes",
+                "url": "http://arxiv.org/abs/1402.0859v3",
+                "title": "The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models",
+                "source": "arXiv (1402.0859v3)",
+                "summary": "Đề xuất phương pháp \"Informed Sampler\" - một cách tiếp cận kết hợp các kỹ thuật phân biệt (discriminative) hoặc heuristic vào mô hình tạo sinh (generative models) để giải quyết bài toán suy luận Bayes phức tạp trong thị giác máy tính (đặc biệt là bài toán đảo ngược công cụ dựng hình đồ họa - Inverse Graphics)."
+              }
+            ],
+            "headline": "Danh sách các bài báo nghiên cứu nổi bật về Thị giác máy tính (Computer Vision) trên arXiv"
+          },
+          "result": {
+            "tool": "render_digest",
+            "template": "sections",
+            "markdown": "# Danh sách các bài báo nghiên cứu nổi bật về Thị giác máy tính (Computer Vision) trên arXiv\n\n## Hội thảo & Cộng đồng\n- Giới thiệu về hội thảo Women in Computer Vision (WiCV 2019) đồng hành cùng hội nghị CVPR 2019. Mục tiêu của hội thảo là nâng cao vai trò, sự hiện diện và thúc đẩy sự hợp tác, cố vấn cho các nhà nghiên cứu nữ trong lĩnh vực thị giác máy tính và học máy - nơi tỷ lệ nữ giới tham ... - [arXiv (1909.10225v1)](http://arxiv.org/abs/1909.10225v1)\n\n## Ứng dụng Nông nghiệp thông minh\n- Đề xuất một hệ thống giám sát không dấu vết (markerless) sử dụng thị giác máy tính để đếm, theo dõi chuyển động và phân tích hành vi của côn trùng thụ phấn trên các trang trại lớn. Hệ thống đạt điểm F-score trên 0.8 cho bốn loại côn trùng khác nhau, giúp người nông dân đưa ra ... - [arXiv (2205.04675v2)](http://arxiv.org/abs/2205.04675v2)\n\n## Kiến trúc Mạng thần kinh\n- Đề xuất một lớp lọc thích ứng toàn cục (Global Adaptive Filtering Layer) có khả năng tự động học bộ lọc tần số tối ưu cho từng hình ảnh song song với quá trình huấn luyện mạng thần kinh gốc. Lớp bổ sung này giúp cải thiện đáng kể hiệu suất và tốc độ hội tụ của mạng trong các t... - [arXiv (2010.01177v4)](http://arxiv.org/abs/2010.01177v4)\n\n## Dữ liệu & Học máy\n- Giới thiệu bộ dữ liệu mở TERRA-REF cực kỳ đồ sộ (hơn 1 PB dữ liệu cảm biến) thu thập từ các cảm biến độ phân giải cao (RGB stereo, nhiệt, quét laser 3D, quang phổ) để nghiên cứu thực vật. Bài báo cung cấp cái nhìn tổng quan và các ứng dụng tiềm năng của bộ dữ liệu này cho cộng... - [arXiv (2107.14072v2)](http://arxiv.org/abs/2107.14072v2)\n\n## Mô hình Tạo sinh & Suy luận Bayes\n- Đề xuất phương pháp \"Informed Sampler\" - một cách tiếp cận kết hợp các kỹ thuật phân biệt (discriminative) hoặc heuristic vào mô hình tạo sinh (generative models) để giải quyết bài toán suy luận Bayes phức tạp trong thị giác máy tính (đặc biệt là bài toán đảo ngược công cụ dựn... - [arXiv (1402.0859v3)](http://arxiv.org/abs/1402.0859v3)\n",
+            "item_count": 5
+          }
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "papers",
+          "args": {
+            "query": "Computer vision"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "papers",
+          "args": {
+            "query": "Computer vision"
+          },
+          "result": {
+            "tool": "arxiv_search",
+            "query": "Computer vision",
+            "api_query": "all:Computer AND all:vision",
+            "total_results": 217660,
+            "items": [
+              {
+                "arxiv_id": "1909.10225v1",
+                "title": "WiCV 2019: The Sixth Women In Computer Vision Workshop",
+                "summary": "In this paper we present the Women in Computer Vision Workshop - WiCV 2019, organized in conjunction with CVPR 2019. This event is meant for increasing the visibility and inclusion of women researchers in the computer vision field. Computer vision and machine learning have made incredible progress over the past years, but the number of female researchers is still low both in academia and in industry. WiCV is organized especially for the following reason: to raise visibility of female researchers, to increase collaborations between them, and to provide mentorship to female junior researchers in the field. In this paper, we present a report of trends over the past years, along with a summary of statistics regarding presenters, attendees, and sponsorship for the current workshop.",
+                "authors": [
+                  "Irene Amerini",
+                  "Elena Balashova",
+                  "Sayna Ebrahimi",
+                  "Kathryn Leonard",
+                  "Arsha Nagrani",
+                  "Amaia Salvador"
+                ],
+                "published": "2019-09-23T08:52:33Z",
+                "updated": "2019-09-23T08:52:33Z",
+                "url": "http://arxiv.org/abs/1909.10225v1",
+                "pdf_url": "https://arxiv.org/pdf/1909.10225v1",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV"
+                ]
+              },
+              {
+                "arxiv_id": "2205.04675v2",
+                "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+                "summary": "Insects are the most important global pollinator of crops and play a key role in maintaining the sustainability of natural ecosystems. Insect pollination monitoring and management are therefore essential for improving crop production and food security. Computer vision facilitated pollinator monitoring can intensify data collection over what is feasible using manual approaches. The new data it generates may provide a detailed understanding of insect distributions and facilitate fine-grained analysis sufficient to predict their pollination efficacy and underpin precision pollination. Current computer vision facilitated insect tracking in complex outdoor environments is restricted in spatial coverage and often constrained to a single insect species. This limits its relevance to agriculture. Therefore, in this article we introduce a novel system to facilitate markerless data capture for insect counting, insect motion tracking, behaviour analysis and pollination prediction across large agricultural areas. Our system is comprised of edge computing multi-point video recording, offline automated multispecies insect counting, tracking and behavioural analysis. We implement and test our system on a commercial berry farm to demonstrate its capabilities. Our system successfully tracked four insect varieties, at nine monitoring stations within polytunnels, obtaining an F-score above 0.8 for each variety. The system enabled calculation of key metrics to assess the relative pollination impact of each insect variety. With this technological advancement, detailed, ongoing data collection for precision pollination becomes achievable. This is important to inform growers and apiarists managing crop pollination, as it allows data-driven decisions to be made to improve food production and food security.",
+                "authors": [
+                  "Malika Nisal Ratnayake",
+                  "Don Chathurika Amarathunga",
+                  "Asaduz Zaman",
+                  "Adrian G. Dyer",
+                  "Alan Dorin"
+                ],
+                "published": "2022-05-10T05:11:28Z",
+                "updated": "2022-11-11T13:17:11Z",
+                "url": "http://arxiv.org/abs/2205.04675v2",
+                "pdf_url": "https://arxiv.org/pdf/2205.04675v2",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV",
+                  "q-bio.QM"
+                ]
+              },
+              {
+                "arxiv_id": "2010.01177v4",
+                "title": "Global Adaptive Filtering Layer for Computer Vision",
+                "summary": "We devise a universal adaptive neural layer to \"learn\" optimal frequency filter for each image together with the weights of the base neural network that performs some computer vision task. The proposed approach takes the source image in the spatial domain, automatically selects the best frequencies from the frequency domain, and transmits the inverse-transform image to the main neural network. Remarkably, such a simple add-on layer dramatically improves the performance of the main network regardless of its design. We observe that the light networks gain a noticeable boost in the performance metrics; whereas, the training of the heavy ones converges faster when our adaptive layer is allowed to \"learn\" alongside the main architecture. We validate the idea in four classical computer vision tasks: classification, segmentation, denoising, and erasing, considering popular natural and medical data benchmarks.",
+                "authors": [
+                  "Viktor Shipitsin",
+                  "Iaroslav Bespalov",
+                  "Dmitry V. Dylov"
+                ],
+                "published": "2020-10-02T19:43:49Z",
+                "updated": "2021-08-04T15:52:46Z",
+                "url": "http://arxiv.org/abs/2010.01177v4",
+                "pdf_url": "https://arxiv.org/pdf/2010.01177v4",
+                "source": "arxiv.org",
+                "primary_category": "eess.IV",
+                "categories": [
+                  "eess.IV",
+                  "cs.CV"
+                ]
+              },
+              {
+                "arxiv_id": "2107.14072v2",
+                "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?",
+                "summary": "A core objective of the TERRA-REF project was to generate an open-access reference dataset for the evaluation of sensing technologies to study plants under field conditions. The TERRA-REF program deployed a suite of high-resolution, cutting edge technology sensors on a gantry system with the aim of scanning 1 hectare (10$^4$) at around 1 mm$^2$ spatial resolution multiple times per week. The system contains co-located sensors including a stereo-pair RGB camera, a thermal imager, a laser scanner to capture 3D structure, and two hyperspectral cameras covering wavelengths of 300-2500nm. This sensor data is provided alongside over sixty types of traditional plant phenotype measurements that can be used to train new machine learning models. Associated weather and environmental measurements, information about agronomic management and experimental design, and the genomic sequences of hundreds of plant varieties have been collected and are available alongside the sensor and plant phenotype data. Over the course of four years and ten growing seasons, the TERRA-REF system generated over 1 PB of sensor data and almost 45 million files. The subset that has been released to the public domain accounts for two seasons and about half of the total data volume. This provides an unprecedented opportunity for investigations far beyond the core biological scope of the project. The focus of this paper is to provide the Computer Vision and Machine Learning communities an overview of the available data and some potential applications of this one of a kind data.",
+                "authors": [
+                  "David LeBauer",
+                  "Max Burnette",
+                  "Noah Fahlgren",
+                  "Rob Kooper",
+                  "Kenton McHenry",
+                  "Abby Stylianou"
+                ],
+                "published": "2021-07-29T15:01:29Z",
+                "updated": "2021-08-18T00:28:54Z",
+                "url": "http://arxiv.org/abs/2107.14072v2",
+                "pdf_url": "https://arxiv.org/pdf/2107.14072v2",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV",
+                  "cs.LG"
+                ]
+              },
+              {
+                "arxiv_id": "1402.0859v3",
+                "title": "The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models",
+                "summary": "Computer vision is hard because of a large variability in lighting, shape, and texture; in addition the image signal is non-additive due to occlusion. Generative models promised to account for this variability by accurately modelling the image formation process as a function of latent variables with prior beliefs. Bayesian posterior inference could then, in principle, explain the observation. While intuitively appealing, generative models for computer vision have largely failed to deliver on that promise due to the difficulty of posterior inference. As a result the community has favoured efficient discriminative approaches. We still believe in the usefulness of generative models in computer vision, but argue that we need to leverage existing discriminative or even heuristic computer vision methods. We implement this idea in a principled way with an \"informed sampler\" and in careful experiments demonstrate it on challenging generative models which contain renderer programs as their components. We concentrate on the problem of inverting an existing graphics rendering engine, an approach that can be understood as \"Inverse Graphics\". The informed sampler, using simple discriminative proposals based on existing computer vision technology, achieves significant improvements of inference.",
+                "authors": [
+                  "Varun Jampani",
+                  "Sebastian Nowozin",
+                  "Matthew Loper",
+                  "Peter V. Gehler"
+                ],
+                "published": "2014-02-04T20:52:26Z",
+                "updated": "2015-03-07T19:50:59Z",
+                "url": "http://arxiv.org/abs/1402.0859v3",
+                "pdf_url": "https://arxiv.org/pdf/1402.0859v3",
+                "source": "arxiv.org",
+                "primary_category": "cs.CV",
+                "categories": [
+                  "cs.CV",
+                  "cs.LG",
+                  "stat.ML"
+                ]
+              }
+            ],
+            "rate_limit_note": "arXiv may return 429 if called too frequently; this tool waits at least 3 seconds between requests in-process."
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "format",
+          "args": {
+            "template": "sections",
+            "items": [
+              {
+                "source": "arXiv (1909.10225v1)",
+                "section": "Hội thảo & Cộng đồng",
+                "url": "http://arxiv.org/abs/1909.10225v1",
+                "summary": "Giới thiệu về hội thảo Women in Computer Vision (WiCV 2019) đồng hành cùng hội nghị CVPR 2019. Mục tiêu của hội thảo là nâng cao vai trò, sự hiện diện và thúc đẩy sự hợp tác, cố vấn cho các nhà nghiên cứu nữ trong lĩnh vực thị giác máy tính và học máy - nơi tỷ lệ nữ giới tham gia vẫn còn khá khiêm tốn.",
+                "title": "WiCV 2019: The Sixth Women In Computer Vision Workshop"
+              },
+              {
+                "section": "Ứng dụng Nông nghiệp thông minh",
+                "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+                "url": "http://arxiv.org/abs/2205.04675v2",
+                "source": "arXiv (2205.04675v2)",
+                "summary": "Đề xuất một hệ thống giám sát không dấu vết (markerless) sử dụng thị giác máy tính để đếm, theo dõi chuyển động và phân tích hành vi của côn trùng thụ phấn trên các trang trại lớn. Hệ thống đạt điểm F-score trên 0.8 cho bốn loại côn trùng khác nhau, giúp người nông dân đưa ra quyết định dựa trên dữ liệu để tối ưu hóa việc thụ phấn và an ninh lương thực."
+              },
+              {
+                "section": "Kiến trúc Mạng thần kinh",
+                "url": "http://arxiv.org/abs/2010.01177v4",
+                "title": "Global Adaptive Filtering Layer for Computer Vision",
+                "summary": "Đề xuất một lớp lọc thích ứng toàn cục (Global Adaptive Filtering Layer) có khả năng tự động học bộ lọc tần số tối ưu cho từng hình ảnh song song với quá trình huấn luyện mạng thần kinh gốc. Lớp bổ sung này giúp cải thiện đáng kể hiệu suất và tốc độ hội tụ của mạng trong các tác vụ thị giác máy tính kinh điển như phân loại, phân đoạn, khử nhiễu và xóa vật thể.",
+                "source": "arXiv (2010.01177v4)"
+              },
+              {
+                "summary": "Giới thiệu bộ dữ liệu mở TERRA-REF cực kỳ đồ sộ (hơn 1 PB dữ liệu cảm biến) thu thập từ các cảm biến độ phân giải cao (RGB stereo, nhiệt, quét laser 3D, quang phổ) để nghiên cứu thực vật. Bài báo cung cấp cái nhìn tổng quan và các ứng dụng tiềm năng của bộ dữ liệu này cho cộng đồng Thị giác máy tính và Học máy.",
+                "section": "Dữ liệu & Học máy",
+                "source": "arXiv (2107.14072v2)",
+                "url": "http://arxiv.org/abs/2107.14072v2",
+                "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?"
+              },
+              {
+                "section": "Mô hình Tạo sinh & Suy luận Bayes",
+                "url": "http://arxiv.org/abs/1402.0859v3",
+                "title": "The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models",
+                "source": "arXiv (1402.0859v3)",
+                "summary": "Đề xuất phương pháp \"Informed Sampler\" - một cách tiếp cận kết hợp các kỹ thuật phân biệt (discriminative) hoặc heuristic vào mô hình tạo sinh (generative models) để giải quyết bài toán suy luận Bayes phức tạp trong thị giác máy tính (đặc biệt là bài toán đảo ngược công cụ dựng hình đồ họa - Inverse Graphics)."
+              }
+            ],
+            "headline": "Danh sách các bài báo nghiên cứu nổi bật về Thị giác máy tính (Computer Vision) trên arXiv"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "format",
+          "args": {
+            "template": "sections",
+            "items": [
+              {
+                "source": "arXiv (1909.10225v1)",
+                "section": "Hội thảo & Cộng đồng",
+                "url": "http://arxiv.org/abs/1909.10225v1",
+                "summary": "Giới thiệu về hội thảo Women in Computer Vision (WiCV 2019) đồng hành cùng hội nghị CVPR 2019. Mục tiêu của hội thảo là nâng cao vai trò, sự hiện diện và thúc đẩy sự hợp tác, cố vấn cho các nhà nghiên cứu nữ trong lĩnh vực thị giác máy tính và học máy - nơi tỷ lệ nữ giới tham gia vẫn còn khá khiêm tốn.",
+                "title": "WiCV 2019: The Sixth Women In Computer Vision Workshop"
+              },
+              {
+                "section": "Ứng dụng Nông nghiệp thông minh",
+                "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+                "url": "http://arxiv.org/abs/2205.04675v2",
+                "source": "arXiv (2205.04675v2)",
+                "summary": "Đề xuất một hệ thống giám sát không dấu vết (markerless) sử dụng thị giác máy tính để đếm, theo dõi chuyển động và phân tích hành vi của côn trùng thụ phấn trên các trang trại lớn. Hệ thống đạt điểm F-score trên 0.8 cho bốn loại côn trùng khác nhau, giúp người nông dân đưa ra quyết định dựa trên dữ liệu để tối ưu hóa việc thụ phấn và an ninh lương thực."
+              },
+              {
+                "section": "Kiến trúc Mạng thần kinh",
+                "url": "http://arxiv.org/abs/2010.01177v4",
+                "title": "Global Adaptive Filtering Layer for Computer Vision",
+                "summary": "Đề xuất một lớp lọc thích ứng toàn cục (Global Adaptive Filtering Layer) có khả năng tự động học bộ lọc tần số tối ưu cho từng hình ảnh song song với quá trình huấn luyện mạng thần kinh gốc. Lớp bổ sung này giúp cải thiện đáng kể hiệu suất và tốc độ hội tụ của mạng trong các tác vụ thị giác máy tính kinh điển như phân loại, phân đoạn, khử nhiễu và xóa vật thể.",
+                "source": "arXiv (2010.01177v4)"
+              },
+              {
+                "summary": "Giới thiệu bộ dữ liệu mở TERRA-REF cực kỳ đồ sộ (hơn 1 PB dữ liệu cảm biến) thu thập từ các cảm biến độ phân giải cao (RGB stereo, nhiệt, quét laser 3D, quang phổ) để nghiên cứu thực vật. Bài báo cung cấp cái nhìn tổng quan và các ứng dụng tiềm năng của bộ dữ liệu này cho cộng đồng Thị giác máy tính và Học máy.",
+                "section": "Dữ liệu & Học máy",
+                "source": "arXiv (2107.14072v2)",
+                "url": "http://arxiv.org/abs/2107.14072v2",
+                "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?"
+              },
+              {
+                "section": "Mô hình Tạo sinh & Suy luận Bayes",
+                "url": "http://arxiv.org/abs/1402.0859v3",
+                "title": "The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models",
+                "source": "arXiv (1402.0859v3)",
+                "summary": "Đề xuất phương pháp \"Informed Sampler\" - một cách tiếp cận kết hợp các kỹ thuật phân biệt (discriminative) hoặc heuristic vào mô hình tạo sinh (generative models) để giải quyết bài toán suy luận Bayes phức tạp trong thị giác máy tính (đặc biệt là bài toán đảo ngược công cụ dựng hình đồ họa - Inverse Graphics)."
+              }
+            ],
+            "headline": "Danh sách các bài báo nghiên cứu nổi bật về Thị giác máy tính (Computer Vision) trên arXiv"
+          },
+          "result": {
+            "tool": "render_digest",
+            "template": "sections",
+            "markdown": "# Danh sách các bài báo nghiên cứu nổi bật về Thị giác máy tính (Computer Vision) trên arXiv\n\n## Hội thảo & Cộng đồng\n- Giới thiệu về hội thảo Women in Computer Vision (WiCV 2019) đồng hành cùng hội nghị CVPR 2019. Mục tiêu của hội thảo là nâng cao vai trò, sự hiện diện và thúc đẩy sự hợp tác, cố vấn cho các nhà nghiên cứu nữ trong lĩnh vực thị giác máy tính và học máy - nơi tỷ lệ nữ giới tham ... - [arXiv (1909.10225v1)](http://arxiv.org/abs/1909.10225v1)\n\n## Ứng dụng Nông nghiệp thông minh\n- Đề xuất một hệ thống giám sát không dấu vết (markerless) sử dụng thị giác máy tính để đếm, theo dõi chuyển động và phân tích hành vi của côn trùng thụ phấn trên các trang trại lớn. Hệ thống đạt điểm F-score trên 0.8 cho bốn loại côn trùng khác nhau, giúp người nông dân đưa ra ... - [arXiv (2205.04675v2)](http://arxiv.org/abs/2205.04675v2)\n\n## Kiến trúc Mạng thần kinh\n- Đề xuất một lớp lọc thích ứng toàn cục (Global Adaptive Filtering Layer) có khả năng tự động học bộ lọc tần số tối ưu cho từng hình ảnh song song với quá trình huấn luyện mạng thần kinh gốc. Lớp bổ sung này giúp cải thiện đáng kể hiệu suất và tốc độ hội tụ của mạng trong các t... - [arXiv (2010.01177v4)](http://arxiv.org/abs/2010.01177v4)\n\n## Dữ liệu & Học máy\n- Giới thiệu bộ dữ liệu mở TERRA-REF cực kỳ đồ sộ (hơn 1 PB dữ liệu cảm biến) thu thập từ các cảm biến độ phân giải cao (RGB stereo, nhiệt, quét laser 3D, quang phổ) để nghiên cứu thực vật. Bài báo cung cấp cái nhìn tổng quan và các ứng dụng tiềm năng của bộ dữ liệu này cho cộng... - [arXiv (2107.14072v2)](http://arxiv.org/abs/2107.14072v2)\n\n## Mô hình Tạo sinh & Suy luận Bayes\n- Đề xuất phương pháp \"Informed Sampler\" - một cách tiếp cận kết hợp các kỹ thuật phân biệt (discriminative) hoặc heuristic vào mô hình tạo sinh (generative models) để giải quyết bài toán suy luận Bayes phức tạp trong thị giác máy tính (đặc biệt là bài toán đảo ngược công cụ dựn... - [arXiv (1402.0859v3)](http://arxiv.org/abs/1402.0859v3)\n",
+            "item_count": 5
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "assistant_text": "Dưới đây là danh sách các bài báo nghiên cứu nổi bật về chủ đề **Thị giác máy tính (Computer Vision)** được tìm thấy trên cơ sở dữ liệu arXiv, bao gồm nhiều khía cạnh từ kiến trúc mô hình, ứng dụng thực tế cho đến dữ liệu và cộng đồng:\n\n### 1. Kiến trúc Mạng thần kinh\n*   **Tên bài báo:** [Global Adaptive Filtering Layer for Computer Vision](http://arxiv.org/abs/2010.01177v4)\n*   **Tác giả:** Viktor Shipitsin, Iaroslav Bespalov, Dmitry V. Dylov\n*   **Tóm tắt:** Đề xuất một lớp lọc thích ứng toàn cục (Global Adaptive Filtering Layer) có khả năng tự động học bộ lọc tần số tối ưu cho từng hình ảnh song song với quá trình huấn luyện mạng thần kinh gốc. Lớp bổ sung này giúp cải thiện đáng kể hiệu suất và tốc độ hội tụ của mạng trong các tác vụ thị giác máy tính kinh điển như phân loại, phân đoạn, khử nhiễu và xóa vật thể.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/2010.01177v4)\n\n### 2. Ứng dụng Nông nghiệp thông minh\n*   **Tên bài báo:** [Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination](http://arxiv.org/abs/2205.04675v2)\n*   **Tác giả:** Malika Nisal Ratnayake, Don Chathurika Amarathunga, Asaduz Zaman, Adrian G. Dyer, Alan Dorin\n*   **Tóm tắt:** Đề xuất một hệ thống giám sát không dấu vết (markerless) sử dụng thị giác máy tính để đếm, theo dõi chuyển động và phân tích hành vi của côn trùng thụ phấn trên các trang trại lớn. Hệ thống đạt điểm F-score trên 0.8 cho bốn loại côn trùng khác nhau, giúp người nông dân đưa ra quyết định dựa trên dữ liệu để tối ưu hóa việc thụ phấn và an ninh lương thực.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/2205.04675v2)\n\n### 3. Mô hình Tạo sinh & Suy luận Bayes\n*   **Tên bài báo:** [The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models](http://arxiv.org/abs/1402.0859v3)\n*   **Tác giả:** Varun Jampani, Sebastian Nowozin, Matthew Loper, Peter V. Gehler\n*   **Tóm tắt:** Đề xuất phương pháp \"Informed Sampler\" - một cách tiếp cận kết hợp các kỹ thuật phân biệt (discriminative) hoặc heuristic vào mô hình tạo sinh (generative models) để giải quyết bài toán suy luận Bayes phức tạp trong thị giác máy tính (đặc biệt là bài toán đảo ngược công cụ dựng hình đồ họa - Inverse Graphics).\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/1402.0859v3)\n\n### 4. Dữ liệu & Học máy\n*   **Tên bài báo:** [What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?](http://arxiv.org/abs/2107.14072v2)\n*   **Tác giả:** David LeBauer, Max Burnette, Noah Fahlgren, Rob Kooper, Kenton McHenry, Abby Stylianou\n*   **Tóm tắt:** Giới thiệu bộ dữ liệu mở TERRA-REF cực kỳ đồ sộ (hơn 1 PB dữ liệu cảm biến) thu thập từ các cảm biến độ phân giải cao (RGB stereo, nhiệt, quét laser 3D, quang phổ) để nghiên cứu thực vật. Bài báo cung cấp cái nhìn tổng quan và các ứng dụng tiềm năng của bộ dữ liệu này cho cộng đồng Thị giác máy tính và Học máy.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/2107.14072v2)\n\n### 5. Hội thảo & Cộng đồng\n*   **Tên bài báo:** [WiCV 2019: The Sixth Women In Computer Vision Workshop](http://arxiv.org/abs/1909.10225v1)\n*   **Tác giả:** Irene Amerini, Elena Balashova, Sayna Ebrahimi, Kathryn Leonard, Arsha Nagrani, Amaia Salvador\n*   **Tóm tắt:** Giới thiệu về hội thảo Women in Computer Vision (WiCV 2019) đồng hành cùng hội nghị CVPR 2019. Mục tiêu của hội thảo là nâng cao vai trò, sự hiện diện và thúc đẩy sự hợp tác, cố vấn cho các nhà nghiên cứu nữ trong lĩnh vực thị giác máy tính và học máy - nơi tỷ lệ nữ giới tham gia vẫn còn khá khiêm tốn.\n*   **Tài liệu đính kèm:** [PDF Link](https://arxiv.org/pdf/1909.10225v1)",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T17:20:46",
+  "updated_at": "2026-07-29T17:20:46"
+}

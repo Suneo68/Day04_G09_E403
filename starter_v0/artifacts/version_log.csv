@@ -1,2 +1,5 @@
 version,author,changed_artifact,artifact_version,prompt_hash,tools_hash,reason,hypothesis,metric_name,metric_before,metric_after,run_file
-v0,P1,baseline,v0+p_eb1c8179815b+t_6857452deba1,eb1c8179815b,6857452deba1,baseline run,N/A - baseline,case_accuracy,N/A,0.6,v0_B_base_gemini_20260729T152225949189.json
+v0,P1,baseline,v0+p_eb1c8179815b+t_6857452deba1,eb1c8179815b,6857452deba1,baseline run,N/A - baseline,case_accuracy,N/A,0.60,v0_B_base_gemini_20260729T152225949189.json
+v1,P1,system_prompt.md+tools.yaml,v1+p73a324f7449e+td4f6563e98cd,73a324f7449e,d4f6563e98cd,optimize prompt & tools schema,strict clarify rules for URL/handle and clean search query,case_accuracy,0.60,0.80,v1_B_base_gemini_20260729T165432293344.json
+v2,P1,system_prompt.md,v2+pe6df0f054158+td4f6563e98cd,e6df0f054158,d4f6563e98cd,telegram confirmation rule,explicit yes_no clarification before telegram send,case_accuracy,0.65,0.70,v2_B_base_openrouter_20260729T155504125335.json
+v3,P1,tools.yaml+system_prompt.md,v3+pe6df0f054158+td4f6563e98cd,e6df0f054158,d4f6563e98cd,add summarize tool & multi-turn rules,summarize tool routing and multi-turn context preservation,case_accuracy,0.70,0.75,v3_B_base_gemini_20260729T165919200429.json

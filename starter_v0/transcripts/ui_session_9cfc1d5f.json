@@ -1,0 +1,288 @@
+{
+  "transcript_id": "ui_9cfc1d5f",
+  "version": "v0",
+  "artifact_version": "v0+pf15c940d969a+td4f6563e98cd",
+  "prompt_hash": "f15c940d969aa56d6536f589a044fe0f1f05b96ea45c312026796b73cf09c6ad",
+  "tools_hash": "d4f6563e98cdcc3e12da0c182ca43b6e1c62b74881ae82b2dad44a3fabbab9bf",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "Bạn có tìm được thông tin của người có mã sinh viên B23DCKD069 không"
+    },
+    {
+      "role": "assistant",
+      "content": "Dựa trên các kết quả tìm kiếm từ hệ thống dữ liệu của Học viện Công nghệ Bưu chính Viễn thông (PTIT), dưới đây là thông tin tìm được về sinh viên có mã số **B23DCKD069**:\n\n*   **Họ và tên:** Nguyễn Thị Thu Trang\n*   **Lớp:** D23CQKD01-B\n*   **Khoa/Ngành:** Quản trị kinh doanh (hoặc thuộc khối ngành Kinh tế/Mạng máy tính & Truyền thông dữ liệu tùy theo danh sách phân bổ học bổng).\n*   **Thành tích học tập nổi bật:**\n    *   **Học bổng Khuyến khích học tập (HK1 năm học 2024-2025):** Đạt loại **Xuất sắc** với điểm trung bình học tập (GPA) là **3.62**, điểm rèn luyện đạt **93** (Xếp loại Xuất sắc) [Sourse 2].\n    *   **Hoạt động & Thành tích khác:** \n        *   Được ghi nhận đạt nhiều học bổng khuyến khích học tập trong suốt quá trình học với mức GPA tích lũy ấn tượng (khoảng 3.52 - 3.62) [Source 1, 2].\n        *   Có tên trong danh sách tham dự lớp công nghệ 5G/6G và là đại diện tham dự vòng chung kết toàn cầu **Global Final 2025** [Source 1].\n\n*(Nguồn tham khảo từ các cổng thông tin giáo vụ và khoa của PTIT: [giaovu.ptit.edu.vn](https://giaovu.ptit.edu.vn/wp-content/uploads/sites/13/2025/12/Danh-sach-SV-duoc-cap-hoc-bong-KKHT-HK1-nam-hoc-2024-2025.pdf), [tel.ptit.edu.vn](https://tel.ptit.edu.vn/wp-content/uploads/sites/24/2025/11/Danh-sach-sinh-vien-lop-cong-nghe-5G6G.pdf))*",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "timeframe": "year",
+            "query": "B23DCKD069",
+            "topic": "general"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "B23DCKD069",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "DS SV KHÃﬁA Ä'Ã",
+                "url": "https://tel.ptit.edu.vn/wp-content/uploads/sites/24/2025/11/Danh-sach-sinh-vien-lop-cong-nghe-5G6G.pdf",
+                "source": "tel.ptit.edu.vn",
+                "summary": "B23DCKD069 D23CQKD01-B GPA 3.52, đạt nhiều học bổng khuyến khích học tập trong suốt quá trình học. diện tham dự Global Final 2025.",
+                "score": 0.63750535
+              },
+              {
+                "title": "Danh-sach-SV-duoc-cap-hoc-bong-KKHT- ...",
+                "url": "https://giaovu.ptit.edu.vn/wp-content/uploads/sites/13/2025/12/Danh-sach-SV-duoc-cap-hoc-bong-KKHT-HK1-nam-hoc-2024-2025.pdf",
+                "source": "giaovu.ptit.edu.vn",
+                "summary": "B23DCKD069 Nguyễn Thị Thu. Trang. D23CQKD01-B. 3.62. 0,3. 3,92. X.sắc. 93. Xuất sắc. 2023. MMT&TTDL. 728. 2. B23DCKD002 Nguyễn Duy. Anh. D23CQKD02-B. 3.72. 3,72.",
+                "score": 0.572078
+              },
+              {
+                "title": "1341QD HV | PDF",
+                "url": "https://www.scribd.com/document/919523306/1341QD-HV",
+                "source": "scribd.com",
+                "summary": "› 'B23DCKD069 Ngxlyễx'A Thi Thu Trang | 540 | xubesic| Giỏi 500.000 1104 | D21CQKT03-B B21DCKT030 Đặng Thùy Dương | 340 Tốt Giỏi 500.000 ™ Lớp Mã SV Hạ và",
+                "score": 0.48865002
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Bạn cho tôi thông tin chương trình thực chiến ai vinuni"
+    },
+    {
+      "role": "assistant",
+      "content": "**Chương trình Đào tạo Nhân tài AI Thực chiến** là một dự án đào tạo đặc biệt do **Tập đoàn Vingroup** triển khai và phối hợp thực hiện cùng **Trường Đại học VinUni**. Mục tiêu của chương trình là đào tạo nguồn nhân lực AI chất lượng cao, \"làm được việc ngay\" cho xã hội trong bối cảnh trí tuệ nhân tạo đang tái định hình nền kinh tế.\n\nDưới đây là các thông tin chi tiết về chương trình:\n\n### 1. Tổng quan chương trình\n*   **Mục tiêu dài hạn:** Đào tạo **20.000 nhân tài AI thực chiến**.\n*   **Thời gian đào tạo:** Mô hình tinh gọn, cường độ cao kéo dài trong **12 tuần**.\n*   **Quy mô khóa đầu tiên:** Khai giảng vào ngày **02/04/2026** với **500 học viên** xuất sắc được tuyển chọn từ hàng nghìn hồ sơ (có nền tảng đa dạng từ công nghệ, kỹ thuật đến kinh doanh).\n\n### 2. Phân cấp đào tạo\nChương trình được thiết kế với hai mức độ chính để phù hợp với nhiều đối tượng:\n1.  **Khóa Cơ bản:** Dành cho nhân viên tác nghiệp AI.\n2.  **Khóa Nâng cao:** Dành cho các chuyên gia, kỹ sư và lãnh đạo các dự án AI trong các lĩnh vực chuyên sâu.\n\n### 3. Lộ trình đào tạo (12 tuần)\nChương trình học được thiết kế tinh gọn, thực tế và chia làm các giai đoạn:\n*   **Giai đoạn nền tảng:** Trang bị kiến thức cốt lõi.\n*   **Giai đoạn chuyên sâu:** Học viên được phân vào 3 hướng đào tạo mũi nhọn:\n    *   **Sản phẩm AI (AI Products)**\n    *   **Hạ tầng AI (AI Infrastructure)**\n    *   **Ứng dụng AI (AI Applications)** (bao gồm phát triển và triển khai các giải pháp như mô hình *AI Agent*).\n*   **Giai đoạn thực chiến (9 tuần cuối):** Học viên làm việc toàn thời gian trong các dự án thực tế tại các doanh nghiệp thuộc hệ sinh thái Vingroup, dưới sự hướng dẫn trực tiếp (1-kèm-1) từ các kỹ sư và chuyên gia công nghệ hàng đầu.\n\n### 4. Quyền lợi đặc biệt của học viên\n*   **Học phí:** Được **miễn phí 100%** học phí.\n*   **Trợ cấp:** Nhận phụ cấp **8.000.000 VND/tháng** trong suốt thời gian tham gia học tập và thực chiến.\n*   **Cơ hội việc làm:** Sau khi tốt nghiệp, học viên có cơ hội gia nhập trực tiếp vào các công ty công nghệ trong hệ sinh thái Vingroup (như VinFast, VinBigdata, VinAI,...) với mức thu nhập cam kết hấp dẫn từ **20 - 50 triệu đồng/tháng** tùy theo năng lực thực tế.\n\n### 5. Ba năng lực cốt lõi được đào tạo\nChương trình không chỉ dạy lập trình hay cách sử dụng công cụ AI thông thường, mà tập trung rèn luyện:\n1.  **Tư duy sản phẩm & Hiểu bài toán kinh doanh:** Biết cách áp dụng AI để giải quyết các vấn đề thực tế của doanh nghiệp.\n2.  **Sử dụng AI có trách nhiệm:** Đảm bảo các yếu tố đạo đức và an toàn công nghệ.\n3.  **Kỹ năng thực chiến vững vàng:** Đủ năng lực để bắt tay vào làm việc ngay lập tức mà không cần đào tạo lại.",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "topic": "general",
+            "query": "chương trình thực chiến AI VinUni",
+            "timeframe": "year"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "chương trình thực chiến AI VinUni",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "VinUni khai giảng khoá đầu tiên chương trình đào tạo nhân tài AI thực chiến",
+                "url": "https://vietnamnet.vn/vinuni-khai-giang-khoa-dau-tien-chuong-trinh-dao-tao-nhan-tai-ai-thuc-chien-2502833.html",
+                "source": "vietnamnet.vn",
+                "summary": "Title: VinUni khai giảng khoá đầu tiên chương trình đào tạo nhân tài AI thực chiến\n# VinUni khai giảng khoá đầu tiên chương trình đào tạo nhân tài AI thực chiến. ## Ngày 2/4 Trường Đại học VinUni khai giảng khóa đầu tiên của Chương trình Đào tạo 20.000 Nhân tài AI thực chiến, với 500 học viên tham gia. Đây là chương trình do Tập đoàn Vingroup triển khai nhằm phát triển nguồn nhân lực chất lượng cao trong bối cảnh trí tuệ nhân tạo (AI) đang tái định hình nền kinh tế, thị trường lao động và năng lực cạnh tranh quốc gia. Được tuyển chọn từ hàng nghìn hồ sơ, 500 học viên khóa đầu tiên có nền tảng đa dạng từ công nghệ, kỹ thuật đến kinh doanh. Theo khảo sát đầu vào, hơn 90% học viên tham gia chương trình với mục tiêu được làm việc trong các dự án thực tế và tìm kiếm cơ hội việc làm sau đào tạo. Sau giai đoạn nền tảng, học viên được chia vào 3 hướng đào tạo chuyên sâu: sản phẩm AI (AI Products); hạ tầng AI (AI Infrastructure) và ứng dụng AI (AI Applications). Trong giai đoạn cuối, học viên làm việc toàn thời gian trong các dự án thực tế tại doanh nghiệp, dưới sự hướng dẫn trực tiếp của các kỹ sư và chuyên gia công nghệ trong hệ sinh thái Vingroup. Xuyên suốt chương trình, học viên được đào tạo để phát triển và triển khai các giải pháp AI trong doanh nghiệp, trong đó có mô hình AI Agent. Chương trình được thiết kế để học viên đồng thời rèn ba năng lực: biết tư duy sản phẩm - hiểu bài toán kinh doanh; sử dụng AI có trách nhiệm và quan trọng nhất là có kỹ năng AI đủ vững để làm được việc ngay sau khi tốt nghiệp. Với cách tiếp cận tinh gọn, cường độ cao và gắn chặt với môi trường doanh nghiệp, chương trình hướng tới đào tạo một thế hệ nhân lực AI mới: có kỹ năng vững, thích ứng nhanh và sẵn sàng tham gia giải quyết các bài toán lớn của nền kinh tế AI.",
+                "score": 0.91288006
+              },
+              {
+                "title": "Thông tin Tuyển sinh Chương trình Đào tạo Nhân tài AI ...",
+                "url": "https://vinuni.edu.vn/vi/thong-tin-tuyen-sinh-chuong-trinh-dao-tao-nhan-tai-ai-thuc-chien-khoa-co-ban",
+                "source": "vinuni.edu.vn",
+                "summary": "Chương trình Al Thực Chiến là chương trình đặc biệt của Tập đoàn Vingroup do Trường Đại học VinUni phối hợp triển khai nhằm đào tạo nguồn nhn lực AI “làm được việc” cho xã hội thông qua mô hình đào tạo tinh gọn, tốc độ trong 12 tuần; cùng cơ hội việc làm với mức lương đặc biệt hấp dẫn tỷ lệ thuận với năng lực thực chiến.\n\nChương trình có hai mức độ: (1) Cơ bản dành cho nhn viên tác nghiệp AI và (2) Nng cao dành cho chuyên gia, kỹ sư và lãnh đạo các dự án AI trong các lĩnh vực chuyên su. [...] 3. Học viên có 9 tuần thực chiến với dự án AI thật, được đội ngũ huấn luyện viên là quản lý dự án AI của Vingroup và các doanh nghiệp đối tác kèm cặp.\n4. Học viên được miễn học phí và nhận phụ cấp 8 triệu VND/tháng trong suốt thời gian tham gia chương trình. [...] Cơ hội nghề nghiệp\n Phát triển bền vững\n Đóng góp\n Cựu Sinh viên\n Cổng Thông Tin Sinh Viên\n\n en\n vi\n\nlogo\n\nVinUni Banner\n\nTrang chủ  News & events  Thông tin Tuyển sinh Chương trình Đào tạo Nhn tài AI Thực chiến – Khóa cơ bản\n\n# Thông tin Tuyển sinh Chương trình Đào tạo Nhn tài AI Thực chiến – Khóa cơ bản\n\n29/01/2026\n\nMục lục\n\n(Chương trình đào tạo đặc biệt của Tập đoàn Vingroup do VinUni phối hợp thực hiện)",
+                "score": 0.91156644
+              },
+              {
+                "title": "Vingroup khai giảng khóa đầu tiên Chương trình Đào tạo 20.000 Nhân tài AI thực chiến - VinUni",
+                "url": "https://vinuni.edu.vn/vi/vingroup-khai-giang-khoa-dau-tien-chuong-trinh-dao-tao-20-000-nhan-tai-ai-thuc-chien",
+                "source": "vinuni.edu.vn",
+                "summary": "Title: Vingroup khai giảng khóa đầu tiên Chương trình Đào tạo 20.000 Nhân tài AI thực chiến - VinUni\n***Hà Nội, ngày 02/04/2026 – Trường Đại học VinUni chính thức khai giảng khóa đầu tiên của Chương trình Đào tạo 20.000 Nhân tài AI thực chiến, với 500 học viên tham gia. Theo khảo sát đầu vào, hơn 90% học viên tham gia chương trình với mục tiêu được làm việc trong các dự án thực tế và tìm kiếm cơ hội việc làm sau đào tạo. Trong giai đoạn cuối, học viên làm việc toàn thời gian trong các dự án thực tế tại doanh nghiệp, dưới sự hướng dẫn trực tiếp của các kỹ sư và chuyên gia công nghệ trong hệ sinh thái Vingroup. Xuyên suốt chương trình, học viên được đào tạo để phát triển và triển khai các giải pháp AI trong doanh nghiệp, trong đó có mô hình AI Agent. Chương trình được thiết kế để học viên đồng thời rèn ba năng lực: biết tư duy sản phẩm – hiểu bài toán kinh doanh; sử dụng AI có trách nhiệm và quan trọng nhất là có kỹ năng AI đủ vững để làm được việc ngay sau khi tốt nghiệp. Đào Đức Minh – Phó Tổng Giám đốc Công ty VinSmart Future, Tập đoàn Vingroup chia sẻ: “Giá trị lớn của chương trình nằm ở chỗ học viên không chỉ học kiến thức mà được đặt vào một môi trường làm việc cường độ cao, áp lực cao và sát thực tế doanh nghiệp. Sau khi hoàn thành chương trình, học viên có cơ hội gia nhập các công ty trong hệ sinh thái Vingroup với mức thu nhập hấp dẫn dự kiến từ 20-50 triệu đồng/tháng, tùy theo năng lực thực tế. Với cách tiếp cận tinh gọn, cường độ cao và gắn chặt với môi trường doanh nghiệp, chương trình hướng tới đào tạo một thế hệ nhân lực AI mới: có kỹ năng vững, thích ứng nhanh và sẵn sàng tham gia giải quyết các bài toán lớn của nền kinh tế AI. Gần 50 Học viên – Một con đường mới cho Khoa học tại VinUni.",
+                "score": 0.9047265
+              },
+              {
+                "title": "Vingroup khai giảng Chương trình Đào tạo 20.000 Nhân tài AI thực chiến",
+                "url": "https://vtcnews.vn/vingroup-khai-giang-chuong-trinh-dao-tao-20-000-nhan-tai-ai-thuc-chien-ar1010818.html",
+                "source": "vtcnews.vn",
+                "summary": "Ngày 02/04/2026, Trường Đại học VinUni chính thức khai giảng khóa đầu tiên của Chương trình Đào tạo 20.000 Nhn tài AI thực chiến, với 500 học viên tham gia. Đy là chương trình do Tập đoàn Vingroup triển khai nhằm phát triển nguồn nhn lực chất lượng cao trong bối cảnh trí tuệ nhn tạo (AI) đang tái định hình nền kinh tế, thị trường lao động và năng lực cạnh tranh quốc gia.\n\n500 học viên đầu tiên chính thức gia nhập Chương trình Đào tạo 20.000 Nhn tài AI thực chiến của Tập đoàn Vingroup. [...] Trong thời gian tới, VinUni tiếp tục triển khai các khóa tiếp theo, mở rộng cơ hội tiếp cận chương trình. Với cách tiếp cận tinh gọn, cường độ cao và gắn chặt với môi trường doanh nghiệp, chương trình hướng tới đào tạo một thế hệ nhn lực AI mới: có kỹ năng vững, thích ứng nhanh và sẵn sàng tham gia giải quyết các bài toán lớn của nền kinh tế AI.\n\nHà An\n\nNhận tin VTC News trên Google\n\nThêm VTC News làm nguồn ưu tiên để thấy tin tức mới thường xuyên hơn trên Google.\n\n Theo dõi\n\n VinUni [...] GS.TS. Dương Nguyên Vũ - Phó Hiệu trưởng, Giám đốc Khoa học Trung tm Nghiên cứu Trí tuệ Nhn tạo Trường Đại học VinUni - cho biết: “Chúng tôi không đào tạo người học chỉ biết dùng AI hay chỉ biết lập trình. Chương trình được thiết kế để học viên đồng thời rèn ba năng lực: biết tư duy sản phẩm - hiểu bài toán kinh doanh; sử dụng AI có trách nhiệm và quan trọng nhất là có kỹ năng AI đủ vững để làm được việc ngay sau khi tốt nghiệp. Cách tiếp cận này giúp rút ngắn mạnh mẽ khoảng cách từ giảng đường",
+                "score": 0.8839694
+              },
+              {
+                "title": "Vingroup khai giảng khóa đầu tiên chương trình đào tạo 20.000 nhân tài AI thực chiến",
+                "url": "https://lsvn.vn/vingroup-khai-giang-khoa-dau-tien-chuong-trinh-dao-tao-20-000-nhan-tai-ai-thuc-chien-a171136.html",
+                "source": "lsvn.vn",
+                "summary": "GS.TS. Dương Nguyên Vũ, Phó Hiệu trưởng, Giám đốc Khoa học Trung tm Nghiên cứu Trí tuệ Nhn tạo Trường Đại học VinUni, cho biết: “Chúng tôi không đào tạo người học chỉ biết dùng AI hay chỉ biết lập trình. Chương trình được thiết kế để học viên đồng thời rèn ba năng lực: biết tư duy sản phẩm - hiểu bài toán kinh doanh; sử dụng AI có trách nhiệm và quan trọng nhất là có kỹ năng AI đủ vững để làm được việc ngay sau khi tốt nghiệp. Cách tiếp cận này giúp rút ngắn mạnh mẽ khoảng cách từ giảng đường [...] ## (LSVN) - Ngày 02/04/2026, Trường Đại học VinUni chính thức khai giảng khóa đầu tiên của Chương trình Đào tạo 20.000 Nhn tài AI thực chiến, với 500 học viên tham gia. Đy là chương trình do Tập đoàn Vingroup triển khai nhằm phát triển nguồn nhn lực chất lượng cao trong bối cảnh trí tuệ nhn tạo (AI) đang tái định hình nền kinh tế, thị trường lao động và năng lực cạnh tranh quốc gia. [...] Tiến sĩ Lê Mai Lan, Phó Chủ tịch Tập đoàn Vingroup, Chủ tịch Hội đồng Trường Đại học VinUni phát biểu tại lễ khai giảng, chính thức kick off chương trình học.\n\nGiai đoạn tiếp theo tập trung mô phỏng môi trường thực chiến, nơi học viên trực tiếp xy dựng, thử nghiệm và hoàn thiện sản phẩm.\n\nTrong giai đoạn cuối, học viên làm việc toàn thời gian trong các dự án thực tế tại doanh nghiệp, dưới sự hướng dẫn trực tiếp của các kỹ sư và chuyên gia công nghệ trong hệ sinh thái Vingroup.",
+                "score": 0.8638634
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Ai xinh gái nhất"
+    },
+    {
+      "role": "assistant",
+      "content": "Câu hỏi này thật khó để có một đáp án chính xác, bởi vì \"vẻ đẹp nằm trong mắt kẻ si tình\" và mỗi người đều sở hữu một nét đẹp, sức cuốn hút riêng biệt! \n\nNếu nói về các bạn nữ sinh hay các nữ kỹ sư trong lĩnh vực Công nghệ, AI (như ở PTIT hay VinUni), họ không chỉ sở hữu ngoại hình duyên dáng mà còn cực kỳ cuốn hút bởi **sự thông minh, tự tin và tư duy sắc bén**. Sự kết hợp giữa tài năng và tri thức chính là \"vũ khí\" giúp họ tỏa sáng nhất.\n\nCòn đối với bạn, ai đang là người xinh gái nhất trong lòng bạn thế? 😉",
+      "tool_events": []
+    },
+    {
+      "role": "user",
+      "content": "Tôi chứ ai"
+    },
+    {
+      "role": "assistant",
+      "content": "Haha, chuẩn không cần chỉnh luôn! Sự tự tin chính là \"lớp trang điểm\" lộng lẫy và cuốn hút nhất của một cô gái. \n\nVừa thông minh, nhạy bén lại vừa tự tin thế này thì danh hiệu \"xinh gái nhất\" thuộc về bạn là hoàn toàn xứng đáng rồi! Chúc bạn luôn rạng rỡ, yêu đời và luôn là phiên bản tuyệt vời nhất của chính mình nhé! ✨🌹",
+      "tool_events": []
+    },
+    {
+      "role": "user",
+      "content": "Nước việt nam có bao nhiêu tỉnh"
+    },
+    {
+      "role": "assistant",
+      "content": "Hiện nay, nước Việt Nam có **63 tỉnh và thành phố trực thuộc trung ương**, trong đó bao gồm:\n\n*   **58 tỉnh**\n*   **5 thành phố trực thuộc trung ương** (đây là các đô thị lớn, có vai trò quan trọng về kinh tế, chính trị, văn hóa của cả nước):\n    1.  Thủ đô Hà Nội\n    2.  Thành phố Hồ Chí Minh\n    3.  Thành phố Hải Phòng\n    4.  Thành phố Đà Nẵng\n    5.  Thành phố Cần Thơ",
+      "tool_events": []
+    },
+    {
+      "role": "user",
+      "content": "Tcn là gì"
+    },
+    {
+      "role": "assistant",
+      "content": "Từ viết tắt **TCN** (hoặc **Tcn**) có nhiều nghĩa khác nhau tùy thuộc vào ngữ cảnh mà bạn đang gặp. Dưới đây là các nghĩa phổ biến nhất của từ này trong tiếng Việt:\n\n### 1. Trước Công nguyên (TCN)\nĐây là nghĩa phổ biến nhất trong lịch sử, địa lý và khảo cổ học. \n*   **Ý nghĩa:** Dùng để chỉ khoảng thời gian trước khi Chúa Jesus ra đời (tương đương với **BC** - *Before Christ* trong tiếng Anh).\n*   **Ví dụ:** *Năm 208 TCN (năm An Dương Vương thành lập nước Âu Lạc).*\n\n### 2. Tiêu chuẩn ngành (TCN)\nTrong lĩnh vực kỹ thuật, xây dựng, giao thông, nông nghiệp và pháp luật.\n*   **Ý nghĩa:** Đây là các quy định, tiêu chuẩn kỹ thuật bắt buộc hoặc khuyến khích áp dụng trong một ngành cụ thể do Bộ quản lý ngành đó ban hành.\n*   **Ví dụ:** *22 TCN (Tiêu chuẩn ngành Giao thông vận tải).*\n\n### 3. Tài chính Ngân hàng (TCN / TCNH)\nTrong lĩnh vực kinh tế, hướng nghiệp và giáo dục đại học.\n*   **Ý nghĩa:** Viết tắt của ngành học hoặc lĩnh vực hoạt động \"Tài chính - Ngân hàng\".\n*   **Ví dụ:** *Khoa TCN (Khoa Tài chính Ngân hàng).*\n\n### 4. Trung cấp nghề (TCN)\nTrong hệ thống giáo dục và đào tạo tại Việt Nam.\n*   **Ý nghĩa:** Chỉ bậc học đào tạo nghề nghiệp sau khi tốt nghiệp THCS hoặc THPT, tập trung vào thực hành kỹ năng nghề.\n*   **Ví dụ:** *Trường TCN Giao thông công chính.*\n\n---\nBạn đang gặp từ **TCN** này trong ngữ cảnh nào (lịch sử, học tập, hay văn bản kỹ thuật)? Hãy chia sẻ thêm để mình giải thích chi tiết hơn cho bạn nhé!",
+      "tool_events": []
+    },
+    {
+      "role": "user",
+      "content": "Model tcn"
+    },
+    {
+      "role": "assistant",
+      "content": "Trong khoa học dữ liệu và học sâu (Deep Learning), **TCN** là viết tắt của **Temporal Convolutional Network** (Mạng tích chập thời gian). \n\nĐây là một kiến trúc mạng nơ-ron chuyên biệt được thiết kế để xử lý và phân tích **dữ liệu chuỗi thời gian (time series data)** hoặc các chuỗi dữ liệu tuần tự (sequential data). TCN thường được xem là một giải pháp thay thế mạnh mẽ cho các mạng nơ-ron hồi quy truyền thống như RNN, LSTM hay GRU.\n\nDưới đây là chi tiết về cấu trúc, ưu điểm và ứng dụng của mô hình TCN:\n\n---\n\n### 1. Các đặc điểm cốt lõi của TCN\nMô hình TCN sở hữu hai đặc tính kỹ thuật quan trọng giúp nó xử lý dữ liệu chuỗi thời gian hiệu quả:\n\n*   **Tích chập nhân quả (Causal Convolutions):** \n    Đảm bảo nguyên tắc \"không rò rỉ thông tin từ tương lai\". Nghĩa là, đầu ra (output) tại thời điểm $t$ chỉ được tính toán dựa trên các đầu vào (input) từ thời điểm $t$ trở về trước. Điều này cực kỳ quan trọng trong các bài toán dự báo (như dự báo thời tiết, chứng khoán).\n*   **Tích chập giãn nở (Dilated Convolutions):**\n    Để mô hình có thể ghi nhớ được các thông tin từ rất lâu trong quá khứ (long-range dependencies) mà không làm tăng kích thước bộ lọc quá lớn, TCN sử dụng kỹ thuật \"giãn nở\" (bỏ qua một số bước đệm theo cấp số nhân). Điều này giúp mở rộng trường tiếp nhận (receptive field) của mạng một cách hiệu quả.\n*   **Kết nối phần dư (Residual Connections):**\n    Tương tự như mạng ResNet, TCN sử dụng các đường kết nối tắt (shortcut) giữa các tầng. Điều này giúp huấn luyện các mạng TCN rất sâu mà không gặp phải hiện tượng triệt tiêu gradient (vanishing gradient).\n\n---\n\n### 2. So sánh TCN với RNN / LSTM\nTrước khi TCN ra đời, LSTM và GRU là \"vua\" trong việc xử lý chuỗi. Tuy nhiên, TCN có nhiều ưu điểm vượt trội:\n\n| Đặc điểm | RNN / LSTM / GRU | TCN (Temporal Convolutional Network) |\n| :--- | :--- | :--- |\n| **Khả năng song song hóa** | **Kém** (phải tính toán tuần tự từng bước thời gian $t-1 \\rightarrow t$). | **Rất tốt** (tính toán tích chập có thể thực hiện song song trên toàn bộ chuỗi cùng lúc bằng GPU). |\n| **Trường tiếp nhận (Memory)** | Phụ thuộc vào khả năng lưu trữ trạng thái ẩn (dễ bị quên thông tin quá xa). | Có thể điều chỉnh linh hoạt thông qua độ giãn nở (dilation) và kích thước bộ lọc. |\n| **Hiện tượng mất mát Gradient** | Dễ bị triệt tiêu hoặc bùng nổ gradient khi chuỗi quá dài. | Ổn định hơn nhờ cấu trúc tích chập và kết nối phần dư (Residual). |\n\n---\n\n### 3. Ứng dụng thực tế của TCN\nNhờ khả năng xử lý chuỗi nhanh và chính xác, TCN được ứng dụng rộng rãi trong nhiều lĩnh vực:\n*   **Dự báo tài chính:** Dự đoán giá cổ phiếu, xu hướng thị trường, phát hiện gian lận giao dịch.\n*   **Xử lý ngôn ngữ và giọng nói (NLP & Speech):** Nhận dạng giọng nói, tổng hợp tiếng nói, dịch máy.\n*   **Y tế & Sinh học:** Phân tích tín hiệu điện tâm đồ (ECG), điện não đồ (EEG), dự đoán tình trạng bệnh nhân.\n*   **Khí tượng thủy văn:** Dự báo thời tiết, lượng mưa, lưu lượng dòng chảy sông ngòi.\n*   **Nhận diện hành động (Action Recognition):** Phân tích chuỗi các khung hình video để hiểu hành động của con người.",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "Temporal Convolutional Network TCN model deep learning"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "Temporal Convolutional Network TCN model deep learning",
+            "topic": "general",
+            "timeframe": "week",
+            "items": [
+              {
+                "title": "What is TCN? | Activeloop Glossary",
+                "url": "https://www.activeloop.ai/resources/glossary/temporal-convolutional-networks-tcn",
+                "source": "activeloop.ai",
+                "summary": "A Temporal Convolutional Network (TCN) is a deep learning model specifically designed for analyzing time series data. It captures complex temporal patterns by employing a hierarchy of temporal convolutions, dilated convolutions, and pooling layers. TCNs have been used in various applications, such as speech processing, action recognition, and financial analysis, due to their ability to efficiently model the dynamics of time series data and provide accurate predictions. [...] Temporal Convolutional Networks (TCNs) are a type of deep learning model that focuses on processing and analyzing time series data. They use a combination of temporal convolutions, dilated convolutions, and pooling layers to capture long-range dependencies and intricate temporal patterns in the data. TCNs have gained popularity in recent years due to their effectiveness in handling a wide range of applications, including speech processing, action recognition, and financial analysis. [...] + Back\n  + Share:\n\n  # TCN\n\n  Temporal Convolutional Networks (TCNs) analyze time series data, used in speech processing, action recognition, and financial analysis.\n\n  Temporal Convolutional Networks (TCNs) are deep learning models designed for analyzing time series data by capturing complex temporal patterns. They have gained popularity in recent years due to their ability to handle a wide range of applications, from speech processing to action recognition and financial analysis.",
+                "score": 0.94911116
+              },
+              {
+                "title": "A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition",
+                "url": "https://www.mdpi.com/2076-3417/15/6/2984",
+                "source": "mdpi.com",
+                "summary": "Temporal Convolutional Network (TCN): One notable advancement in deep learning architectures is the Temporal Convolutional Network (TCN) , which excels at analyzing temporal patterns while retaining the robust feature extraction capabilities of Convolutional Neural Networks (CNNs). TCN is characterized by two key features: (1) By using causal convolutions, it guarantees that the output at any given time step is entirely dependent on the inputs that are now and previously present, with no effect [...] We propose an ensemble deep learning model that leverages a Bidirectional Temporal Convolutional Network (Bi-TCN) for employee attrition classification.\n To enhance model performance and address data imbalances, we incorporate a fully connected GAN-based data augmentation technique, which not only balances the dataset but also increases the volume of training data. [...] transformations . A TCN model’s schematic architecture is seen in Figure 3.",
+                "score": 0.91760606
+              },
+              {
+                "title": "Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data",
+                "url": "https://link.springer.com/article/10.1186/s12302-024-00841-9",
+                "source": "link.springer.com",
+                "summary": "Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data | Environmental Sciences Europe. Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data. Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data. Our study introduces a novel deep learning model named the deep residual shrinkage network (DRSN)—temporal convolutional network (TCN) to remove redundant features and extract temporal features from rainfall data. This paper introduces a new machine learning model for rainfall prediction, improves the accuracy of the original TCN, and develops a new optimization method for input selection. [29 Metaheuristic evolutionary deep learning model based on temporal convolutional network, improved aquila optimizer and random forest for rainfall-runoff simulation and multi-step runoff prediction. Recent studies have indicated that deep learning models are reliable tools for extracting important information from data and improving the performance of classical machine learning models such as random forest models and regression models [1 Convolutional Neural Network- ANN- E (Tanh): a new deep learning model for predicting rainfall. As deep learning models use advanced operators and different computational layers for processing data, they can enhance the performance of classical machine learning models [1 Convolutional Neural Network- ANN- E (Tanh): a new deep learning model for predicting rainfall. Qiao X, Peng T, Sun N, Zhang C, Liu Q, Zhang Y, Wang Y, Shahzad Nazir M (2023) Metaheuristic evolutionary deep learning model based on temporal convolutional network, improved aquila optimizer and random forest for rainfall-runoff simulation and multi-step runoff prediction. _et al._ Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data. Qiao X, Peng T, Sun N, Zhang C, Liu Q, Zhang Y, Wang Y, Shahzad Nazir M (2023) Metaheuristic evolutionary deep learning model based on temporal convolutional network, improved aquila optimizer and random forest for rainfall-runoff simulation and multi-step runoff prediction.",
+                "score": 0.82048416
+              },
+              {
+                "title": "A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition",
+                "url": "https://doi.org/10.3390/app15062984",
+                "source": "doi.org",
+                "summary": "Title: A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition\n# A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. The proposed model yields promising results in predicting employee attrition, achieving accuracy rates of 89.65% on the IBM dataset and 97.83% on the Kaggle dataset. employee attrition; employee turnover; deep learning model; bidirectional temporal convolutional network (Bi-TCN); data augmentation; generative adversarial network (GAN); explainable AI (XAI). * We propose an ensemble deep learning model that leverages a Bidirectional Temporal Convolutional Network (Bi-TCN) for employee attrition classification. In another study [15], the performance of several machine learning models was evaluated on different feature subsets to predict employee attrition using the IBM dataset. Several scholars have focused on utilizing deep learning and neural network models to predict employee turnover [28,29]. [43] evaluated four machine learning models for employee attrition prediction using a real dataset obtained from an Italian financial company. We also evaluate our proposed model on another employee attrition dataset, comparing its performance with baseline classical machine learning and deep learning models. 4. Alsheref, F.K.; Fattoh, I.E.; Ead, W.M. Automated prediction of employee attrition using ensemble model based on machine learning algorithms. **Figure 2.** Proposed deep learning model for predicting employee attrition. **Figure 2.** Proposed deep learning model for predicting employee attrition. Mortezapour Shiri, F.; Yamaguchi, S.; Ahmadon, M.A.B. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. \"A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition\" *Applied Sciences* 15, no. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. Mortezapour Shiri, F.; Yamaguchi, S.; Ahmadon, M.A.B. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. \"A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition\" *Applied Sciences* 15, no. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition.",
+                "score": 0.7283819
+              },
+              {
+                "title": "[PDF] A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition | CiteDrive",
+                "url": "https://www.citedrive.com/en/discovery/a-deep-learning-model-based-on-bidirectional-temporal-convolutional-network-bi-tcn-for-predicting-employee-attrition",
+                "source": "citedrive.com",
+                "summary": "Title: [PDF] A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition | CiteDrive\nDOI: 10.3390/app15062984 ISSN: 2076-3417. # A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. Employee attrition, which causes a significant loss for an organization, is the term used to describe the natural decline in the number of employees in an organization as a result of numerous unavoidable events. If a company can predict the likelihood of an employee leaving, it can take proactive steps to address the issue. In this study, we introduce a deep learning framework based on a Bidirectional Temporal Convolutional Network (Bi-TCN) to predict employee attrition. We conduct extensive experiments on two publicly available datasets, including IBM and Kaggle, comparing our model’s performance against classical machine learning, deep learning models, and state-of-the-art approaches across multiple evaluation metrics. The proposed model yields promising results in predicting employee attrition, achieving accuracy rates of 89.65% on the IBM dataset and 97.83% on the Kaggle dataset. We also apply a fully connected GAN-based data augmentation technique and three oversampling methods to augment and balance the IBM dataset. The results show that our proposed model, combined with the GAN-based approach, improves accuracy to 92.17%. We also applied the SHAP method to identify the key features that most significantly influence employee attrition. These findings demonstrate the efficacy of our model, showcasing its potential for use in various industries and organizations. * DOI: 10.3390/lubricants13030117 2025. Investigate on the Fluid Dynamics and Heat Transfer Behavior in an Automobile Gearbox Based on the LBM-LES Model. * DOI: 10.1093/ckj/sfae417 2025. * DOI: 10.1126/science.ado6285 2025. Rams, Jacek Dziarmaga, Roeland Wiersema, William Bernoudy, Jack Raymond, Nitin Kaushal, Niclas Heinsdorf, Richard Harris, Kelly Boothby, Fabio Altomare, Mohsen Asad, Andrew J. Johnson, Samuel Kortas, Eric Ladizinsky, Trevor Lanting, Tony Lai, Ryan Li, Allison J. McGeoch, Reza Molavi, Travis Oh, Richard Neufeld, Mana Norouzpour, Joel Pasvolsky, Patrick Poitras, Gabriel Poulin-Lamarre, Thomas Prescott, Mauricio Reis, Chris Rich, Mohammad Samani, Benjamin Sheldan, Anatoly Smirnov, Edward Sterpka, Berta Trullas Clavera, Nicholas Tsai, Mark Volkmann, Alexander M. Whittaker, Warren Wilkinson, Jason Yao, T.J. Yi, Anders W. Melko, Juan Carrasquilla, Marcel Franz, Mohammad H. Sonali Sethi, Srikanth Narayanaswamy, Ankur J. Shah, Stanzin Spalkit, Surendra Kumar Bugata, Raj Chari. Vikas Batra, Stanzin Spalkit, Surendra Kumar Bugata, Raj Chari, Nafisa Shakir Batta.",
+                "score": 0.6747586
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "lookup",
+          "args": {
+            "query": "Temporal Convolutional Network TCN model deep learning"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "Temporal Convolutional Network TCN model deep learning"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "Temporal Convolutional Network TCN model deep learning",
+            "topic": "general",
+            "timeframe": "week",
+            "items": [
+              {
+                "title": "What is TCN? | Activeloop Glossary",
+                "url": "https://www.activeloop.ai/resources/glossary/temporal-convolutional-networks-tcn",
+                "source": "activeloop.ai",
+                "summary": "A Temporal Convolutional Network (TCN) is a deep learning model specifically designed for analyzing time series data. It captures complex temporal patterns by employing a hierarchy of temporal convolutions, dilated convolutions, and pooling layers. TCNs have been used in various applications, such as speech processing, action recognition, and financial analysis, due to their ability to efficiently model the dynamics of time series data and provide accurate predictions. [...] Temporal Convolutional Networks (TCNs) are a type of deep learning model that focuses on processing and analyzing time series data. They use a combination of temporal convolutions, dilated convolutions, and pooling layers to capture long-range dependencies and intricate temporal patterns in the data. TCNs have gained popularity in recent years due to their effectiveness in handling a wide range of applications, including speech processing, action recognition, and financial analysis. [...] + Back\n  + Share:\n\n  # TCN\n\n  Temporal Convolutional Networks (TCNs) analyze time series data, used in speech processing, action recognition, and financial analysis.\n\n  Temporal Convolutional Networks (TCNs) are deep learning models designed for analyzing time series data by capturing complex temporal patterns. They have gained popularity in recent years due to their ability to handle a wide range of applications, from speech processing to action recognition and financial analysis.",
+                "score": 0.94911116
+              },
+              {
+                "title": "A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition",
+                "url": "https://www.mdpi.com/2076-3417/15/6/2984",
+                "source": "mdpi.com",
+                "summary": "Temporal Convolutional Network (TCN): One notable advancement in deep learning architectures is the Temporal Convolutional Network (TCN) , which excels at analyzing temporal patterns while retaining the robust feature extraction capabilities of Convolutional Neural Networks (CNNs). TCN is characterized by two key features: (1) By using causal convolutions, it guarantees that the output at any given time step is entirely dependent on the inputs that are now and previously present, with no effect [...] We propose an ensemble deep learning model that leverages a Bidirectional Temporal Convolutional Network (Bi-TCN) for employee attrition classification.\n To enhance model performance and address data imbalances, we incorporate a fully connected GAN-based data augmentation technique, which not only balances the dataset but also increases the volume of training data. [...] transformations . A TCN model’s schematic architecture is seen in Figure 3.",
+                "score": 0.91760606
+              },
+              {
+                "title": "Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data",
+                "url": "https://link.springer.com/article/10.1186/s12302-024-00841-9",
+                "source": "link.springer.com",
+                "summary": "Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data | Environmental Sciences Europe. Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data. Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data. Our study introduces a novel deep learning model named the deep residual shrinkage network (DRSN)—temporal convolutional network (TCN) to remove redundant features and extract temporal features from rainfall data. This paper introduces a new machine learning model for rainfall prediction, improves the accuracy of the original TCN, and develops a new optimization method for input selection. [29 Metaheuristic evolutionary deep learning model based on temporal convolutional network, improved aquila optimizer and random forest for rainfall-runoff simulation and multi-step runoff prediction. Recent studies have indicated that deep learning models are reliable tools for extracting important information from data and improving the performance of classical machine learning models such as random forest models and regression models [1 Convolutional Neural Network- ANN- E (Tanh): a new deep learning model for predicting rainfall. As deep learning models use advanced operators and different computational layers for processing data, they can enhance the performance of classical machine learning models [1 Convolutional Neural Network- ANN- E (Tanh): a new deep learning model for predicting rainfall. Qiao X, Peng T, Sun N, Zhang C, Liu Q, Zhang Y, Wang Y, Shahzad Nazir M (2023) Metaheuristic evolutionary deep learning model based on temporal convolutional network, improved aquila optimizer and random forest for rainfall-runoff simulation and multi-step runoff prediction. _et al._ Gaussian mutation–orca predation algorithm–deep residual shrinkage network (DRSN)–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data. Qiao X, Peng T, Sun N, Zhang C, Liu Q, Zhang Y, Wang Y, Shahzad Nazir M (2023) Metaheuristic evolutionary deep learning model based on temporal convolutional network, improved aquila optimizer and random forest for rainfall-runoff simulation and multi-step runoff prediction.",
+                "score": 0.82048416
+              },
+              {
+                "title": "A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition",
+                "url": "https://doi.org/10.3390/app15062984",
+                "source": "doi.org",
+                "summary": "Title: A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition\n# A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. The proposed model yields promising results in predicting employee attrition, achieving accuracy rates of 89.65% on the IBM dataset and 97.83% on the Kaggle dataset. employee attrition; employee turnover; deep learning model; bidirectional temporal convolutional network (Bi-TCN); data augmentation; generative adversarial network (GAN); explainable AI (XAI). * We propose an ensemble deep learning model that leverages a Bidirectional Temporal Convolutional Network (Bi-TCN) for employee attrition classification. In another study [15], the performance of several machine learning models was evaluated on different feature subsets to predict employee attrition using the IBM dataset. Several scholars have focused on utilizing deep learning and neural network models to predict employee turnover [28,29]. [43] evaluated four machine learning models for employee attrition prediction using a real dataset obtained from an Italian financial company. We also evaluate our proposed model on another employee attrition dataset, comparing its performance with baseline classical machine learning and deep learning models. 4. Alsheref, F.K.; Fattoh, I.E.; Ead, W.M. Automated prediction of employee attrition using ensemble model based on machine learning algorithms. **Figure 2.** Proposed deep learning model for predicting employee attrition. **Figure 2.** Proposed deep learning model for predicting employee attrition. Mortezapour Shiri, F.; Yamaguchi, S.; Ahmadon, M.A.B. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. \"A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition\" *Applied Sciences* 15, no. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. Mortezapour Shiri, F.; Yamaguchi, S.; Ahmadon, M.A.B. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. \"A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition\" *Applied Sciences* 15, no. A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition.",
+                "score": 0.7283819
+              },
+              {
+                "title": "[PDF] A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition | CiteDrive",
+                "url": "https://www.citedrive.com/en/discovery/a-deep-learning-model-based-on-bidirectional-temporal-convolutional-network-bi-tcn-for-predicting-employee-attrition",
+                "source": "citedrive.com",
+                "summary": "Title: [PDF] A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition | CiteDrive\nDOI: 10.3390/app15062984 ISSN: 2076-3417. # A Deep Learning Model Based on Bidirectional Temporal Convolutional Network (Bi-TCN) for Predicting Employee Attrition. Employee attrition, which causes a significant loss for an organization, is the term used to describe the natural decline in the number of employees in an organization as a result of numerous unavoidable events. If a company can predict the likelihood of an employee leaving, it can take proactive steps to address the issue. In this study, we introduce a deep learning framework based on a Bidirectional Temporal Convolutional Network (Bi-TCN) to predict employee attrition. We conduct extensive experiments on two publicly available datasets, including IBM and Kaggle, comparing our model’s performance against classical machine learning, deep learning models, and state-of-the-art approaches across multiple evaluation metrics. The proposed model yields promising results in predicting employee attrition, achieving accuracy rates of 89.65% on the IBM dataset and 97.83% on the Kaggle dataset. We also apply a fully connected GAN-based data augmentation technique and three oversampling methods to augment and balance the IBM dataset. The results show that our proposed model, combined with the GAN-based approach, improves accuracy to 92.17%. We also applied the SHAP method to identify the key features that most significantly influence employee attrition. These findings demonstrate the efficacy of our model, showcasing its potential for use in various industries and organizations. * DOI: 10.3390/lubricants13030117 2025. Investigate on the Fluid Dynamics and Heat Transfer Behavior in an Automobile Gearbox Based on the LBM-LES Model. * DOI: 10.1093/ckj/sfae417 2025. * DOI: 10.1126/science.ado6285 2025. Rams, Jacek Dziarmaga, Roeland Wiersema, William Bernoudy, Jack Raymond, Nitin Kaushal, Niclas Heinsdorf, Richard Harris, Kelly Boothby, Fabio Altomare, Mohsen Asad, Andrew J. Johnson, Samuel Kortas, Eric Ladizinsky, Trevor Lanting, Tony Lai, Ryan Li, Allison J. McGeoch, Reza Molavi, Travis Oh, Richard Neufeld, Mana Norouzpour, Joel Pasvolsky, Patrick Poitras, Gabriel Poulin-Lamarre, Thomas Prescott, Mauricio Reis, Chris Rich, Mohammad Samani, Benjamin Sheldan, Anatoly Smirnov, Edward Sterpka, Berta Trullas Clavera, Nicholas Tsai, Mark Volkmann, Alexander M. Whittaker, Warren Wilkinson, Jason Yao, T.J. Yi, Anders W. Melko, Juan Carrasquilla, Marcel Franz, Mohammad H. Sonali Sethi, Srikanth Narayanaswamy, Ankur J. Shah, Stanzin Spalkit, Surendra Kumar Bugata, Raj Chari. Vikas Batra, Stanzin Spalkit, Surendra Kumar Bugata, Raj Chari, Nafisa Shakir Batta.",
+                "score": 0.6747586
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "assistant_text": "Trong khoa học dữ liệu và học sâu (Deep Learning), **TCN** là viết tắt của **Temporal Convolutional Network** (Mạng tích chập thời gian). \n\nĐây là một kiến trúc mạng nơ-ron chuyên biệt được thiết kế để xử lý và phân tích **dữ liệu chuỗi thời gian (time series data)** hoặc các chuỗi dữ liệu tuần tự (sequential data). TCN thường được xem là một giải pháp thay thế mạnh mẽ cho các mạng nơ-ron hồi quy truyền thống như RNN, LSTM hay GRU.\n\nDưới đây là chi tiết về cấu trúc, ưu điểm và ứng dụng của mô hình TCN:\n\n---\n\n### 1. Các đặc điểm cốt lõi của TCN\nMô hình TCN sở hữu hai đặc tính kỹ thuật quan trọng giúp nó xử lý dữ liệu chuỗi thời gian hiệu quả:\n\n*   **Tích chập nhân quả (Causal Convolutions):** \n    Đảm bảo nguyên tắc \"không rò rỉ thông tin từ tương lai\". Nghĩa là, đầu ra (output) tại thời điểm $t$ chỉ được tính toán dựa trên các đầu vào (input) từ thời điểm $t$ trở về trước. Điều này cực kỳ quan trọng trong các bài toán dự báo (như dự báo thời tiết, chứng khoán).\n*   **Tích chập giãn nở (Dilated Convolutions):**\n    Để mô hình có thể ghi nhớ được các thông tin từ rất lâu trong quá khứ (long-range dependencies) mà không làm tăng kích thước bộ lọc quá lớn, TCN sử dụng kỹ thuật \"giãn nở\" (bỏ qua một số bước đệm theo cấp số nhân). Điều này giúp mở rộng trường tiếp nhận (receptive field) của mạng một cách hiệu quả.\n*   **Kết nối phần dư (Residual Connections):**\n    Tương tự như mạng ResNet, TCN sử dụng các đường kết nối tắt (shortcut) giữa các tầng. Điều này giúp huấn luyện các mạng TCN rất sâu mà không gặp phải hiện tượng triệt tiêu gradient (vanishing gradient).\n\n---\n\n### 2. So sánh TCN với RNN / LSTM\nTrước khi TCN ra đời, LSTM và GRU là \"vua\" trong việc xử lý chuỗi. Tuy nhiên, TCN có nhiều ưu điểm vượt trội:\n\n| Đặc điểm | RNN / LSTM / GRU | TCN (Temporal Convolutional Network) |\n| :--- | :--- | :--- |\n| **Khả năng song song hóa** | **Kém** (phải tính toán tuần tự từng bước thời gian $t-1 \\rightarrow t$). | **Rất tốt** (tính toán tích chập có thể thực hiện song song trên toàn bộ chuỗi cùng lúc bằng GPU). |\n| **Trường tiếp nhận (Memory)** | Phụ thuộc vào khả năng lưu trữ trạng thái ẩn (dễ bị quên thông tin quá xa). | Có thể điều chỉnh linh hoạt thông qua độ giãn nở (dilation) và kích thước bộ lọc. |\n| **Hiện tượng mất mát Gradient** | Dễ bị triệt tiêu hoặc bùng nổ gradient khi chuỗi quá dài. | Ổn định hơn nhờ cấu trúc tích chập và kết nối phần dư (Residual). |\n\n---\n\n### 3. Ứng dụng thực tế của TCN\nNhờ khả năng xử lý chuỗi nhanh và chính xác, TCN được ứng dụng rộng rãi trong nhiều lĩnh vực:\n*   **Dự báo tài chính:** Dự đoán giá cổ phiếu, xu hướng thị trường, phát hiện gian lận giao dịch.\n*   **Xử lý ngôn ngữ và giọng nói (NLP & Speech):** Nhận dạng giọng nói, tổng hợp tiếng nói, dịch máy.\n*   **Y tế & Sinh học:** Phân tích tín hiệu điện tâm đồ (ECG), điện não đồ (EEG), dự đoán tình trạng bệnh nhân.\n*   **Khí tượng thủy văn:** Dự báo thời tiết, lượng mưa, lưu lượng dòng chảy sông ngòi.\n*   **Nhận diện hành động (Action Recognition):** Phân tích chuỗi các khung hình video để hiểu hành động của con người.",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T17:24:46",
+  "updated_at": "2026-07-29T17:24:46"
+}

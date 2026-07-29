@@ -1,0 +1,268 @@
+{
+  "transcript_id": "ui_83eea1e5",
+  "version": "v0",
+  "artifact_version": "v0+pf15c940d969a+td4f6563e98cd",
+  "prompt_hash": "f15c940d969aa56d6536f589a044fe0f1f05b96ea45c312026796b73cf09c6ad",
+  "tools_hash": "d4f6563e98cdcc3e12da0c182ca43b6e1c62b74881ae82b2dad44a3fabbab9bf",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "Tìm cho tôi thông tin về ICTU"
+    },
+    {
+      "role": "assistant",
+      "content": "**ICTU** là tên viết tắt tiếng Anh của **Trường Đại học Công nghệ Thông tin và Truyền thông** (Thai Nguyen University of Information and Communication Technology), một trường đại học thành viên thuộc **Đại học Thái Nguyên** [en.ictu.edu.vn]. \n\nDưới đây là các thông tin chi tiết và mới nhất về ICTU:\n\n### 1. Tổng quan và Lịch sử phát triển\n* **Tên tiếng Việt:** Trường Đại học Công nghệ Thông tin và Truyền thông – Đại học Thái Nguyên.\n* **Ngày thành lập:** Trường được thành lập vào ngày **30/03/2011** (vừa kỷ niệm 14 năm thành lập vào ngày 30/03/2025) [en.ictu.edu.vn].\n* **Sứ mệnh:** ICTU định hướng phát triển thành một trường đại học số đa ngành, đi đầu trong lĩnh vực giáo dục, đổi mới sáng tạo và chuyển đổi số tại khu vực Trung du và Miền núi phía Bắc cũng như trên cả nước [en.ictu.edu.vn, facebook.com].\n\n### 2. Quy mô và Ngành đào tạo\n* **Quy mô đào tạo:** Trường hiện có quy mô đào tạo hơn **10.000 sinh viên** hệ chính quy (riêng năm 2024 trường đã chào đón gần 3.000 tân sinh viên) [en.ictu.edu.vn].\n* **Chương trình đào tạo:** ICTU hiện đào tạo **24 chương trình học**, nhanh chóng bắt kịp các xu hướng công nghệ toàn cầu với các ngành học mũi nhọn như:\n  * Trí tuệ nhân tạo (AI) và Khoa học dữ liệu (Data Science) [en.ictu.edu.vn].\n  * Công nghệ bán dẫn (Semiconductors) [en.ictu.edu.vn].\n  * Kinh tế số (Digital Economy) [en.ictu.edu.vn].\n  * Truyền thông đa phương tiện (Digital Media) và Nghệ thuật số (Digital Arts) [en.ictu.edu.vn].\n\n### 3. Nghiên cứu khoa học và Hoạt động nổi bật\n* **Sản phẩm công nghệ tiêu biểu:** Sinh viên và giảng viên ICTU đã nghiên cứu và phát triển nhiều sản phẩm ứng dụng thực tế cao như: robot phun khử khuẩn trong bệnh viện, hệ thống pin mặt trời độc lập, máy bán nước tự động, lập trình thực tế ảo (VR) và các hệ thống điều khiển thiết bị bằng nhận diện cử chỉ tay [en.ictu.edu.vn].\n* **Dự án lớn:** Trường đã khởi động chương trình **Samsung Innovation Campus** nhằm thúc đẩy phát triển tài năng chất lượng cao trong lĩnh vực AI và bán dẫn [en.ictu.edu.vn].\n* **Hoạt động ngoại khóa:** Trường có phong trào sinh viên rất sôi nổi với nhiều câu lạc bộ học thuật (như CLB Tin học ICTU) [facebook.com] và các sự kiện âm nhạc, văn hóa lớn như đại nhạc hội \"Thai Nguyen Next Generation\" [en.ictu.edu.vn].\n\n### 4. Hợp tác quốc tế và Đối tác chiến lược\nICTU không ngừng mở rộng mạng lưới hợp tác trong và ngoài nước:\n* **Trong nước:** Hợp tác chiến lược với Đại học Quốc gia Hà Nội trong đào tạo công nghệ AI, bán dẫn và đồng tổ chức Hội thảo Khoa học Quốc tế ICTA [en.ictu.edu.vn].\n* **Quốc tế:** \n  * Ký kết biên bản ghi nhớ với **Đại học Quốc gia Kyungpook (KNU - Hàn Quốc)** để vận hành Trung tâm Trao đổi Sáng kiến Toàn cầu (GIC-E) [en.ictu.edu.vn].\n  * Hợp tác với **Đại học Đô thị Hồng Kông (HKMU)** và mạng lưới **Old Teachers Network (OTN - Nhật Bản)** để mở rộng cơ hội học tập, nghiên cứu quốc tế cho sinh viên [en.ictu.edu.vn].\n\n### 5. Thông tin liên hệ\n* **Địa chỉ:** Đường Z115, Phường Quyết Thắng, Thành phố Thái Nguyên, Tỉnh Thái Nguyên [en.ictu.edu.vn, ictu.edu.vn].\n* **Điện thoại:** 0208.3846254 [ictu.edu.vn]\n* **Email:** contact@ictu.edu.vn [ictu.edu.vn] hoặc oia@ictu.edu.vn (Phòng Hợp tác Quốc tế) [en.ictu.edu.vn].\n* **Website chính thức:** [ictu.edu.vn](https://ictu.edu.vn) hoặc bản tiếng Anh [en.ictu.edu.vn](https://en.ictu.edu.vn).",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "ICTU Thái Nguyên",
+            "timeframe": "year",
+            "topic": "general"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "ICTU Thái Nguyên",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "ICTU cooperated with Thai Nguyen University branch in Lao Cai province – ICTU",
+                "url": "https://en.ictu.edu.vn/ictu-cooperated-with-thai-nguyen-university-branch-in-lao-cai-province",
+                "source": "en.ictu.edu.vn",
+                "summary": "Title: ICTU cooperated with Thai Nguyen University branch in Lao Cai province – ICTU\n# ICTU cooperated with Thai Nguyen University branch in Lao Cai province. On July 28, ICTU and Thai Nguyen University branch in Lao Cai province organized a meeting to discuss the cooperation programs. On behalf of Thai Nguyen University Branch in Lao Cai province, there were Assoc. Dr. Vu Duc Thai – Vice Rector and representatives of leaders of units under ICTU attended the meeting. At the meeting, the representatives of the two units signed a memorandum of cooperation, marking an important turning point in establishing a comprehensive cooperative relationship in training, scientific research and technology transfer between the two universities. The representative of Thai Nguyen University Branch in Lao Cai province – Assoc. Dr. Nguyen Manh Ha highly appreciated and warmly congratulated the cooperation between the two units, contributing to promoting the strong development of science and technology between the two units, sharing new scientific and technological achievements and improving the quality of human resource training, contributing to promoting synchronous and comprehensive development. The memorandum of cooperation between ICTU and Thai Nguyen University branch in Lao Cai province is an important basis for promoting the implementation of practical cooperation activities between the two units in the future. At the signing ceremony, the two units shared outstanding scientific achievements and thereby identified initial cooperation directions to promote cooperation with contents such as coordination in recruiting students, training, jointly implementing scientific research, organizing domestic and international conferences, and exchanging lecturers and students. ICTU constantly strives to improve the comprehensive quality of training, scientific research and technology transfer activities, constantly striving to meet the region’s development needs in terms of human resources and science and technology applications while sharing achievements to contribute to the overall development of the country. In the coming time, ICTU will continue to make its best efforts to promote the effective implementation of comprehensive cooperation activities between the two units. #### ICTU Promotes Strategic Cooperation with Kyungpook National University (Republic of Korea)\"). #### ICTU strengthened strategic cooperation in AI and Semiconductor Technologies with Vietnam National University, Hanoi. #### ICTU and Vietnam National University, Hanoi co-organizes the International Scientific Conference ICTA 2025.",
+                "score": 0.82288796
+              },
+              {
+                "title": "ICTU participated in the Exhibition of Training, Science and Technology Achievements of Thai Nguyen University – ICTU",
+                "url": "https://en.ictu.edu.vn/ictu-participated-in-the-exhibition-of-training-science-and-technology-achievements-of-thai-nguyen-university",
+                "source": "en.ictu.edu.vn",
+                "summary": "## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. ## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. ## Achievements. ## Achievements. # ICTU participated in the Exhibition of Training, Science and Technology Achievements of Thai Nguyen University. Within the framework of activities celebrating the 30th Anniversary of the Establishment of Thai Nguyen University (TNU) (April 4, 1994 – April 4, 2024), the Exhibition of Training, Science and Technology Achievements became the focus of attracting the attention of a large number of researchers, scientists, officials, and lecturers coming from universities and research institutes nationwide. With the participation of many member units of TNU, along with companies and sponsors, the exhibition becomes a playground to display typical science and technology products. The exhibition was not only an opportunity to introduce achievements but also to connect scientists with businesses and managers in the process of commercializing science and technology products. Contributing to the overall success of the event, ICTU brought high-tech products, such as web-based virtual reality programming, to the exhibition. In addition, ICTU also displayed typical products of the Science and Technology Competition, such as automatic beverage dispensers, disinfectant spraying robots in hospitals, independent solar panel systems, and electric device control systems based on hand gesture recognition…. At the ICTU exhibition area, representatives of senior leaders from the Central Government, TNU, and leaders of localities and school partners all highly appreciated the achievements that ICTU has achieved in recent times, affirming the importance of scientific research and technological innovation in the development process. The exhibition of training, science, and technology achievements became a great opportunity for ICTU to introduce its typical achievements while affirming its commitment to actively contributing to the development of TNU and building the identity of a leading multidisciplinary, digital university.",
+                "score": 0.79542017
+              },
+              {
+                "title": "Chairman of the Thai Nguyen Provincial People’s Committee Nguyen Huy Dung sent many messages to ICTU students – ICTU",
+                "url": "https://en.ictu.edu.vn/chairman-of-the-thai-nguyen-provincial-peoples-committee-nguyen-huy-dung-sent-many-messages-to-ictu-students",
+                "source": "en.ictu.edu.vn",
+                "summary": "Title: Chairman of the Thai Nguyen Provincial People’s Committee Nguyen Huy Dung sent many messages to ICTU students – ICTU\n## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. ## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. # Chairman of the Thai Nguyen Provincial People’s Committee Nguyen Huy Dung sent many messages to ICTU students. On the evening of November 18, University of Information and Communication Technology (ICTU) held the Opening Ceremony of the new academic year 2024 – 2025 and celebrated Vietnamese Teachers’ Day, November 20. The University quickly caught up with the trends of the world and Vietnam and now has 24 academic programs, including many programs in new fields, such as Artificial Intelligence, Data Science, Semiconductors, Digital Economy, Digital Media, and Digital Arts. The number of full-time university students at ICTU has increased steadily through the admission seasons. In 2024, ICTU welcomed nearly 3,000 new students, bringing the total training scale to over 10,000 full-time university students. Giving an address at the Opening Ceremony, Mr. Dung sent his congratulations to all staff and lecturers of the University on the occasion of Vietnamese Teachers’ Day, November 20. With the slogan “Let’s light up the fire in every eye!” he advised ICTU students to aspire and strive to build a digital Thai Nguyen, a green Thai Nguyen, and a happy Thai Nguyen to realize the dream of a programming generation, combining programming thinking with the thinking of creating typical products of Thai Nguyen. On this occasion, the Chairman of the Provincial People’s Committee awarded the Certificate of Merit of the Provincial People’s Committee to the University and two individuals with outstanding achievements in contributing to the province’s digital transformation program and activities celebrating the 70th anniversary of Dien Bien Phu Victory. #### ICTU Promotes Strategic Cooperation with Kyungpook National University (Republic of Korea)\"). #### ICTU Participated in the 6th Sino-Vietnam Presidents Forum of Universities in the Red River Basin. #### ICTU strengthened strategic cooperation in AI and Semiconductor Technologies with Vietnam National University, Hanoi. #### ICTU and Vietnam National University, Hanoi co-organizes the International Scientific Conference ICTA 2025. #### Kyungpook National University (KNU), Republic of Korea, launched Student Recruitment Promotion Program at ICTU, Republic of Korea, launched Student Recruitment Promotion Program at ICTU\"). #### ICTU welcomed a delegation from Hong Kong Metropolitan University (HKMU)\").",
+                "score": 0.75831425
+              },
+              {
+                "title": "Vibrant Night of Music: “Thai Nguyen Next Generation” – ICTU",
+                "url": "https://en.ictu.edu.vn/vibrant-night-of-music-thai-nguyen-next-generation",
+                "source": "en.ictu.edu.vn",
+                "summary": "Title: Vibrant Night of Music: “Thai Nguyen Next Generation” – ICTU\nOn the evening of 30 March 2025, University of Information and Communication Technology (ICTU) – Thai Nguyen University, organized the music event “Thai Nguyen Next Generation”. This special gift was presented by ICTU to students and the youth community on the occasion of the 14th anniversary of the university’s founding (30 March 2011 – 30 March 2025). Over the years, ICTU has consistently served as a bridge to inspire learning and creativity, bringing young people closer to knowledge and technology. “Thai Nguyen Next Generation” is not only a music program but also an explosive playground dedicated to the youth of Thai Nguyen and ICTU students; it carries a meaningful message – love for the homeland, national pride, and the strong aspirations of the youth generation in the new era. “Thai Nguyen Next Generation” is a lively musical event for the youth of Thai Nguyen and ICTU students. Specially, with the appearance of top DJs, famous singers, and ICTU students, the event brought vibrant songs and dances, creating a dazzling musical moment for the audience. “Thai Nguyen Next Generation” is a music program that embodies the spirit and aspirations of the youth of Thai Nguyen; it speaks of a generation full of talent and enthusiasm. The youth generation at ICTU is part of this, with dynamic creativity and a spirit of continuous learning. The youth at ICTU have left many lasting impressions. “Cricket: The Adventure to the Muddy Hamlet” is a product created by ICTU students in the film studio at ICTU in collaboration with CINEPLUS. On this occasion, ICTU introduced the film to a wide audience and students. #### ICTU Promotes Strategic Cooperation with Kyungpook National University (Republic of Korea)\"). #### ICTU Participated in the 6th Sino-Vietnam Presidents Forum of Universities in the Red River Basin. #### ICTU strengthened strategic cooperation in AI and Semiconductor Technologies with Vietnam National University, Hanoi. #### ICTU and Vietnam National University, Hanoi co-organizes the International Scientific Conference ICTA 2025. #### Kyungpook National University (KNU), Republic of Korea, launched Student Recruitment Promotion Program at ICTU, Republic of Korea, launched Student Recruitment Promotion Program at ICTU\"). #### ICTU welcomed a delegation from Hong Kong Metropolitan University (HKMU)\").",
+                "score": 0.7001783
+              },
+              {
+                "title": "CLB Tin Học - ICTU | Thái Nguyên",
+                "url": "https://www.facebook.com/itclub.ictu",
+                "source": "facebook.com",
+                "summary": "Title: CLB Tin Học - ICTU | Thái Nguyên\n# CLB Tin Học - ICTU | Thái Nguyên | Facebook. # CLB Tin Học - ICTU. **2.3K** followers • **23** following. ## Intro. ĐỐT CHÁY ĐAM MÊ - KHƠI NGUỒN SÁNG TẠO. Not yet rated (0 Reviews). ## Photos. ## **CLB Tin Học - ICTU**. Admin đang định thắc mắc là các bạn có vẻ không thích và xanh lá Câu số 2 ghê? Nhưng mới mở đề ra thì: uhm, các thí sinh không làm câu đấy trước cũng có lí do của nó! khả năng càng overthinking lại càng khó AC rồi. See more from CLB Tin Học - ICTU | Thái Nguyên. See more from CLB Tin Học - ICTU | Thái Nguyên.",
+                "score": 0.6496014
+              }
+            ]
+          }
+        },
+        {
+          "tool": "lookup",
+          "args": {
+            "timeframe": "year",
+            "query": "Trường Đại học Công nghệ Thông tin và Truyền thông Thái Nguyên ICTU",
+            "topic": "general"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "Trường Đại học Công nghệ Thông tin và Truyền thông Thái Nguyên ICTU",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "Đại học Thái Nguyên",
+                "url": "https://tnu.edu.vn",
+                "source": "tnu.edu.vn",
+                "summary": "Ngày 21/7, Đoàn thanh niên, Hội sinh viên Trường Đại học Công nghệ Thông tin và Truyền thông (ICTU) – Đại học Thái Nguyên đã tổ chức lễ ra qun Chiến dịch Tình nguyện Mùa hè xanh 2026 tại xã Phú Xuyên, tỉnh Thái Nguyên.\n\nĐại học Thái Nguyên trao đổi hợp tác với Trung tm Đào tạo giáo viên UNESCO và Trường Đại học Sư phạm Thượng Hải (Trung Quốc)\") \n\nĐại học Thái Nguyên trao đổi hợp tác với Trung tm Đào tạo giáo viên UNESCO và Trường Đại học Sư phạm Thượng Hải (Trung Quốc)\") [...] Thái Nguyên tại Hà GiangMới  Phát triển chương trình đào tạo đáp ứng yêu cầu đổi mới giáo dục theo Nghị quyết số 71-NQ/TWMới  [[28/7/2026] Hội nghị Xy dựng định hướng nghiên cứu công nghệ chiến lược và lĩnh vực/ngành đào tạo trọng điểm, tài năng của ĐHTN.Mới](/su-kien-sap-dien-ra/-28-7-2026-hoi-nghi-xay-dung-dinh-huong-nghien-cuu-cong-nghe-chien-luoc-va-linh-vuc-nganh-dao-tao-trong-diem-tai-nang-cu.html \"[28/7/2026] Hội nghị Xy dựng định hướng nghiên cứu công nghệ chiến lược và lĩnh vực/ngành [...] Logo\n\n   Tiếng Việt \n  +   Tiếng Anh\n  +   Tiếng Việt\n Thông tin nội bộ\n Sơ đồ trang\n\n\n\nĐại học Thái Nguyên xy dựng định hướng nghiên cứu công nghệ chiến lược và ngành đào tạo trọng điểm, tài năng\n\nXem thêm\n\n\n\nGiám đốc Đại học Thái Nguyên làm việc, đối thoại với viên chức, người lao động Phn hiệu Đại học Thái Nguyên tại Hà Giang\n\nXem thêm\n\n\n\nĐại học Thái Nguyên phối hợp tổ chức khảo sát năng lực tiếng Anh cho gần 49.000 giáo viên tại 6 tỉnh\n\nXem thêm\n\n\")",
+                "score": 0.82082915
+              },
+              {
+                "title": "ICTU – University of Information and Communication Technology",
+                "url": "https://en.ictu.edu.vn",
+                "source": "en.ictu.edu.vn",
+                "summary": "ICTU\n\n## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY\n\n## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY\n\nICTU\n\n## Welcome to Thai Nguyen University of Information and Communication Technology\n\n### ICTU Main Services\n\n### Undergraduate\n\n### Graduate\n\n### Professional Education\n\n### ICTU news feed\n\n## ICTU kicks off Samsung Innovation Campus 2026, advancing high-quality AI and semiconductor talent development [...] ## ICTU signed the Memorandum of Understanding with Old Teachers Network (OTN), Japan to expand international academic and research opportunities\n\n## ICTU welcomed a delegation from Hong Kong Metropolitan University (HKMU)\n\n## ICTU and KNU (Republic of Korea) signed Memorandum of Understanding on operating the Global Initiative Center for Exchange (GIC-E)\n\n### contact us\n\n##### Address: Z115 Street, Quyet Thang Ward, Thai Nguyen Province, Vietnam [...] ##### Email: oia@ictu.edu.vn       Tel: (+84) 979046855       Fax: (+84) 2083846237\n\n##### Facebook: \n\nCopyright © 2022 by ICTU",
+                "score": 0.7393665
+              },
+              {
+                "title": "ICTU VÀ HÀNH TRÌNH TỪ THÁI NGUYÊN SỐ ĐẾN VIỆT ...",
+                "url": "https://www.facebook.com/ictu.vn/videos/%EF%B8%8Fictu-v%C3%A0-h%C3%A0nh-tr%C3%ACnh-t%E1%BB%AB-th%C3%A1i-nguy%C3%AAn-s%E1%BB%91-%C4%91%E1%BA%BFn-vi%E1%BB%87t-nam-s%E1%BB%91ictu-l%C3%A0-t%E1%BA%A5m-g%C6%B0%C6%A1ng-%C4%91i%E1%BB%83n-h%C3%ACnh/1615106766123823",
+                "source": "facebook.com",
+                "summary": "ICTU VÀ HÀNH TRÌNH TỪ THÁI NGUYÊN SỐ ĐẾN VIỆT NAM SỐ ICTU là tấm gương điển hình trong giáo dục, đổi mới sáng tạo và chuyển đổi số của tỉnh Thái",
+                "score": 0.62852204
+              },
+              {
+                "title": "Điểm chuẩn Trường Đại học Công Nghệ Thông Tin và Truyền ...",
+                "url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-cong-nghe-thong-tin-va-truyen-thong-thai-nguyen-DTC.html",
+                "source": "diemthi.tuyensinh247.com",
+                "summary": "Điểm chuẩn ICTU - Đại học Công nghệ Thông tin và Truyền thông - ĐH Thái Nguyên 2026 sẽ được công bố đến tất cả thí sinh trước ngày 13/8. Xem điểm chuẩn ICTU các",
+                "score": 0.61279696
+              },
+              {
+                "title": "ICTU công bố điểm trúng tuyển đại học chính quy đợt 1 ...",
+                "url": "https://ictu.edu.vn/ictu-cong-bo-diem-trung-tuyen-dai-hoc-chinh-quy-dot-1-nam-2025",
+                "source": "ictu.edu.vn",
+                "summary": "Đường Z115, Phường Quyết Thắng, Tỉnh Thái Nguyên. Điện thoại: 0208.3846254 Fax: 0208.3846237. Email: contact@ictu.edu.vn",
+                "score": 0.5407062
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "lookup",
+          "args": {
+            "query": "ICTU Thái Nguyên",
+            "timeframe": "year",
+            "topic": "general"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "ICTU Thái Nguyên",
+            "timeframe": "year",
+            "topic": "general"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "ICTU Thái Nguyên",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "ICTU cooperated with Thai Nguyen University branch in Lao Cai province – ICTU",
+                "url": "https://en.ictu.edu.vn/ictu-cooperated-with-thai-nguyen-university-branch-in-lao-cai-province",
+                "source": "en.ictu.edu.vn",
+                "summary": "Title: ICTU cooperated with Thai Nguyen University branch in Lao Cai province – ICTU\n# ICTU cooperated with Thai Nguyen University branch in Lao Cai province. On July 28, ICTU and Thai Nguyen University branch in Lao Cai province organized a meeting to discuss the cooperation programs. On behalf of Thai Nguyen University Branch in Lao Cai province, there were Assoc. Dr. Vu Duc Thai – Vice Rector and representatives of leaders of units under ICTU attended the meeting. At the meeting, the representatives of the two units signed a memorandum of cooperation, marking an important turning point in establishing a comprehensive cooperative relationship in training, scientific research and technology transfer between the two universities. The representative of Thai Nguyen University Branch in Lao Cai province – Assoc. Dr. Nguyen Manh Ha highly appreciated and warmly congratulated the cooperation between the two units, contributing to promoting the strong development of science and technology between the two units, sharing new scientific and technological achievements and improving the quality of human resource training, contributing to promoting synchronous and comprehensive development. The memorandum of cooperation between ICTU and Thai Nguyen University branch in Lao Cai province is an important basis for promoting the implementation of practical cooperation activities between the two units in the future. At the signing ceremony, the two units shared outstanding scientific achievements and thereby identified initial cooperation directions to promote cooperation with contents such as coordination in recruiting students, training, jointly implementing scientific research, organizing domestic and international conferences, and exchanging lecturers and students. ICTU constantly strives to improve the comprehensive quality of training, scientific research and technology transfer activities, constantly striving to meet the region’s development needs in terms of human resources and science and technology applications while sharing achievements to contribute to the overall development of the country. In the coming time, ICTU will continue to make its best efforts to promote the effective implementation of comprehensive cooperation activities between the two units. #### ICTU Promotes Strategic Cooperation with Kyungpook National University (Republic of Korea)\"). #### ICTU strengthened strategic cooperation in AI and Semiconductor Technologies with Vietnam National University, Hanoi. #### ICTU and Vietnam National University, Hanoi co-organizes the International Scientific Conference ICTA 2025.",
+                "score": 0.82288796
+              },
+              {
+                "title": "ICTU participated in the Exhibition of Training, Science and Technology Achievements of Thai Nguyen University – ICTU",
+                "url": "https://en.ictu.edu.vn/ictu-participated-in-the-exhibition-of-training-science-and-technology-achievements-of-thai-nguyen-university",
+                "source": "en.ictu.edu.vn",
+                "summary": "## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. ## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. ## Achievements. ## Achievements. # ICTU participated in the Exhibition of Training, Science and Technology Achievements of Thai Nguyen University. Within the framework of activities celebrating the 30th Anniversary of the Establishment of Thai Nguyen University (TNU) (April 4, 1994 – April 4, 2024), the Exhibition of Training, Science and Technology Achievements became the focus of attracting the attention of a large number of researchers, scientists, officials, and lecturers coming from universities and research institutes nationwide. With the participation of many member units of TNU, along with companies and sponsors, the exhibition becomes a playground to display typical science and technology products. The exhibition was not only an opportunity to introduce achievements but also to connect scientists with businesses and managers in the process of commercializing science and technology products. Contributing to the overall success of the event, ICTU brought high-tech products, such as web-based virtual reality programming, to the exhibition. In addition, ICTU also displayed typical products of the Science and Technology Competition, such as automatic beverage dispensers, disinfectant spraying robots in hospitals, independent solar panel systems, and electric device control systems based on hand gesture recognition…. At the ICTU exhibition area, representatives of senior leaders from the Central Government, TNU, and leaders of localities and school partners all highly appreciated the achievements that ICTU has achieved in recent times, affirming the importance of scientific research and technological innovation in the development process. The exhibition of training, science, and technology achievements became a great opportunity for ICTU to introduce its typical achievements while affirming its commitment to actively contributing to the development of TNU and building the identity of a leading multidisciplinary, digital university.",
+                "score": 0.79542017
+              },
+              {
+                "title": "Chairman of the Thai Nguyen Provincial People’s Committee Nguyen Huy Dung sent many messages to ICTU students – ICTU",
+                "url": "https://en.ictu.edu.vn/chairman-of-the-thai-nguyen-provincial-peoples-committee-nguyen-huy-dung-sent-many-messages-to-ictu-students",
+                "source": "en.ictu.edu.vn",
+                "summary": "Title: Chairman of the Thai Nguyen Provincial People’s Committee Nguyen Huy Dung sent many messages to ICTU students – ICTU\n## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. ## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY. # Chairman of the Thai Nguyen Provincial People’s Committee Nguyen Huy Dung sent many messages to ICTU students. On the evening of November 18, University of Information and Communication Technology (ICTU) held the Opening Ceremony of the new academic year 2024 – 2025 and celebrated Vietnamese Teachers’ Day, November 20. The University quickly caught up with the trends of the world and Vietnam and now has 24 academic programs, including many programs in new fields, such as Artificial Intelligence, Data Science, Semiconductors, Digital Economy, Digital Media, and Digital Arts. The number of full-time university students at ICTU has increased steadily through the admission seasons. In 2024, ICTU welcomed nearly 3,000 new students, bringing the total training scale to over 10,000 full-time university students. Giving an address at the Opening Ceremony, Mr. Dung sent his congratulations to all staff and lecturers of the University on the occasion of Vietnamese Teachers’ Day, November 20. With the slogan “Let’s light up the fire in every eye!” he advised ICTU students to aspire and strive to build a digital Thai Nguyen, a green Thai Nguyen, and a happy Thai Nguyen to realize the dream of a programming generation, combining programming thinking with the thinking of creating typical products of Thai Nguyen. On this occasion, the Chairman of the Provincial People’s Committee awarded the Certificate of Merit of the Provincial People’s Committee to the University and two individuals with outstanding achievements in contributing to the province’s digital transformation program and activities celebrating the 70th anniversary of Dien Bien Phu Victory. #### ICTU Promotes Strategic Cooperation with Kyungpook National University (Republic of Korea)\"). #### ICTU Participated in the 6th Sino-Vietnam Presidents Forum of Universities in the Red River Basin. #### ICTU strengthened strategic cooperation in AI and Semiconductor Technologies with Vietnam National University, Hanoi. #### ICTU and Vietnam National University, Hanoi co-organizes the International Scientific Conference ICTA 2025. #### Kyungpook National University (KNU), Republic of Korea, launched Student Recruitment Promotion Program at ICTU, Republic of Korea, launched Student Recruitment Promotion Program at ICTU\"). #### ICTU welcomed a delegation from Hong Kong Metropolitan University (HKMU)\").",
+                "score": 0.75831425
+              },
+              {
+                "title": "Vibrant Night of Music: “Thai Nguyen Next Generation” – ICTU",
+                "url": "https://en.ictu.edu.vn/vibrant-night-of-music-thai-nguyen-next-generation",
+                "source": "en.ictu.edu.vn",
+                "summary": "Title: Vibrant Night of Music: “Thai Nguyen Next Generation” – ICTU\nOn the evening of 30 March 2025, University of Information and Communication Technology (ICTU) – Thai Nguyen University, organized the music event “Thai Nguyen Next Generation”. This special gift was presented by ICTU to students and the youth community on the occasion of the 14th anniversary of the university’s founding (30 March 2011 – 30 March 2025). Over the years, ICTU has consistently served as a bridge to inspire learning and creativity, bringing young people closer to knowledge and technology. “Thai Nguyen Next Generation” is not only a music program but also an explosive playground dedicated to the youth of Thai Nguyen and ICTU students; it carries a meaningful message – love for the homeland, national pride, and the strong aspirations of the youth generation in the new era. “Thai Nguyen Next Generation” is a lively musical event for the youth of Thai Nguyen and ICTU students. Specially, with the appearance of top DJs, famous singers, and ICTU students, the event brought vibrant songs and dances, creating a dazzling musical moment for the audience. “Thai Nguyen Next Generation” is a music program that embodies the spirit and aspirations of the youth of Thai Nguyen; it speaks of a generation full of talent and enthusiasm. The youth generation at ICTU is part of this, with dynamic creativity and a spirit of continuous learning. The youth at ICTU have left many lasting impressions. “Cricket: The Adventure to the Muddy Hamlet” is a product created by ICTU students in the film studio at ICTU in collaboration with CINEPLUS. On this occasion, ICTU introduced the film to a wide audience and students. #### ICTU Promotes Strategic Cooperation with Kyungpook National University (Republic of Korea)\"). #### ICTU Participated in the 6th Sino-Vietnam Presidents Forum of Universities in the Red River Basin. #### ICTU strengthened strategic cooperation in AI and Semiconductor Technologies with Vietnam National University, Hanoi. #### ICTU and Vietnam National University, Hanoi co-organizes the International Scientific Conference ICTA 2025. #### Kyungpook National University (KNU), Republic of Korea, launched Student Recruitment Promotion Program at ICTU, Republic of Korea, launched Student Recruitment Promotion Program at ICTU\"). #### ICTU welcomed a delegation from Hong Kong Metropolitan University (HKMU)\").",
+                "score": 0.7001783
+              },
+              {
+                "title": "CLB Tin Học - ICTU | Thái Nguyên",
+                "url": "https://www.facebook.com/itclub.ictu",
+                "source": "facebook.com",
+                "summary": "Title: CLB Tin Học - ICTU | Thái Nguyên\n# CLB Tin Học - ICTU | Thái Nguyên | Facebook. # CLB Tin Học - ICTU. **2.3K** followers • **23** following. ## Intro. ĐỐT CHÁY ĐAM MÊ - KHƠI NGUỒN SÁNG TẠO. Not yet rated (0 Reviews). ## Photos. ## **CLB Tin Học - ICTU**. Admin đang định thắc mắc là các bạn có vẻ không thích và xanh lá Câu số 2 ghê? Nhưng mới mở đề ra thì: uhm, các thí sinh không làm câu đấy trước cũng có lí do của nó! khả năng càng overthinking lại càng khó AC rồi. See more from CLB Tin Học - ICTU | Thái Nguyên. See more from CLB Tin Học - ICTU | Thái Nguyên.",
+                "score": 0.6496014
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "lookup",
+          "args": {
+            "timeframe": "year",
+            "query": "Trường Đại học Công nghệ Thông tin và Truyền thông Thái Nguyên ICTU",
+            "topic": "general"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "lookup",
+          "args": {
+            "timeframe": "year",
+            "query": "Trường Đại học Công nghệ Thông tin và Truyền thông Thái Nguyên ICTU",
+            "topic": "general"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "Trường Đại học Công nghệ Thông tin và Truyền thông Thái Nguyên ICTU",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "Đại học Thái Nguyên",
+                "url": "https://tnu.edu.vn",
+                "source": "tnu.edu.vn",
+                "summary": "Ngày 21/7, Đoàn thanh niên, Hội sinh viên Trường Đại học Công nghệ Thông tin và Truyền thông (ICTU) – Đại học Thái Nguyên đã tổ chức lễ ra qun Chiến dịch Tình nguyện Mùa hè xanh 2026 tại xã Phú Xuyên, tỉnh Thái Nguyên.\n\nĐại học Thái Nguyên trao đổi hợp tác với Trung tm Đào tạo giáo viên UNESCO và Trường Đại học Sư phạm Thượng Hải (Trung Quốc)\") \n\nĐại học Thái Nguyên trao đổi hợp tác với Trung tm Đào tạo giáo viên UNESCO và Trường Đại học Sư phạm Thượng Hải (Trung Quốc)\") [...] Thái Nguyên tại Hà GiangMới  Phát triển chương trình đào tạo đáp ứng yêu cầu đổi mới giáo dục theo Nghị quyết số 71-NQ/TWMới  [[28/7/2026] Hội nghị Xy dựng định hướng nghiên cứu công nghệ chiến lược và lĩnh vực/ngành đào tạo trọng điểm, tài năng của ĐHTN.Mới](/su-kien-sap-dien-ra/-28-7-2026-hoi-nghi-xay-dung-dinh-huong-nghien-cuu-cong-nghe-chien-luoc-va-linh-vuc-nganh-dao-tao-trong-diem-tai-nang-cu.html \"[28/7/2026] Hội nghị Xy dựng định hướng nghiên cứu công nghệ chiến lược và lĩnh vực/ngành [...] Logo\n\n   Tiếng Việt \n  +   Tiếng Anh\n  +   Tiếng Việt\n Thông tin nội bộ\n Sơ đồ trang\n\n\n\nĐại học Thái Nguyên xy dựng định hướng nghiên cứu công nghệ chiến lược và ngành đào tạo trọng điểm, tài năng\n\nXem thêm\n\n\n\nGiám đốc Đại học Thái Nguyên làm việc, đối thoại với viên chức, người lao động Phn hiệu Đại học Thái Nguyên tại Hà Giang\n\nXem thêm\n\n\n\nĐại học Thái Nguyên phối hợp tổ chức khảo sát năng lực tiếng Anh cho gần 49.000 giáo viên tại 6 tỉnh\n\nXem thêm\n\n\")",
+                "score": 0.82082915
+              },
+              {
+                "title": "ICTU – University of Information and Communication Technology",
+                "url": "https://en.ictu.edu.vn",
+                "source": "en.ictu.edu.vn",
+                "summary": "ICTU\n\n## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY\n\n## THAI NGUYEN UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY\n\nICTU\n\n## Welcome to Thai Nguyen University of Information and Communication Technology\n\n### ICTU Main Services\n\n### Undergraduate\n\n### Graduate\n\n### Professional Education\n\n### ICTU news feed\n\n## ICTU kicks off Samsung Innovation Campus 2026, advancing high-quality AI and semiconductor talent development [...] ## ICTU signed the Memorandum of Understanding with Old Teachers Network (OTN), Japan to expand international academic and research opportunities\n\n## ICTU welcomed a delegation from Hong Kong Metropolitan University (HKMU)\n\n## ICTU and KNU (Republic of Korea) signed Memorandum of Understanding on operating the Global Initiative Center for Exchange (GIC-E)\n\n### contact us\n\n##### Address: Z115 Street, Quyet Thang Ward, Thai Nguyen Province, Vietnam [...] ##### Email: oia@ictu.edu.vn       Tel: (+84) 979046855       Fax: (+84) 2083846237\n\n##### Facebook: \n\nCopyright © 2022 by ICTU",
+                "score": 0.7393665
+              },
+              {
+                "title": "ICTU VÀ HÀNH TRÌNH TỪ THÁI NGUYÊN SỐ ĐẾN VIỆT ...",
+                "url": "https://www.facebook.com/ictu.vn/videos/%EF%B8%8Fictu-v%C3%A0-h%C3%A0nh-tr%C3%ACnh-t%E1%BB%AB-th%C3%A1i-nguy%C3%AAn-s%E1%BB%91-%C4%91%E1%BA%BFn-vi%E1%BB%87t-nam-s%E1%BB%91ictu-l%C3%A0-t%E1%BA%A5m-g%C6%B0%C6%A1ng-%C4%91i%E1%BB%83n-h%C3%ACnh/1615106766123823",
+                "source": "facebook.com",
+                "summary": "ICTU VÀ HÀNH TRÌNH TỪ THÁI NGUYÊN SỐ ĐẾN VIỆT NAM SỐ ICTU là tấm gương điển hình trong giáo dục, đổi mới sáng tạo và chuyển đổi số của tỉnh Thái",
+                "score": 0.62852204
+              },
+              {
+                "title": "Điểm chuẩn Trường Đại học Công Nghệ Thông Tin và Truyền ...",
+                "url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-cong-nghe-thong-tin-va-truyen-thong-thai-nguyen-DTC.html",
+                "source": "diemthi.tuyensinh247.com",
+                "summary": "Điểm chuẩn ICTU - Đại học Công nghệ Thông tin và Truyền thông - ĐH Thái Nguyên 2026 sẽ được công bố đến tất cả thí sinh trước ngày 13/8. Xem điểm chuẩn ICTU các",
+                "score": 0.61279696
+              },
+              {
+                "title": "ICTU công bố điểm trúng tuyển đại học chính quy đợt 1 ...",
+                "url": "https://ictu.edu.vn/ictu-cong-bo-diem-trung-tuyen-dai-hoc-chinh-quy-dot-1-nam-2025",
+                "source": "ictu.edu.vn",
+                "summary": "Đường Z115, Phường Quyết Thắng, Tỉnh Thái Nguyên. Điện thoại: 0208.3846254 Fax: 0208.3846237. Email: contact@ictu.edu.vn",
+                "score": 0.5407062
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "assistant_text": "**ICTU** là tên viết tắt tiếng Anh của **Trường Đại học Công nghệ Thông tin và Truyền thông** (Thai Nguyen University of Information and Communication Technology), một trường đại học thành viên thuộc **Đại học Thái Nguyên** [en.ictu.edu.vn]. \n\nDưới đây là các thông tin chi tiết và mới nhất về ICTU:\n\n### 1. Tổng quan và Lịch sử phát triển\n* **Tên tiếng Việt:** Trường Đại học Công nghệ Thông tin và Truyền thông – Đại học Thái Nguyên.\n* **Ngày thành lập:** Trường được thành lập vào ngày **30/03/2011** (vừa kỷ niệm 14 năm thành lập vào ngày 30/03/2025) [en.ictu.edu.vn].\n* **Sứ mệnh:** ICTU định hướng phát triển thành một trường đại học số đa ngành, đi đầu trong lĩnh vực giáo dục, đổi mới sáng tạo và chuyển đổi số tại khu vực Trung du và Miền núi phía Bắc cũng như trên cả nước [en.ictu.edu.vn, facebook.com].\n\n### 2. Quy mô và Ngành đào tạo\n* **Quy mô đào tạo:** Trường hiện có quy mô đào tạo hơn **10.000 sinh viên** hệ chính quy (riêng năm 2024 trường đã chào đón gần 3.000 tân sinh viên) [en.ictu.edu.vn].\n* **Chương trình đào tạo:** ICTU hiện đào tạo **24 chương trình học**, nhanh chóng bắt kịp các xu hướng công nghệ toàn cầu với các ngành học mũi nhọn như:\n  * Trí tuệ nhân tạo (AI) và Khoa học dữ liệu (Data Science) [en.ictu.edu.vn].\n  * Công nghệ bán dẫn (Semiconductors) [en.ictu.edu.vn].\n  * Kinh tế số (Digital Economy) [en.ictu.edu.vn].\n  * Truyền thông đa phương tiện (Digital Media) và Nghệ thuật số (Digital Arts) [en.ictu.edu.vn].\n\n### 3. Nghiên cứu khoa học và Hoạt động nổi bật\n* **Sản phẩm công nghệ tiêu biểu:** Sinh viên và giảng viên ICTU đã nghiên cứu và phát triển nhiều sản phẩm ứng dụng thực tế cao như: robot phun khử khuẩn trong bệnh viện, hệ thống pin mặt trời độc lập, máy bán nước tự động, lập trình thực tế ảo (VR) và các hệ thống điều khiển thiết bị bằng nhận diện cử chỉ tay [en.ictu.edu.vn].\n* **Dự án lớn:** Trường đã khởi động chương trình **Samsung Innovation Campus** nhằm thúc đẩy phát triển tài năng chất lượng cao trong lĩnh vực AI và bán dẫn [en.ictu.edu.vn].\n* **Hoạt động ngoại khóa:** Trường có phong trào sinh viên rất sôi nổi với nhiều câu lạc bộ học thuật (như CLB Tin học ICTU) [facebook.com] và các sự kiện âm nhạc, văn hóa lớn như đại nhạc hội \"Thai Nguyen Next Generation\" [en.ictu.edu.vn].\n\n### 4. Hợp tác quốc tế và Đối tác chiến lược\nICTU không ngừng mở rộng mạng lưới hợp tác trong và ngoài nước:\n* **Trong nước:** Hợp tác chiến lược với Đại học Quốc gia Hà Nội trong đào tạo công nghệ AI, bán dẫn và đồng tổ chức Hội thảo Khoa học Quốc tế ICTA [en.ictu.edu.vn].\n* **Quốc tế:** \n  * Ký kết biên bản ghi nhớ với **Đại học Quốc gia Kyungpook (KNU - Hàn Quốc)** để vận hành Trung tâm Trao đổi Sáng kiến Toàn cầu (GIC-E) [en.ictu.edu.vn].\n  * Hợp tác với **Đại học Đô thị Hồng Kông (HKMU)** và mạng lưới **Old Teachers Network (OTN - Nhật Bản)** để mở rộng cơ hội học tập, nghiên cứu quốc tế cho sinh viên [en.ictu.edu.vn].\n\n### 5. Thông tin liên hệ\n* **Địa chỉ:** Đường Z115, Phường Quyết Thắng, Thành phố Thái Nguyên, Tỉnh Thái Nguyên [en.ictu.edu.vn, ictu.edu.vn].\n* **Điện thoại:** 0208.3846254 [ictu.edu.vn]\n* **Email:** contact@ictu.edu.vn [ictu.edu.vn] hoặc oia@ictu.edu.vn (Phòng Hợp tác Quốc tế) [en.ictu.edu.vn].\n* **Website chính thức:** [ictu.edu.vn](https://ictu.edu.vn) hoặc bản tiếng Anh [en.ictu.edu.vn](https://en.ictu.edu.vn).",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T17:16:30",
+  "updated_at": "2026-07-29T17:16:30"
+}

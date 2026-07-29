@@ -1,0 +1,151 @@
+{
+  "transcript_id": "ui_f6534ea5",
+  "version": "v3",
+  "artifact_version": "v3+pe6df0f054158+td4f6563e98cd",
+  "prompt_hash": "e6df0f0541581ea4019b3623439f4bf0863fc3874ce20c3366ec69d91d405d29",
+  "tools_hash": "d4f6563e98cdcc3e12da0c182ca43b6e1c62b74881ae82b2dad44a3fabbab9bf",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "status": "answered",
+  "history": [
+    {
+      "role": "user",
+      "content": "huong dan toi cach nau pho"
+    },
+    {
+      "role": "assistant",
+      "content": "Phở bò là món ăn \"quốc hồn quốc túy\" của ẩm thực Việt Nam. Để nấu được một nồi phở bò truyền thống chuẩn vị, nước dùng phải trong, thanh và ngọt tự nhiên từ xương chứ không dùng nhiều bột ngọt. \n\nDưới đây là hướng dẫn chi tiết cách nấu phở bò truyền thống chuẩn vị tại nhà:\n\n---\n\n### I. Nguyên liệu chuẩn bị (Cho khoảng 4 - 6 người ăn)\n\n#### 1. Phần xương và thịt:\n*   **Xương ống bò:** 1 - 1.5 kg (quyết định độ ngọt sâu của nước dùng).\n*   **Thịt bò:** 500g (tùy sở thích chọn bắp bò, nạm bò, gầu bò để làm thịt chín; hoặc thịt thăn/phi-lê để làm thịt tái).\n\n#### 2. Gia vị tạo hương (Linh hồn của phở):\n*   **Hành tây:** 1 củ lớn.\n*   **Hành tím:** 4 - 5 củ.\n*   **Gừng tươi:** 1 củ lớn.\n*   **Mía:** 2 đốt ngắn (giúp nước dùng ngọt thanh tự nhiên).\n*   **Bộ gia vị thảo mộc:** 2 hoa hồi, 1 thanh quế nhỏ, 1 quả thảo quả, 3 - 4 đinh hương, 1 muỗng cà phê hạt mùi (hạt ngò).\n*   **Rễ cây mùi (ngò rí):** 5 - 6 rễ (giúp nước dùng thơm thanh).\n\n#### 3. Gia vị nêm nếm:\n*   Nước mắm ngon, đường phèn, muối, hạt nêm.\n\n#### 4. Đồ ăn kèm & Trình bày:\n*   **Bánh phở tươi:** 1 kg.\n*   **Rau thơm:** Hành lá, rau mùi (ngò rí), hành tây thái mỏng, húng quế, ngò gai.\n*   **Ăn kèm:** Chanh, ớt tươi, tương ớt, tương đen, quẩy nóng.\n\n---\n\n### II. Các bước thực hiện\n\n#### Bước 1: Sơ chế xương và thịt bò (Khử mùi hôi)\n*   **Xương bò:** Rửa sạch, ngâm nước muối loãng khoảng 1 - 2 tiếng. Sau đó, cho xương vào nồi nước lạnh, đun sôi bùng lên khoảng 10 phút để đẩy hết máu bẩn và bọt đen ra ngoài. Vớt xương ra, rửa lại thật sạch dưới vòi nước lạnh.\n*   **Thịt bò (phần thịt chín như nạm, gầu):** Rửa sạch, xát chút muối và gừng giã dập để khử mùi, rửa sạch lại.\n\n#### Bước 2: Nướng hành, gừng và chuẩn bị thảo mộc\n*   **Nướng:** Đem hành tây, hành tím, gừng và mía (để nguyên vỏ) nướng trên bếp ga hoặc bếp than cho đến khi cháy xém và tỏa mùi thơm. Sau đó, cạo sạch lớp vỏ cháy đen, rửa sạch. Đập dập gừng và hành tím.\n*   **Rang thảo mộc:** Cho hoa hồi, quế, thảo quả (đập dập), đinh hương và hạt mùi vào chảo rang ở lửa nhỏ đến khi dậy mùi thơm (tránh làm cháy). Cho tất cả vào một túi vải lọc nhỏ buộc chặt lại.\n\n#### Bước 3: Ninh nước dùng (Nước lèo)\n*   Cho xương bò đã rửa sạch vào nồi lớn, đổ ngập nước (khoảng 4 - 5 lít nước). \n*   Bật lửa lớn đun sôi, sau đó **hạ lửa nhỏ liu riu** và mở hé vung. *Lưu ý: Không để nước sôi sùng sục vì sẽ làm đục nước dùng.*\n*   Thường xuyên hớt bọt nổi lên trên bề mặt để nước dùng được trong.\n*   Cho hành tây, hành tím, gừng, mía nướng và rễ mùi vào nồi ninh cùng.\n*   **Luộc thịt:** Cho miếng thịt bò (nạm/gầu) vào luộc chung trong nồi nước dùng. Khi thịt chín tới (khoảng 45 phút - 1 tiếng tùy miếng to nhỏ), vớt ra ngâm ngay vào bát nước đá lạnh để thịt không bị thâm và giữ được độ giòn, sau đó thái lát mỏng.\n*   **Thả túi thảo mộc:** Trước khi hoàn thành nước dùng khoảng 1 - 2 tiếng, thả túi vải đựng các loại thảo mộc đã rang vào nồi. Không nên thả quá sớm từ đầu vì sẽ làm nước dùng bị nồng và tối màu.\n*   **Thời gian ninh xương:** Tổng thời gian ninh xương bò lý tưởng là từ **6 đến 8 tiếng** để lấy hết chất ngọt.\n\n#### Bước 4: Nêm nếm nước dùng\n*   Nêm muối và đường phèn vào nồi nước dùng cho vừa khẩu vị (đường phèn giúp vị ngọt thanh hơn đường cát).\n*   **Mẹo nhỏ:** Chỉ nêm nước mắm trước khi ăn khoảng 30 phút. Nếu nêm nước mắm quá sớm và ninh lâu, nước dùng sẽ dễ bị chua và nồng mùi mắm.\n\n#### Bước 5: Trình bày và Thưởng thức\n*   **Chuẩn bị rau:** Hành lá, rau mùi rửa sạch, thái nhỏ. Phần đầu hành trắng chẻ dọc. Hành tây thái lát thật mỏng.\n*   **Chần bánh phở:** Dùng một nồi nước sôi riêng, cho bánh phở vào vợt chần nhanh qua nước sôi rồi xóc ráo nước, cho vào tô.\n*   **Xếp thịt:** Xếp thịt bò chín (nạm/gầu) đã thái mỏng lên trên bánh phở. Nếu ăn phở tái, bạn dàn đều thịt bò tái (đã thái mỏng, đập dập nhẹ) lên trên.\n*   **Hoàn thiện:** Rắc hành lá, rau mùi, hành tây thái mỏng và đầu hành chẻ lên trên.\n*   **Chan nước dùng:** Đun nước dùng thật sôi, chan đều lên bát phở (chan trực tiếp lên phần thịt tái để thịt chín tái đều).\n*   **Thưởng thức:** Ăn kèm với chanh, vài lát ớt tươi, tương ớt, tương đen và quẩy nóng.\n\n---\n\n### 💡 Bí quyết để có bát phở ngon chuẩn vị:\n1.  **Nước dùng trong:** Luôn ninh ở lửa nhỏ không đậy nắp và hớt bọt liên tục.\n2.  **Thịt bò tái mềm:** Chọn thịt bò phi-lê hoặc thăn tươi, thái thật mỏng theo thớ ngang. Khi chan nước dùng phải thật sôi để thịt chín tái tái, giữ được độ ngọt mềm.\n3.  **Độ ngọt thanh:** Sử dụng mía nướng và đường phèn thay vì lạm dụng bột ngọt sẽ giúp nước phở có vị ngọt hậu rất dễ chịu ở cổ họng.",
+      "tool_events": [
+        {
+          "tool": "lookup",
+          "args": {
+            "query": "cach nau pho bo truyen thong Viet Nam",
+            "topic": "general",
+            "timeframe": "year"
+          },
+          "result": {
+            "tool": "web_search",
+            "query": "cach nau pho bo truyen thong Viet Nam",
+            "topic": "general",
+            "timeframe": "year",
+            "items": [
+              {
+                "title": "Pho Oh Yeah - 🔥 PHỞ BÒ CHÍNH GỐC VIỆT NAM 🍜 Phở Bò là...",
+                "url": "https://www.facebook.com/PhoOhYeah/posts/-ph%E1%BB%9F-b%C3%B2-ch%C3%ADnh-g%E1%BB%91c-vi%E1%BB%87t-nam-ph%E1%BB%9F-b%C3%B2-l%C3%A0-qu%E1%BB%91c-h%E1%BB%93n-qu%E1%BB%91c-t%C3%BAy-c%E1%BB%A7a-%E1%BA%A9m-th%E1%BB%B1c-vi%E1%BB%87t-m%E1%BB%99t-t%C3%B4-p/1237725685237855",
+                "source": "facebook.com",
+                "summary": "## Pho Oh Yeah's post\n\n### Pho Oh Yeah\n\n12 March  ·\n\n🔥 PHỞ BÒ CHÍNH GỐC VIỆT NAM 🍜\n\nPhở Bò là “quốc hồn quốc túy” của ẩm thực Việt. Một tô phở ngon không chỉ nằm ở bánh phở hay thịt bò – mà linh hồn nằm ở nước dùng hầm xương nhiều giờ, trong, thanh và ngọt tự nhiên.\n\nDưới đy là bản dịch hướng dẫn nấu phở bò truyền thống:\n\n🥣 CÁCH NẤU NƯỚC DÙNG PHỞ BÒ CHUẨN VỊ ( Mang tính tham khảo cho các chị phụ nữ tự nấu tại nhà)\n\n1️⃣ Sơ chế xương bò\n\nCho xương bò vào nước sôi lớn, luộc khoảng 10 phút. [...] Hớt bớt mỡ (nhưng nên giữ lại một ít để tạo độ béo tự nhiên).\n\nCho túi gia vị và phần hành nướng vào nồi, hầm thêm khoảng 2 giờ trước khi vớt ra.\n\n8️⃣ Nêm nếm trước khi phục vụ\n\nThêm muối, nước mắm và đường phèn cho vừa vị.\n\nNếu nước cạn quá nhiều, có thể thêm một ít nước nóng.\n\nMỗi tô phở cần khoảng 360–480ml nước dùng, tùy kích thước tô.\n\nPhở ngon không đến từ việc nấu nhanh.\n\nMà đến từ sự kiên nhẫn và tôn trọng từng công đoạn. [...] Khi chín, vớt ra cho vào nước đá để giữ màu đẹp và độ săn. Nếu nước dùng chưa xong, bảo quản thịt trong tủ lạnh.\n\n5️⃣ Nướng hành & gừng\n\nSau khoảng 2.5 giờ hầm xương, nướng hành ty, gừng và hành lá (để nguyên vỏ) đến khi cháy xém vỏ (10–15 phút).\n\nBóc bỏ lớp cháy bên ngoài rồi cho vào nồi nước dùng.\n\n6️⃣ Rang gia vị\n\nRang quế, hồi, đinh hương… trên lửa vừa 2–3 phút cho thơm (tránh cháy).\n\nCho vào túi vải rồi thả vào nồi.\n\n7️⃣ Hoàn thiện nước dùng",
+                "score": 0.8095324
+              },
+              {
+                "title": "Cách nấu phở bò truyền thống, chuẩn vị Hà Nội",
+                "url": "https://vnexpress.net/doi-song-cooking-cach-nau-pho-bo-truyen-thong-chuan-vi-ha-noi-4965047.html",
+                "source": "vnexpress.net",
+                "summary": "Ninh từ nước lạnh:Cho xương, hành gừng, sá sùng, túi gia vị vào nồi rồi đổ nước lạnh ngập mặt xương 5–7 cm. Nấu ở lửa nhỏ, không đậy nắp. Hớt bọt và hớt mỡ thường xuyên để nước trong. Lưu ý, không để sôi mạnh vì sẽ khiến nước đục. \n\nThời gian ninh:6–8 giờ.\n\nNêm nước mắm đúng thời điểm: Chỉ cho nước mắm trước khi ăn 30 phút. Cho quá sớm sẽ át mùi phở, tạo mùi nồng. [...] Luộc thịt:Rửa sạch thịt cho vào nồi ngập nước, thêm gừng đập dập, muối, đun 2 tiếng, để nguội, cho ngăn mát tủ lạnh (thịt cho ngăn mát sẽ mềm, không bở). Lưu ý, chọn gầu rất khó, chọn ngù lưng sẽ ngon hơn.\n\n \n\nPhần bò chín: Chính là phần gần/ nạm/ u vai đã ninh trong nước dùng. Thịt cần vớt ra khi chín tới, để nguội hoàn toàn rồi bọc giấy sạch, bỏ hộp kín để ngăn mát tủ lạnh cho lạnh su,. Chỉ thái trước khi ăn. [...] Vớt thịt để nguội, bọc màng thực phẩm cho vào ngăn mát 2-3 giờ để thịt cứng nhẹ, thái lát mỏng không bị vụn.\n\n \n\nHoàn thiện bát phở tròn vị, đúng điệu\n\nChuẩn bị: Hành lá thái nhỏ; Hành trắng chẻ; Hành ty thái thật mỏng; Rau mùi ta\n\nChần bánh phở:Dùng nồi nước sôi riêng, trần thật nhanh để bánh mềm mà không nát.\n\nThái thịt:Chỉ thái khi chuẩn bị ăn để miếng thịt không bị oxy hóa thm lại. Thái lát mỏng, dứt khoát, hơi xéo thớ.",
+                "score": 0.7961819
+              },
+              {
+                "title": "Bỏ túi cách nấu phở bò ngon theo công thức gia truyền",
+                "url": "https://pasgo.vn/blog/bo-tui-cach-nau-pho-bo-ngon-theo-cong-thuc-gia-truyen-3035",
+                "source": "pasgo.vn",
+                "summary": "Không chỉ là di sản của Việt Nam mà phở bò còn nổi tiếng khắp thế giới, ai đã từng thử qua một lần sẽ khó có thể quên được.\n\n## Nguyên liệu dành cho 3 - 4 người ăn:\n\nNguyên liệu chuẩn bị - cách nấu phở bò ngon \n\nNguyên liệu chuẩn bị - cách nấu phở bò ngon \n\n- Đuôi bò: 500gr\n\n- Sườn bò: 500gr\n\n- Thịt bò: 500gr (bắp bò; nạm bò, thăn bò, gầu bò…tùy theo sở thích của bạn)\n\n- Hành tây: 1 củ vừa\n\n- Gừng: 1 củ nhỏ\n\n- Hạt mùi: 1/2 thìa cà phê nhỏ (nếu không có thì thôi)\n\n- 5 rễ cây mùi [...] - 5 rễ cây mùi\n\n- Thảo quả: 1 quả\n\n- Hoa hồi: 2 hoa\n\n- 1 thanh quế nhỏ\n\n- 2 đốt mía ngắn\n\n- Bánh phở: 800gr\n\n- Gia vị\n\n- Hành lá\n\n- Rau mùi\n\n- Chanh tươi: 3 quả\n\n- Ớt sừng đỏ: 3 quả\n\n## Cách nấu phở bò ngon:\n\nBước 1: Sơ chế thịt bò, sườn bò, đuôi bò\n\n- Sườn bò và đuôi bò chặt thành miếng nhỏ bỏ vào nước muối loãng khoảng 2h để khử sạch mùi hôi.\n\n- Thịt bò rửa sạch để nguyên miếng rồi cũng bỏ vào nước muối loãng khoảng 2h để khử sạch mùi hôi mềm hơn khi nấu.\n\nBước 2: Sơ chế các nguyên liệu khác [...] - Trần bánh phở qua nước đun sôi, sau đó cho bánh phở vào bát, xếp thịt bò đã thái lát lên chốc bánh, rắc hành lá, rau mùi đã thái nhỏ lên trên và chan nước dùng vào. Vắt thêm ít nước chanh và cho thêm vài lát ớt vào và thưởng thức thôi nào!\n\ncách nấu phở bò ngon \n\ncách nấu phở bò ngon",
+                "score": 0.7756902
+              },
+              {
+                "title": "Phở – Wikipedia tiếng Việt",
+                "url": "https://vi.wikipedia.org/wiki/Ph%E1%BB%9F",
+                "source": "vi.wikipedia.org",
+                "summary": "Nước dùng của phở truyền thống là phải được ninh từ xương ống của bò cùng với một số gia vị. Xương phải được rửa sạch, cạo sạch hết thịt bám vào xương cho vào nồi đun với nước lạnh. Nước luộc xương lần đầu phải đổ đi để nước dùng khỏi bị nhiễm mùi hôi của xương bò, nước luộc lần sau mới dùng làm nước lèo. Gừng và củ hành đã nướng đồng thời cũng được cho vào. Lửa đun được bật lớn để nước sôi lên, khi nước đã sôi thì phải giảm bớt lửa và bắt đầu vớt bọt. Khi đã vớt hết bọt, cho thêm một ít nước [...] Nguyên thủy, để tăng vị ngọt rất giàu amino acid của nước phở, theo truyền thống, khi chưa có bột ngọt (mì chính), người xưa dùng tôm he. Cách nấu nước dùng ngày nay đã có những sự khác biệt tùy địa phương, như miền Bắc thường dùng nhiều mì chính (nhất là trong thời bao cấp, có cả phở \"không người lái\" - không thịt), còn miền Nam nhiều nơi nấu nước dùng bằng xương gà và thêm khô mực. [...] [sửa | sửa mã nguồn]\n\n### Văn hóa ăn phở\n\n[sửa | sửa mã nguồn]\n\nNhững quán phở Việt Nam vẫn giữ những thói quen là ít khi mang thực đơn cho khách hàng mà khách sẽ phải tự chọn loại phở gì (ví dụ: phở bò, phở gà...). Phở được đựng trong tô. Thông thường thì những bàn ăn được đánh số để phục vụ, trên đó có sẵn đũa, thìa và những gia vị kèm theo phở như: tương, chanh, nước mắm, ớt...\n\nNhà thiết kế Yanko Design đã thiết kế một tô đựng phở đặc biệt và tiện lợi, có ngăn riêng cho phụ gia kèm theo.",
+                "score": 0.71995544
+              },
+              {
+                "title": "10+ các loại gia vị nấu phở bò không thể thiếu để nước ...",
+                "url": "https://www.dienmayxanh.com/vao-bep/10-cac-loai-gia-vi-nau-pho-bo-khong-the-thieu-de-nuoc-dung-24056",
+                "source": "dienmayxanh.com",
+                "summary": "Image 349\n\nHy vọng danh sách gia vị nấu phở bò chi tiết này sẽ giúp bạn tự tin hơn khi vào bếp. Hãy thử nghiệm và cảm nhận sự khác biệt mà từng loại gia vị mang lại, để mỗi tô phở bò bạn nấu đều là một kiệt tác ẩm thực Việt Nam, mang đậm hương vị truyền thống. Chúc bạn thành công với món phở bò của riêng mình!\n\nBiên tập bởi Nguyễn Cao Kiều Mi • Đăng 04/02/2026\n\n╳\n\n## Món ngon liên quan [...] Website cùng tập đoàn\n\n   \n   \n   \n   \n   \n   Image 354\n\n3886.8k Fan678.9k Đăng kýImage 355: zalo Zalo ĐMX\n\nImage 356[](\n\n© 2018. Công Ty Cổ Phần Đầu Tư Điện Máy Xanh. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 21/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 11/01/2021. [...] Nó giúp nước dùng phở có vị ngọt tự nhiên, hài hòa mà không bị gắt, làm tăng thêm sự hấp dẫn. Đường phèn là một bí quyết cho món bánh, giúp món ăn có độ ngọt thanh và màu sắc đẹp mắt.\n\nImage 330\n\n### 15 Bột ngọt (Mì chính)\n\nBột ngọt, hay mì chính, là tinh thể màu trắng, mang vị umami đặc trưng, giúp món ăn đậm đà và tròn vị hơn. Đây là gia vị được nhiều gia đình Việt sử dụng.",
+                "score": 0.38075948
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "tom tat lai cong thuc nau pho cho toi"
+    },
+    {
+      "role": "assistant",
+      "content": "Dưới đây là tóm tắt ngắn gọn công thức nấu phở bò truyền thống chuẩn vị:\n\n1. **Chuẩn bị nguyên liệu:** \n   * **Thịt & Xương:** Xương ống bò (1 - 1.5kg), thịt bò (nạm, gầu hoặc thăn).\n   * **Hương liệu:** Hành tây, hành tím, gừng, mía, rễ mùi và bộ thảo mộc (quế, hồi, thảo quả, đinh hương, hạt mùi).\n   * **Ăn kèm:** Bánh phở, hành lá, rau thơm, chanh, ớt, quẩy.\n\n2. **Sơ chế nguyên liệu:**\n   * Ngâm và chần xương ống trong nước sôi 10 phút để khử mùi hôi và bọt bẩn, sau đó rửa sạch.\n   * Nướng chín hành tây, hành tím, gừng, mía rồi cạo sạch vỏ cháy. \n   * Rang thơm các loại thảo mộc rồi cho vào túi vải lọc.\n\n3. **Ninh nước dùng (6 - 8 tiếng):**\n   * Ninh xương bò ở lửa nhỏ liu riu (không đậy nắp) và liên tục hớt bọt để nước lèo được trong.\n   * Cho hành, gừng, mía nướng vào ninh cùng từ đầu. Luộc chín phần thịt nạm/gầu trong nồi nước dùng rồi vớt ra ngâm nước đá, thái mỏng.\n   * Thả túi thảo mộc vào nồi trước khi tắt bếp khoảng 1 - 2 tiếng để tránh nước bị nồng và tối màu.\n\n4. **Nêm nếm:**\n   * Nêm muối và đường phèn để tạo vị ngọt thanh tự nhiên. \n   * Chỉ nêm thêm nước mắm trước khi ăn khoảng 30 phút để nước dùng không bị chua.\n\n5. **Trình bày & Thưởng thức:**\n   * Chần bánh phở qua nước sôi rồi cho vào tô. \n   * Xếp thịt bò lên trên, rắc hành lá, rau mùi thái nhỏ và đầu hành chẻ.\n   * Chan nước dùng thật sôi lên tô phở và thưởng thức nóng kèm chanh, ớt, rau thơm và quẩy.",
+      "tool_events": [
+        {
+          "tool": "summarize",
+          "args": {
+            "max_points": 5,
+            "text": "Phở bò là món ăn \"quốc hồn quốc túy\" của ẩm thực Việt Nam. Để nấu được một nồi phở bò truyền thống chuẩn vị, nước dùng phải trong, thanh và ngọt tự nhiên từ xương chứ không dùng nhiều bột ngọt.\n\n### I. Nguyên liệu chuẩn bị (Cho khoảng 4 - 6 người ăn)\n1. Phần xương và thịt: Xương ống bò (1 - 1.5 kg); Thịt bò (500g nạm, gầu hoặc thăn).\n2. Gia vị tạo hương: Hành tây, hành tím, gừng tươi, mía, bộ gia vị thảo mộc (hoa hồi, quế, thảo quả, đinh hương, hạt mùi), rễ cây mùi.\n3. Gia vị nêm nếm: Nước mắm, đường phèn, muối, hạt nêm.\n4. Đồ ăn kèm: Bánh phở tươi, rau thơm (hành lá, rau mùi, húng quế, ngò gai), chanh, ớt, quẩy.\n\n### II. Các bước thực hiện\nBước 1: Sơ chế xương và thịt bò: Ngâm xương, chần qua nước sôi 10 phút để khử mùi hôi và bọt bẩn, rửa sạch lại.\nBước 2: Nướng hành, gừng và chuẩn bị thảo mộc: Nướng chín hành tây, hành tím, gừng, mía rồi cạo sạch vỏ cháy. Rang thơm các loại thảo mộc rồi cho vào túi vải lọc.\nBước 3: Ninh nước dùng (Nước lèo): Ninh xương bò với lửa nhỏ liu riu từ 6 - 8 tiếng, thường xuyên hớt bọt. Cho hành, gừng, mía nướng vào ninh cùng. Luộc chín thịt nạm/gầu rồi vớt ra ngâm nước đá, thái mỏng. Thả túi thảo mộc vào nồi trước khi tắt bếp 1 - 2 tiếng.\nBước 4: Nêm nếm nước dùng: Nêm muối, đường phèn cho vừa vị. Chỉ nêm nước mắm trước khi ăn 30 phút để tránh bị chua nước dùng.\nBước 5: Trình bày và Thưởng thức: Chần bánh phở, xếp thịt bò lên trên, rắc hành ngò, chan nước dùng thật sôi và thưởng thức kèm rau thơm, chanh, ớt, quẩy.",
+            "language": "vi"
+          },
+          "result": {
+            "summary_points": [
+              "Phở bò là món ăn \"quốc hồn quốc túy\" của ẩm thực Việt Nam.",
+              "Để nấu được một nồi phở bò truyền thống chuẩn vị, nước dùng phải trong, thanh và ngọt tự nhiên từ xương chứ không dùng nhiều bột ngọt.",
+              "Nguyên liệu chuẩn bị (Cho khoảng 4 - 6 người ăn)\n1.",
+              "Phần xương và thịt: Xương ống bò (1 - 1.5 kg); Thịt bò (500g nạm, gầu hoặc thăn).",
+              "Gia vị tạo hương: Hành tây, hành tím, gừng tươi, mía, bộ gia vị thảo mộc (hoa hồi, quế, thảo quả, đinh hương, hạt mùi), rễ cây mùi."
+            ],
+            "original_length": 1467,
+            "summary_length": 459,
+            "language": "vi",
+            "error": null
+          }
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "assistant_text": null,
+      "tool_calls": [
+        {
+          "name": "summarize",
+          "args": {
+            "max_points": 5,
+            "text": "Phở bò là món ăn \"quốc hồn quốc túy\" của ẩm thực Việt Nam. Để nấu được một nồi phở bò truyền thống chuẩn vị, nước dùng phải trong, thanh và ngọt tự nhiên từ xương chứ không dùng nhiều bột ngọt.\n\n### I. Nguyên liệu chuẩn bị (Cho khoảng 4 - 6 người ăn)\n1. Phần xương và thịt: Xương ống bò (1 - 1.5 kg); Thịt bò (500g nạm, gầu hoặc thăn).\n2. Gia vị tạo hương: Hành tây, hành tím, gừng tươi, mía, bộ gia vị thảo mộc (hoa hồi, quế, thảo quả, đinh hương, hạt mùi), rễ cây mùi.\n3. Gia vị nêm nếm: Nước mắm, đường phèn, muối, hạt nêm.\n4. Đồ ăn kèm: Bánh phở tươi, rau thơm (hành lá, rau mùi, húng quế, ngò gai), chanh, ớt, quẩy.\n\n### II. Các bước thực hiện\nBước 1: Sơ chế xương và thịt bò: Ngâm xương, chần qua nước sôi 10 phút để khử mùi hôi và bọt bẩn, rửa sạch lại.\nBước 2: Nướng hành, gừng và chuẩn bị thảo mộc: Nướng chín hành tây, hành tím, gừng, mía rồi cạo sạch vỏ cháy. Rang thơm các loại thảo mộc rồi cho vào túi vải lọc.\nBước 3: Ninh nước dùng (Nước lèo): Ninh xương bò với lửa nhỏ liu riu từ 6 - 8 tiếng, thường xuyên hớt bọt. Cho hành, gừng, mía nướng vào ninh cùng. Luộc chín thịt nạm/gầu rồi vớt ra ngâm nước đá, thái mỏng. Thả túi thảo mộc vào nồi trước khi tắt bếp 1 - 2 tiếng.\nBước 4: Nêm nếm nước dùng: Nêm muối, đường phèn cho vừa vị. Chỉ nêm nước mắm trước khi ăn 30 phút để tránh bị chua nước dùng.\nBước 5: Trình bày và Thưởng thức: Chần bánh phở, xếp thịt bò lên trên, rắc hành ngò, chan nước dùng thật sôi và thưởng thức kèm rau thơm, chanh, ớt, quẩy.",
+            "language": "vi"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "summarize",
+          "args": {
+            "max_points": 5,
+            "text": "Phở bò là món ăn \"quốc hồn quốc túy\" của ẩm thực Việt Nam. Để nấu được một nồi phở bò truyền thống chuẩn vị, nước dùng phải trong, thanh và ngọt tự nhiên từ xương chứ không dùng nhiều bột ngọt.\n\n### I. Nguyên liệu chuẩn bị (Cho khoảng 4 - 6 người ăn)\n1. Phần xương và thịt: Xương ống bò (1 - 1.5 kg); Thịt bò (500g nạm, gầu hoặc thăn).\n2. Gia vị tạo hương: Hành tây, hành tím, gừng tươi, mía, bộ gia vị thảo mộc (hoa hồi, quế, thảo quả, đinh hương, hạt mùi), rễ cây mùi.\n3. Gia vị nêm nếm: Nước mắm, đường phèn, muối, hạt nêm.\n4. Đồ ăn kèm: Bánh phở tươi, rau thơm (hành lá, rau mùi, húng quế, ngò gai), chanh, ớt, quẩy.\n\n### II. Các bước thực hiện\nBước 1: Sơ chế xương và thịt bò: Ngâm xương, chần qua nước sôi 10 phút để khử mùi hôi và bọt bẩn, rửa sạch lại.\nBước 2: Nướng hành, gừng và chuẩn bị thảo mộc: Nướng chín hành tây, hành tím, gừng, mía rồi cạo sạch vỏ cháy. Rang thơm các loại thảo mộc rồi cho vào túi vải lọc.\nBước 3: Ninh nước dùng (Nước lèo): Ninh xương bò với lửa nhỏ liu riu từ 6 - 8 tiếng, thường xuyên hớt bọt. Cho hành, gừng, mía nướng vào ninh cùng. Luộc chín thịt nạm/gầu rồi vớt ra ngâm nước đá, thái mỏng. Thả túi thảo mộc vào nồi trước khi tắt bếp 1 - 2 tiếng.\nBước 4: Nêm nếm nước dùng: Nêm muối, đường phèn cho vừa vị. Chỉ nêm nước mắm trước khi ăn 30 phút để tránh bị chua nước dùng.\nBước 5: Trình bày và Thưởng thức: Chần bánh phở, xếp thịt bò lên trên, rắc hành ngò, chan nước dùng thật sôi và thưởng thức kèm rau thơm, chanh, ớt, quẩy.",
+            "language": "vi"
+          },
+          "result": {
+            "summary_points": [
+              "Phở bò là món ăn \"quốc hồn quốc túy\" của ẩm thực Việt Nam.",
+              "Để nấu được một nồi phở bò truyền thống chuẩn vị, nước dùng phải trong, thanh và ngọt tự nhiên từ xương chứ không dùng nhiều bột ngọt.",
+              "Nguyên liệu chuẩn bị (Cho khoảng 4 - 6 người ăn)\n1.",
+              "Phần xương và thịt: Xương ống bò (1 - 1.5 kg); Thịt bò (500g nạm, gầu hoặc thăn).",
+              "Gia vị tạo hương: Hành tây, hành tím, gừng tươi, mía, bộ gia vị thảo mộc (hoa hồi, quế, thảo quả, đinh hương, hạt mùi), rễ cây mùi."
+            ],
+            "original_length": 1467,
+            "summary_length": 459,
+            "language": "vi",
+            "error": null
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "assistant_text": "Dưới đây là tóm tắt ngắn gọn công thức nấu phở bò truyền thống chuẩn vị:\n\n1. **Chuẩn bị nguyên liệu:** \n   * **Thịt & Xương:** Xương ống bò (1 - 1.5kg), thịt bò (nạm, gầu hoặc thăn).\n   * **Hương liệu:** Hành tây, hành tím, gừng, mía, rễ mùi và bộ thảo mộc (quế, hồi, thảo quả, đinh hương, hạt mùi).\n   * **Ăn kèm:** Bánh phở, hành lá, rau thơm, chanh, ớt, quẩy.\n\n2. **Sơ chế nguyên liệu:**\n   * Ngâm và chần xương ống trong nước sôi 10 phút để khử mùi hôi và bọt bẩn, sau đó rửa sạch.\n   * Nướng chín hành tây, hành tím, gừng, mía rồi cạo sạch vỏ cháy. \n   * Rang thơm các loại thảo mộc rồi cho vào túi vải lọc.\n\n3. **Ninh nước dùng (6 - 8 tiếng):**\n   * Ninh xương bò ở lửa nhỏ liu riu (không đậy nắp) và liên tục hớt bọt để nước lèo được trong.\n   * Cho hành, gừng, mía nướng vào ninh cùng từ đầu. Luộc chín phần thịt nạm/gầu trong nồi nước dùng rồi vớt ra ngâm nước đá, thái mỏng.\n   * Thả túi thảo mộc vào nồi trước khi tắt bếp khoảng 1 - 2 tiếng để tránh nước bị nồng và tối màu.\n\n4. **Nêm nếm:**\n   * Nêm muối và đường phèn để tạo vị ngọt thanh tự nhiên. \n   * Chỉ nêm thêm nước mắm trước khi ăn khoảng 30 phút để nước dùng không bị chua.\n\n5. **Trình bày & Thưởng thức:**\n   * Chần bánh phở qua nước sôi rồi cho vào tô. \n   * Xếp thịt bò lên trên, rắc hành lá, rau mùi thái nhỏ và đầu hành chẻ.\n   * Chan nước dùng thật sôi lên tô phở và thưởng thức nóng kèm chanh, ớt, rau thơm và quẩy.",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "created_at": "2026-07-29T17:10:19",
+  "updated_at": "2026-07-29T17:10:19"
+}
