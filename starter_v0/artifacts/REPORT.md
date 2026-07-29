@@ -4,7 +4,13 @@
 
 - Team: G09_Ẻ403
 - Members:
-- Provider/model:
+| Trần Văn Thi | 2A202601548 |  
+| Vũ Thế Lực | 2A202602008 |  
+| Đinh Quốc Việt | 2A202601891 |  
+| Ngô Văn Linh | 2A202601929 |  
+| Hoàng Tuấn Hưng | 2A202601911 |  
+| Nghiêm Quốc Huy | 2A202601923 |  
+- Provider/model:openrouter/free
 
 ---
 
@@ -25,8 +31,13 @@ Research agent thông minh hỗ trợ tự động tìm kiếm tin tức trên w
 | Tên tool | Làm được gì | Tool mới nhóm thêm? |
 |---|---|---|
 | clarify | hỏi lại người dùng khi thiếu thông tin | không |
-|  |  |  |
-|  |  |  |
+|fetch|	đọc nội dung từ URL|	không|
+|timeline|	lấy tweet gần đây của một tài khoản|	không|
+|social_search|	tìm tweet theo chủ đề|	không|
+|lookup|	tìm tin tức/web theo từ khóa|	không|
+|send|	gửi thông điệp sau xác nhận|	không|
+|summarize|	|tóm tắt nội dung dài|	|có|
+policy|	tra cứu chính sách nội bộ|	không|
 
 ## A3. Câu hỏi mẫu để thử
 
@@ -40,7 +51,11 @@ Research agent thông minh hỗ trợ tự động tìm kiếm tin tức trên w
 
 | Scenario | Tool trace cần thấy | Câu chuyện cải thiện version | Fallback run/transcript |
 |---|---|---|---|
-|  |  |  |  |
+|Tin tức công nghệ hôm nay|	lookup → fetch → summarize	|v0 dễ sai tool, v3 chọn đúng và tóm tắt tốt hơn|	run v0 + run v3|
+|Thiếu tài khoản khi hỏi tweet|	clarify → timeline|	v0 tự đoán, v3 hỏi lại đúng	|run v0 + transcript v3|
+|Yêu cầu gửi Telegram|	clarify → send|	v0 bỏ qua confirm, v3 dừng lại xác nhận	|run v1/v3 + transcript|
+|Tra cứu arXiv|	papers → paper_text	|v2/v3 dùng đúng tool khoa học	|run v2/v3
+|Hỏi ngoài phạm vi|	no_tool	v1/v3 từ chối đúng hơn	run v1/v3|
 
 ---
 
@@ -105,7 +120,8 @@ Log trích từ `transcripts/v3_openrouter_20260729_demo.transcript.json`:
 
 ## B6. Reflection
 
-- Which fixes belonged in `system_prompt.md`?
-- Which fixes belonged in `tools.yaml`?
-- Which failure needed manual review instead of automatic grading?
-- What would you improve next?
+## B6. Reflection
+
+Các fix quan trọng nhất nên đặt ở [starter_v0/artifacts/system_prompt.md](starter_v0/artifacts/system_prompt.md) vì đây là nơi điều chỉnh hành vi agent: khi nào phải gọi clarify, khi nào không được đoán thiếu thông tin, khi nào phải dừng lại trước hành động nhạy cảm, và khi nào nên từ chối các câu hỏi ngoài phạm vi. Các fix còn lại nên đặt ở [starter_v0/artifacts/tools.yaml](starter_v0/artifacts/tools.yaml) vì đây là nơi làm rõ interface giữa model và tool: tên tool, mô tả, schema và các argument bắt buộc.
+
+Một số failure cần được review thủ công thay vì chỉ phụ thuộc vào grading tự động, đặc biệt là các trường hợp có provider error, tool execution error, hoặc tình huống nhạy cảm như send/confirm. Routing PASS không đồng nghĩa với việc tool đã chạy đúng hoặc kết quả đã hợp lý. Trong tương lai, nhóm nên cải thiện prompt bằng ví dụ cụ thể cho từng tool, tăng cường handling cho multi-turn, và thêm nhiều eval case cho các tool còn ít được sử dụng như papers, paper_text và policy.
