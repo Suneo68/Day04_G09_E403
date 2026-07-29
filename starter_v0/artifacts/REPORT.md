@@ -6,9 +6,15 @@
 
 ## Team
 
-- Team:
+- Team: G09
 - Members:
-- Provider/model:
+|Trần Văn Thi |2A202601548  |Nhóm trưởng  |
+|Vũ Thế Lực |2A202602008 |Thành viên  |
+|Đinh Quốc Việt |2A202601891  |Thành viên  |
+|Hoàng Tuấn Hưng| 2A202601911 |Thành viên  |
+|Ngô Văn Linh |2A202601929  |Thành viên  |
+|Nghiêm Quốc Huy  |2A202601923  |Thành viên  |
+- Provider/model: openai/gpt-oss-20b:free
 
 ---
 
@@ -18,13 +24,15 @@
 
 > 1–2 câu mô tả agent dùng để làm gì.
 
-Ví dụ: "Research agent: tìm tin theo từ khóa / theo tài khoản, đọc URL và tổng hợp thành digest."
+1. "Research agent: tìm tin thể thao rổi tổng hợp"
+2. "Research agent: đọc cho tôi 1 tin tức thể thao hot nhất hôm nay"
+3. "Research agent:Giá vàng thị trường hôm nay"
 
 **Link dùng thử (truy cập được trong showdown):**
 
 > Dán public URL nếu người khác cần mở từ máy riêng; localhost cũng được nếu demo trực tiếp trên máy trình chiếu. Streamlit được khuyến nghị, nhưng nhóm có thể dùng bất kỳ framework nào.
 >
-> URL:
+> URL: https://assistance-westminster-singer-accept.trycloudflare.com
 
 ## A2. Tool agent có
 
@@ -40,9 +48,9 @@ Ví dụ: "Research agent: tìm tin theo từ khóa / theo tài khoản, đọc 
 
 > 3–5 câu hỏi/yêu cầu mẫu để team khác tự thử agent ngay.
 
-1.
-2.
-3.
+1. Tìm tin tức thể thao để tổng hợp
+2. Đọc cho tôi 1 tin tức thể thao hot nhất hôm nay
+3. Giá vàng thị trường hôm nay 
 
 ## A4. Kịch bản demo đã rehearse
 
