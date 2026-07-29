@@ -9,30 +9,30 @@
 tools:
   # ---------------- Core tools ----------------
   - name: clarify
-    description: "BẮT BUỘC gọi công cụ này để hỏi lại người dùng trong 3 trường hợp: 1) Cần tóm tắt/đọc bài nhưng không có URL. 2) Cần lấy tweet nhưng người dùng không nói rõ của ai. 3) Bắt buộc phải xác nhận (response_type: yes_no) TRƯỚC KHI gọi công cụ send. Tuyệt đối không tự ý gọi tool khác nếu rơi vào 3 trường hợp này."
+    description: "BẮT BUỘC gọi để hỏi người dùng trong 3 trường hợp: 1) Thiếu URL. 2) Thiếu tên tài khoản. 3) Xin xác nhận TRƯỚC KHI gọi công cụ send. TUYỆT ĐỐI KHÔNG dùng tool này để hỏi xác nhận nếu người dùng chỉ yêu cầu tóm tắt/đọc bài (fetch) VÀ đã cung cấp sẵn URL hợp lệ."
     parameters:
       type: object
       properties:
         question: {type: string, default: "", description: "Câu hỏi"}
-        response_type: {type: string, enum: [text, yes_no, choice], default: "text", description: "Kiểu trả lời"}
+        response_type: {type: string, enum: [text, yes_no, choice], default: "text", description: "BẮT BUỘC chọn 'yes_no' nếu yêu cầu của người dùng là GỬI, ĐĂNG BÀI (send), để hỏi họ có chắc chắn không. TUYỆT ĐỐI KHÔNG dùng 'text' để hỏi nội dung gửi. Chỉ chọn 'text' nếu cần xin URL hoặc tên tài khoản."}
         options: {type: array, default: [], items: {type: string}, description: "Các lựa chọn"}
-      required: [question]
+      required: [question, response_type]
 
   - name: timeline
-    description: "Lấy bài đăng gần đây của MỘT TÀI KHOẢN CỤ THỂ. NẾU NGƯỜI DÙNG KHÔNG CHỈ ĐỊNH TÊN TÀI KHOẢN HOẶC NGƯỜI NÀO, BẠN PHẢI DỪNG LẠI VÀ GỌI TOOL `clarify` ĐỂ HỎI. KHÔNG ĐƯỢC TỰ Ý CHỌN MỘT TÀI KHOẢN BẤT KỲ."
+    description: "Lấy bài đăng của MỘT NGƯỜI/TÀI KHOẢN CỤ THỂ. Nếu người dùng nhắc đến tên (VD: Sam Altman, Elon Musk), tự động map sang handle (sama, elonmusk) và gọi công cụ này ngay. TUYỆT ĐỐI KHÔNG dùng để tìm kiếm theo chủ đề chung (như AI, công nghệ)."
     parameters:
       type: object
       properties:
-        screenname: {type: string, default: "", description: "Tên tài khoản"}
+        screenname: {type: string, default: "", description: "Tên tài khoản (handle)"}
         limit: {type: integer, default: 5, description: "Số lượng"}
       required: [screenname]
 
   - name: social_search
-    description: "Tìm trên mạng xã hội.Công cụ này có thể được gọi ĐỒNG THỜI cùng với các công cụ khác nếu người dùng yêu cầu lấy dữ liệu từ nhiều nguồn (VD: cả web và mạng xã hội)."
+    description: "Tìm kiếm trên Twitter/mạng xã hội. CHỈ GỌI CÔNG CỤ NÀY khi người dùng có nhắc đến 'tweet', 'twitter', 'mạng xã hội', hoặc 'mọi người bàn gì'. TUYỆT ĐỐI KHÔNG GỌI nếu người dùng chỉ hỏi 'tin tức' (news) chung chung trên web. NẾU người dùng yêu cầu 'bỏ Twitter', TUYỆT ĐỐI KHÔNG gọi lại công cụ này ở các lượt sau."
     parameters:
       type: object
       properties:
-        query: {type: string, default: "", description: "Từ khóa"}
+        query: {type: string, default: "", description: "Từ khóa chủ đề"}
         search_type: {type: string, enum: [Latest, Top], default: "Latest", description: "Cách sắp xếp"}
         limit: {type: integer, default: 5, description: "Số lượng"}
       required: [query]
