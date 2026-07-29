@@ -26,3 +26,4 @@ Giả thuyết cho R08 (Lỗi giải toán):
 Giả thuyết cho M06 (Lỗi dư tool Twitter):
 - Hypothesis: AI không biết social_search chính là công cụ của Twitter.
 - Cách sửa (tools.yaml): Đổi mô tả của social_search thành: "Tìm kiếm trên Twitter / X. Nếu người dùng bảo BỎ Twitter, tuyệt đối không gọi tool này."
+
