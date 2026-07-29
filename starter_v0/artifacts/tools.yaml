@@ -116,3 +116,14 @@ tools:
         max_pages: {type: integer, default: 5, description: "Số trang"}
         max_chars: {type: integer, default: 8000, description: "Số ký tự"}
       required: [arxiv_url]
+
+  # ---------------- Team-added tools ----------------
+  - name: summarize
+    description: "Tóm tắt một đoạn text dài thành các bullet points ngắn gọn. Dùng khi user yêu cầu tóm tắt nội dung đã có (từ kết quả fetch, lookup, timeline, v.v.). KHÔNG dùng khi chưa có nội dung — gọi tool tìm/đọc trước."
+    parameters:
+      type: object
+      properties:
+        text: {type: string, description: "Đoạn text cần tóm tắt"}
+        max_points: {type: integer, default: 5, description: "Số bullet points tối đa"}
+        language: {type: string, enum: [vi, en], default: "vi", description: "Ngôn ngữ output"}
+      required: [text]

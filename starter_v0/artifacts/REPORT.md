@@ -6,15 +6,9 @@
 
 ## Team
 
-- Team: G09
+- Team:
 - Members:
-|Trần Văn Thi |2A202601548  |Nhóm trưởng  |
-|Vũ Thế Lực |2A202602008 |Thành viên  |
-|Đinh Quốc Việt |2A202601891  |Thành viên  |
-|Hoàng Tuấn Hưng| 2A202601911 |Thành viên  |
-|Ngô Văn Linh |2A202601929  |Thành viên  |
-|Nghiêm Quốc Huy  |2A202601923  |Thành viên  |
-- Provider/model: openai/gpt-oss-20b:free
+- Provider/model:
 
 ---
 
