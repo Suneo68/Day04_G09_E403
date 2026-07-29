@@ -18,7 +18,7 @@ Research agent thông minh hỗ trợ tự động tìm kiếm tin tức trên w
 
 > Streamlit UI chạy local tại `http://localhost:8501`. Để truy cập từ thiết bị khác trong buổi demo, chạy: `cloudflared tunnel --url http://localhost:8501`
 >
-> URL Public Demo: `http://localhost:8501` (Cloudflare Tunnel: `https://g09-research-agent.trycloudflare.com`)
+> URL Public Demo: https://increasingly-costs-highland-below.trycloudflare.com
 
 ## A2. Tool agent có
 
