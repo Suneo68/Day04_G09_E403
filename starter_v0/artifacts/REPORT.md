@@ -2,9 +2,9 @@
 
 ## Team
 
-- Team: G09_E403
-- Members: P1 (Prompt Lead), P2 (Tool Declaration Lead), P3 (Tool Developer), P4 (Eval Lead), P5 (UI Lead), P6 (Report Lead)
-- Provider/model: OpenRouter / openrouter/free (Fallback: Gemini / gemini-3.5-flash)
+- Team:
+- Members:
+- Provider/model:
 
 ---
 
@@ -24,17 +24,9 @@ Research agent thông minh hỗ trợ tự động tìm kiếm tin tức trên w
 
 | Tên tool | Làm được gì | Tool mới nhóm thêm? |
 |---|---|---|
-| clarify | Hỏi lại người dùng khi thiếu thông tin (text) hoặc yêu cầu xác nhận trước khi gửi (yes_no) | Không |
-| timeline | Lấy các bài đăng gần đây của một tài khoản cụ thể (map tên sang handle) | Không |
-| social_search | Tìm kiếm bài đăng trên mạng xã hội theo từ khóa (Latest / Top) | Không |
-| lookup | Tra cứu tin tức và thông tin trên web (topic: general/news, timeframe: day/week/month/year) | Không |
-| fetch | Đọc và trích xuất nội dung từ một đường dẫn URL cụ thể | Không |
-| format | Trình bày và định dạng dữ liệu đã có thành bản tin digest/bullets/sections | Không |
-| summarize | **Tóm tắt văn bản dài thành các bullet points chính (extractive local summarization)** | **CÓ (Tool mới bắt buộc)** |
-| send | Gửi văn bản lên Telegram channel (cần confirmed=True) | Không (Built-in) |
-| policy | Tra cứu tài liệu chính sách nội bộ doanh nghiệp | Không (Built-in) |
-| papers | Tìm kiếm bài báo khoa học trên arXiv | Không (Built-in) |
-| paper_text | Đọc và trích xuất văn bản từ bài báo arXiv PDF | Không (Built-in) |
+| clarify | hỏi lại người dùng khi thiếu thông tin | không |
+|  |  |  |
+|  |  |  |
 
 ## A3. Câu hỏi mẫu để thử
 
@@ -48,10 +40,7 @@ Research agent thông minh hỗ trợ tự động tìm kiếm tin tức trên w
 
 | Scenario | Tool trace cần thấy | Câu chuyện cải thiện version | Fallback run/transcript |
 |---|---|---|---|
-| **Scenario 1:** Yêu cầu tìm tin tức web "AI hôm nay" | `lookup(query="AI", topic="news", timeframe="day")` | v0 đoán bừa query thừa từ `AI news today`. v1+ rút gọn query chuẩn `AI`. | `runs/v0_B_base_gemini_20260729T152225949189.json` |
-| **Scenario 2:** Yêu cầu thiếu handle "Tóm tắt 5 tweet" | `clarify(response_type="text")` | v0 tự đoán handle Elon Musk. v1+ nhận biết thiếu info và gọi clarify. | `transcripts/v3_openrouter_20260729_demo.transcript.json` (Turn 2) |
-| **Scenario 3:** Yêu cầu nhạy cảm "Đăng tin Telegram" | `clarify(response_type="yes_no")` | v0 gọi thẳng send/policy mà không hỏi. v1+ chặn bằng clarify yes_no. | `transcripts/v3_openrouter_20260729_demo.transcript.json` (Turn 3) |
-| **Scenario 4:** Tóm tắt dữ liệu bằng tool mới | `summarize(text=..., max_points=3)` | Tool mới nhóm tự phát triển chạy local hoàn toàn, không tốn API credit. | Smoke test verification script |
+|  |  |  |  |
 
 ---
 
@@ -116,13 +105,7 @@ Log trích từ `transcripts/v3_openrouter_20260729_demo.transcript.json`:
 
 ## B6. Reflection
 
-- **Which fixes belonged in `system_prompt.md`?**
-  Các thay đổi về ranh giới hành động (`clarify` khi thiếu handle/URL, `confirm` trước khi `send`), quy tắc từ chối câu hỏi out-of-scope (math, coding, cooking), và quy tắc ưu tiên lượt user mới nhất trong multi-turn.
-- **Which fixes belonged in `tools.yaml`?**
-  Định nghĩa chính xác schema cho tool mới `summarize`, bổ sung mô tả và kiểu dữ liệu chuẩn (`enum` cho `topic`, `timeframe`, `search_type`) để hỗ trợ model provider chọn đúng argument.
-- **Which failure needed manual review instead of automatic grading?**
-  Các case có tool result trả về lỗi từ API bên ngoài (ví dụ RapidAPI rate limit hay URL 404). Mặc dù tool routing pass về tên và arguments, việc tool execution có thực sự thành công hay không vẫn cần kiểm tra thủ công trong log `tool_results`.
-- **What would you improve next?**
-  1. Tích hợp caching cho các lệnh web lookup và arXiv PDF extraction để tăng tốc độ phản hồi.
-  2. Bổ sung thêm retry mechanism cho RapidAPI Twitter khi bị 429 Rate Limit.
-  3. Mở rộng UI để người dùng có thể tương tác trực tiếp với form `clarify` (bấm nút Yes/No thay vì nhập text).
+- Which fixes belonged in `system_prompt.md`?
+- Which fixes belonged in `tools.yaml`?
+- Which failure needed manual review instead of automatic grading?
+- What would you improve next?
