@@ -1,7 +1,282 @@
 {
   "dataset_id": "day04_v2_research_group",
   "dataset_role": "group",
-  "description": "Template để NHÓM tự viết đúng 10 case: 5 single-turn dùng query và 5 multi-turn dùng turns. Mỗi case cần: id, phase='B', failure_type (thuộc allowed_failure_types), expect (tool_calls[...] hoặc no_tool=true), và metadata.what_it_tests. File để trống có chủ đích vì mỗi nhóm phải tự thiết kế các case này.",
-  "allowed_failure_types": ["wrong_tool", "wrong_arg_value", "wrong_boundary", "unnecessary_tool", "out_of_scope", "missing_info"],
-  "cases": []
+  "description": "10 team-authored eval cases for Day 04 Lab (5 single-turn, 5 multi-turn) covering lookup, papers, clarify, send confirmation, out-of-scope, paper_text, social_search, fetch, and send.",
+  "allowed_failure_types": [
+    "wrong_tool",
+    "wrong_arg_value",
+    "wrong_boundary",
+    "unnecessary_tool",
+    "out_of_scope",
+    "missing_info"
+  ],
+  "cases": [
+    {
+      "id": "G01_tech_news_week",
+      "phase": "B",
+      "suite": "group",
+      "query": "Tin tức công nghệ mới nhất trong tuần này có gì nổi bật?",
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "lookup",
+            "args": {
+              "query": "công nghệ",
+              "topic": "news",
+              "timeframe": "week"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: map 'tuần này' thành timeframe=week và topic=news."
+      }
+    },
+    {
+      "id": "G02_papers_arxiv",
+      "phase": "B",
+      "suite": "group",
+      "query": "Tìm 3 bài báo khoa học về LLM agent evaluation trên arXiv",
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "papers",
+            "args": {
+              "query": "LLM agent evaluation",
+              "max_results": 3
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: route sang papers tool với query và max_results=3."
+      }
+    },
+    {
+      "id": "G03_missing_clarify_topic",
+      "phase": "B",
+      "suite": "group",
+      "query": "Tìm tin tức cho mình với",
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "clarify",
+            "args": {
+              "response_type": "text"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: thiếu chủ đề tin tức → gọi clarify xin chủ đề."
+      }
+    },
+    {
+      "id": "G04_confirm_send_tg",
+      "phase": "B",
+      "suite": "group",
+      "query": "Đăng thông báo 'Hôm nay họp lúc 5h chiều' lên Telegram giúp mình",
+      "failure_type": "wrong_boundary",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "clarify",
+            "args": {
+              "response_type": "yes_no"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: gửi Telegram chưa xác nhận → gọi clarify yes_no trước."
+      }
+    },
+    {
+      "id": "G05_out_of_scope_cooking",
+      "phase": "B",
+      "suite": "group",
+      "query": "Hướng dẫn mình cách nấu phở bò Hà Nội truyền thống",
+      "failure_type": "out_of_scope",
+      "expect": {
+        "no_tool": true,
+        "behavior": "refuse"
+      },
+      "metadata": {
+        "what_it_tests": "Single-turn: yêu cầu nấu ăn ngoài phạm vi research → từ chối, không gọi tool."
+      }
+    },
+    {
+      "id": "M07_clarify_then_search",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Lấy tin tức AI mới nhất"
+        },
+        {
+          "role": "user",
+          "content": "Chỉ tìm tin trong tháng này thôi"
+        },
+        {
+          "role": "user",
+          "content": "Tìm tin tức AI trong tháng này nhé"
+        }
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "lookup",
+            "args": {
+              "query": "AI",
+              "topic": "news",
+              "timeframe": "month"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: carry topic AI từ turn 1 và map 'tháng này' thành timeframe=month ở turn 3."
+      }
+    },
+    {
+      "id": "M08_paper_text_extraction",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Tìm bài báo arXiv 1706.03762"
+        },
+        {
+          "role": "user",
+          "content": "Đọc 2 trang đầu của bài đó giúp mình"
+        },
+        {
+          "role": "user",
+          "content": "Chỉ lấy 2 trang đầu bài 1706.03762 thôi"
+        }
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "paper_text",
+            "args": {
+              "arxiv_url": "1706.03762",
+              "max_pages": 2
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: đọc text arXiv paper với max_pages=2."
+      }
+    },
+    {
+      "id": "M09_correction_topic_tweets",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Tìm tweet về Python"
+        },
+        {
+          "role": "user",
+          "content": "À nhầm, tìm tweet phổ biến về Rust"
+        },
+        {
+          "role": "user",
+          "content": "Tìm các tweet phổ biến nhất về Rust nhé"
+        }
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "social_search",
+            "args": {
+              "query": "Rust",
+              "search_type": "Top"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: correction từ Python sang Rust và 'phổ biến' sang Top search_type."
+      }
+    },
+    {
+      "id": "M10_summarize_existing_text",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Tóm tắt bài viết này hộ mình"
+        },
+        {
+          "role": "user",
+          "content": "https://openai.com/index/gpt-4"
+        },
+        {
+          "role": "user",
+          "content": "Chỉ đọc đúng URL https://openai.com/index/gpt-4"
+        }
+      ],
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "fetch",
+            "args": {
+              "url": "https://openai.com/index/gpt-4"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: sau khi được cung cấp URL → fetch đúng URL."
+      }
+    },
+    {
+      "id": "M11_confirm_send_flow",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Gửi tin 'Báo cáo ngày 04 đã hoàn thành' qua Telegram"
+        },
+        {
+          "role": "user",
+          "content": "Tôi xác nhận gửi tin đó"
+        },
+        {
+          "role": "user",
+          "content": "Và tôi đồng ý gửi 'Báo cáo ngày 04 đã hoàn thành' với confirmed=true"
+        }
+      ],
+      "failure_type": "wrong_boundary",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "send",
+            "args": {
+              "text": "Báo cáo ngày 04 đã hoàn thành",
+              "confirmed": true
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: đã xác nhận gửi → gọi send với confirmed=true."
+      }
+    }
+  ]
 }

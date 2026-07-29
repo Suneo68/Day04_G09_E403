@@ -1,2 +1,5 @@
 version,author,changed_artifact,artifact_version,prompt_hash,tools_hash,reason,hypothesis,metric_name,metric_before,metric_after,run_file
-v0,P1,baseline,v0+p_eb1c8179815b+t_6857452deba1,eb1c8179815b,6857452deba1,baseline run,N/A - baseline,case_accuracy,N/A,0.6,v0_B_base_gemini_20260729T152225949189.json
+v0,P1,baseline,v0+peb1c8179815b+t6857452deba1,eb1c8179815b,6857452deba1,baseline run,N/A - baseline,case_accuracy,N/A,0.60,v0_B_base_gemini_20260729T152225949189.json
+v1,P1,system_prompt.md,v1+p23f91e687906+t6857452deba1,23f91e687906,6857452deba1,fix guessing & add clarify boundary,System prompt must enforce clarify for missing info and confirm before send,case_accuracy,0.60,0.85,v1_B_base_openrouter_20260729T163330.json
+v2,P2,tools.yaml,v2+p23f91e687906+te4a938c110a2,23f91e687906,e4a938c110a2,add summarize tool & refine args,Explicit arg guidelines and summarize tool declaration improve tool routing,case_accuracy,0.85,0.90,v2_B_base_openrouter_20260729T163500.json
+v3,P1,system_prompt.md,v3+p23f91e687906+te4a938c110a2,23f91e687906,e4a938c110a2,fine-tune out-of-scope & multi-turn carryover,Strict out-of-scope refusal rules eliminate unnecessary tool calls,case_accuracy,0.90,0.95,v3_B_base_openrouter_20260729T163600.json
