@@ -1,7 +1,246 @@
 {
   "dataset_id": "day04_v2_research_group",
   "dataset_role": "group",
-  "description": "Template để NHÓM tự viết đúng 10 case: 5 single-turn dùng query và 5 multi-turn dùng turns. Mỗi case cần: id, phase='B', failure_type (thuộc allowed_failure_types), expect (tool_calls[...] hoặc no_tool=true), và metadata.what_it_tests. File để trống có chủ đích vì mỗi nhóm phải tự thiết kế các case này.",
+  "description": "Team-authored 10 eval cases by P4: 5 single-turn and 5 multi-turn cases covering summarize, routing, arg values, boundaries, and out-of-scope requests.",
   "allowed_failure_types": ["wrong_tool", "wrong_arg_value", "wrong_boundary", "unnecessary_tool", "out_of_scope", "missing_info"],
-  "cases": []
+  "cases": [
+    {
+      "id": "G01_summarize_routing",
+      "phase": "B",
+      "suite": "group",
+      "query": "Tóm tắt bài viết này ngắn gọn giúp mình: OpenAI ra mắt GPT-5 với hiệu năng vượt trội.",
+      "failure_type": "wrong_tool",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "summarize",
+            "args": {
+              "text": "OpenAI ra mắt GPT-5 với hiệu năng vượt trội."
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "routing_summarize",
+        "difficulty": "easy",
+        "what_it_tests": "Routing câu yêu cầu tóm tắt đoạn text sẵn có vào tool summarize."
+      }
+    },
+    {
+      "id": "G02_single_lookup_timeframe",
+      "phase": "B",
+      "suite": "group",
+      "query": "Tin tức công nghệ mới nhất trong tháng này có gì hot?",
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "lookup",
+            "args": {
+              "topic": "news",
+              "timeframe": "month"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "arg_timeframe_month",
+        "difficulty": "medium",
+        "what_it_tests": "Trích xuất đúng timeframe='month' từ 'trong tháng này'."
+      }
+    },
+    {
+      "id": "G03_missing_url_read",
+      "phase": "B",
+      "suite": "group",
+      "query": "Đọc giúp mình nội dung trang web này",
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "clarify",
+            "args": {
+              "response_type": "text"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "clarify_missing_url",
+        "difficulty": "medium",
+        "what_it_tests": "Thiếu URL khi yêu cầu đọc trang web -> hỏi lại người dùng bằng clarify."
+      }
+    },
+    {
+      "id": "G04_out_of_scope_cooking",
+      "phase": "B",
+      "suite": "group",
+      "query": "Cho mình công thức nấu món phở bò truyền thống.",
+      "failure_type": "out_of_scope",
+      "expect": {
+        "no_tool": true
+      },
+      "metadata": {
+        "skill": "out_of_scope_cooking",
+        "difficulty": "easy",
+        "what_it_tests": "Yêu cầu nấu ăn ngoài phạm vi tin tức/nghiên cứu -> không gọi tool."
+      }
+    },
+    {
+      "id": "G05_confirm_before_send_telegram",
+      "phase": "B",
+      "suite": "group",
+      "query": "Gửi thông báo Họp team AI lúc 3h chiều qua Telegram giúp mình.",
+      "failure_type": "wrong_boundary",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "clarify",
+            "args": {
+              "response_type": "yes_no"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "confirm_before_send",
+        "difficulty": "medium",
+        "what_it_tests": "Hành động gửi tin nhắn Telegram -> hỏi xác nhận yes_no trước khi gửi."
+      }
+    },
+    {
+      "id": "G06_multiturn_clarify_text_summarize",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {"role": "user", "content": "Tóm tắt giúp mình bài viết"},
+        {"role": "user", "content": "Nội dung là: Claude 3.5 Sonnet vừa phát hành với tính năng Artifacts"},
+        {"role": "user", "content": "Tóm tắt đoạn text đó bằng tiếng Việt"}
+      ],
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "summarize",
+            "args": {
+              "text": "Claude 3.5 Sonnet vừa phát hành với tính năng Artifacts",
+              "language": "vi"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "multiturn_clarify_summarize",
+        "difficulty": "hard",
+        "what_it_tests": "3 lượt: sau khi bổ sung text ở lượt 2, lượt 3 gọi summarize."
+      }
+    },
+    {
+      "id": "G07_multiturn_carryover_search_tweets",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {"role": "user", "content": "Tìm các tweet mới nhất về DeepSeek"},
+        {"role": "user", "content": "Đổi sang xem các tweet nổi bật Top nhất"},
+        {"role": "user", "content": "Tìm các tweet nổi bật (Top) về DeepSeek"}
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "social_search",
+            "args": {
+              "query": "DeepSeek",
+              "search_type": "Top"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "multiturn_carryover_search",
+        "difficulty": "hard",
+        "what_it_tests": "3 lượt: carryover query DeepSeek và cập nhật search_type=Top."
+      }
+    },
+    {
+      "id": "G08_multiturn_switch_from_search_to_summarize",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {"role": "user", "content": "Tìm tin tức AI hôm nay"},
+        {"role": "user", "content": "Bỏ tìm tin đi, tóm tắt đoạn text này giúp mình"},
+        {"role": "user", "content": "Nội dung tóm tắt: AI Agent v2 đang thử nghiệm"}
+      ],
+      "failure_type": "wrong_tool",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "summarize",
+            "args": {
+              "text": "AI Agent v2 đang thử nghiệm"
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "multiturn_switch_tool_summarize",
+        "difficulty": "hard",
+        "what_it_tests": "3 lượt: chuyển từ lookup sang summarize khi người dùng đổi ý định."
+      }
+    },
+    {
+      "id": "G09_multiturn_correction_limit",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {"role": "user", "content": "Lấy 10 tweet của Sam Altman"},
+        {"role": "user", "content": "Cho mình xem 2 tweet thôi"},
+        {"role": "user", "content": "Lấy đúng 2 tweet mới nhất của sama"}
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "timeline",
+            "args": {
+              "screenname": "sama",
+              "limit": 2
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "multiturn_correction_limit",
+        "difficulty": "hard",
+        "what_it_tests": "3 lượt: sửa limit từ 10 thành 2 và gọi timeline sama."
+      }
+    },
+    {
+      "id": "G10_multiturn_confirm_send",
+      "phase": "B",
+      "suite": "group",
+      "turns": [
+        {"role": "user", "content": "Gửi bản tin AI hôm nay cho nhóm"},
+        {"role": "user", "content": "Gửi qua Telegram nhé"},
+        {"role": "user", "content": "Tôi xác nhận đồng ý gửi bản tin AI hôm nay (confirmed=true)"}
+      ],
+      "failure_type": "wrong_boundary",
+      "expect": {
+        "tool_calls": [
+          {
+            "name": "send",
+            "args": {
+              "text": "bản tin AI hôm nay",
+              "confirmed": true
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "skill": "multiturn_confirm_send",
+        "difficulty": "hard",
+        "what_it_tests": "3 lượt: sau khi người dùng đã xác nhận đồng ý gửi -> gọi send với confirmed=true."
+      }
+    }
+  ]
 }
