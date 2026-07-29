@@ -1,0 +1,39 @@
+{
+  "transcript_id": "v3_openrouter_20260729T171838341258",
+  "version": "v3",
+  "artifact_version": "v3+p1504151362a6+t812ba948323d",
+  "prompt_hash": "1504151362a697843d07267b3451f1f63fe2945b5df85d983baf3b4256eb4a66",
+  "tools_hash": "812ba948323d1b21738fb2c0a70ef1cfd4bd95bb265597a69e0cc7f602d025e8",
+  "provider": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "system_prompt": "C:\\Users\\ADMIN\\Documents\\AI_20K\\Lab\\Thang7\\29_7\\Day04_G09_E403\\starter_v0\\artifacts\\system_prompt.md",
+  "tools": "C:\\Users\\ADMIN\\Documents\\AI_20K\\Lab\\Thang7\\29_7\\Day04_G09_E403\\starter_v0\\artifacts\\tools.yaml",
+  "history_window": 5,
+  "max_tool_rounds": 4,
+  "created_at": "2026-07-29T17:18:38",
+  "updated_at": "2026-07-29T17:29:36",
+  "turns": [
+    {
+      "turn_index": 1,
+      "started_at": "2026-07-29T17:19:04",
+      "user": "hello find social news",
+      "status": "provider_error",
+      "assistant_text": null,
+      "rounds": [],
+      "tool_events": [],
+      "error": "APIStatusError: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 4505. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None}}, 'user_id': 'user_34M8dZd5Ea0DjJjeOZQavz7coom'}",
+      "ended_at": "2026-07-29T17:19:07"
+    },
+    {
+      "turn_index": 2,
+      "started_at": "2026-07-29T17:29:34",
+      "user": "hi, thoi tiet hom nay the nao",
+      "status": "provider_error",
+      "assistant_text": null,
+      "rounds": [],
+      "tool_events": [],
+      "error": "APIStatusError: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 4505. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'limit_source': 'openrouter_credits', 'remedy_hint': 'Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.', 'provider_name': None}}, 'user_id': 'user_34M8dZd5Ea0DjJjeOZQavz7coom'}",
+      "ended_at": "2026-07-29T17:29:36"
+    }
+  ]
+}
