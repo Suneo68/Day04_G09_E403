@@ -3,9 +3,17 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 
 from env_loader import load_lab_env
 from providers import make_provider
@@ -112,7 +120,10 @@ def run_model_tool_loop(
         non_clarification_events: list[dict[str, Any]] = []
 
         for call in calls:
-            print(f"🔧 {call.name}({json.dumps(call.args, ensure_ascii=False, sort_keys=True)})")
+            try:
+                print(f"🔧 {call.name}({json.dumps(call.args, ensure_ascii=False, sort_keys=True)})")
+            except Exception:
+                print(f"[TOOL] {call.name}({json.dumps(call.args, ensure_ascii=True, sort_keys=True)})")
             event = execute_tool_call(call)
             round_record["tool_results"].append(event)
             all_tool_events.append(event)
