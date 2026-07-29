@@ -6,9 +6,9 @@
 
 ## Team
 
-- Team:
-- Members:
-- Provider/model:
+- Team: G09_E403
+- Members: (6 thành viên — điền tên cụ thể)
+- Provider/model: OpenRouter / openai/gpt-oss-20b:free
 
 ---
 
