@@ -44,13 +44,21 @@ class OpenAIProvider:
             "model": model or self.default_model,
             "messages": messages,
             "temperature": temperature,
+            "max_tokens": 512,
         }
         if tools:
             kwargs["tools"] = tools
         if tool_choice is not None:
             kwargs["tool_choice"] = tool_choice
 
-        resp = client.chat.completions.create(**kwargs)
+        try:
+            resp = client.chat.completions.create(**kwargs)
+        except Exception as exc:  # pragma: no cover - preserve provider-specific error context
+            if getattr(exc, "status_code", None) == 402:
+                raise RuntimeError(
+                    "OpenRouter rejected the request because the account has insufficient credits or the token budget is too high."
+                ) from exc
+            raise
         msg = resp.choices[0].message
         calls: list[ToolCall] = []
         for call in msg.tool_calls or []:
